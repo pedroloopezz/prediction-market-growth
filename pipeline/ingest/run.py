@@ -1,15 +1,16 @@
-"""Ingest Manifold markets into raw Parquet.
+"""Ingest Manifold data into raw Parquet.
 
-    python -m pipeline.ingest.run markets          # snapshot of every lite market
-    python -m pipeline.ingest.run full --since 2025-09-01   # full markets (topics, answers)
+    python -m pipeline.ingest.run markets   # snapshot of every lite market (~1 min)
+    python -m pipeline.ingest.run full      # full markets in the window: topics, answers (~1 h)
+    python -m pipeline.ingest.run prices    # pre-close prices for binary markets (~75 min)
 
 Layout:  data/raw/<dataset>/run_date=YYYY-MM-DD/part-*.parquet
 Every run writes a manifest with its run_id and row counts to data/raw/_runs/.
 
 Idempotency:
   * markets: one snapshot per run date. Re-running the same day is a no-op unless --force.
-  * full:    incremental. Market ids already present in any markets_full partition are skipped,
-             and results are flushed in chunks so an interrupted run resumes where it stopped.
+  * full, prices: incremental. Keys already present on disk are skipped, and results are
+    flushed every CHUNK items so an interrupted run resumes where it stopped.
 """
 
 from __future__ import annotations
@@ -19,31 +20,45 @@ import json
 import logging
 import shutil
 import uuid
+from collections.abc import Callable, Hashable
 from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 
 import duckdb
 import pandas as pd
 
-from pipeline.config import RAW_DIR
+from pipeline.config import PRICE_HORIZONS_HOURS, RAW_DIR, WINDOW_END, WINDOW_START
 from pipeline.ingest.manifold_client import ManifoldClient
-from pipeline.ingest.models import FullMarket, LiteMarket, full_row, lite_row, pandas_dtypes
+from pipeline.ingest.models import (
+    PRICE_DTYPES,
+    FullMarket,
+    LiteMarket,
+    full_row,
+    lite_row,
+    pandas_dtypes,
+    price_row,
+)
 
 log = logging.getLogger("ingest")
 
 # Polls and bounties are not tradable markets, so they never enter the warehouse.
 NON_MARKET_TYPES = ("POLL", "BOUNTIED_QUESTION")
-FULL_CHUNK = 500
-FULL_WORKERS = 4
+CHUNK = 500
+WORKERS = 4
+HOUR_MS = 3600 * 1000
+
+LITE_DTYPES = {**pandas_dtypes(LiteMarket), "raw_json": "string"}
+FULL_DTYPES = {**pandas_dtypes(FullMarket), "n_answers": "Int64", "raw_json": "string"}
+
+
+def _ms(date: str) -> int:
+    return int(datetime.fromisoformat(date).replace(tzinfo=UTC).timestamp() * 1000)
 
 
 def _partition(dataset: str, run_date: str) -> Path:
     return RAW_DIR / dataset / f"run_date={run_date}"
-
-
-LITE_DTYPES = {**pandas_dtypes(LiteMarket), "raw_json": "string"}
-FULL_DTYPES = {**pandas_dtypes(FullMarket), "n_answers": "Int64", "raw_json": "string"}
 
 
 def _write(
@@ -53,7 +68,10 @@ def _write(
     df["run_id"] = run_id
     df["fetched_at"] = fetched_at
     path.parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(path, index=False)
+    # write-then-rename so readers never see a half-written file
+    tmp = path.with_name(path.name + ".tmp")
+    df.to_parquet(tmp, index=False)
+    tmp.rename(path)
 
 
 def _manifest(run_id: str, dataset: str, counts: dict) -> None:
@@ -63,6 +81,62 @@ def _manifest(run_id: str, dataset: str, counts: dict) -> None:
     log.info("run %s %s: %s", run_id, dataset, counts)
 
 
+def _latest_lite() -> str:
+    latest = sorted((RAW_DIR / "markets_lite").glob("run_date=*"))[-1]
+    return f"{latest}/*.parquet"
+
+
+def _existing_keys(dataset: str, columns: str) -> set:
+    files = [str(f) for f in (RAW_DIR / dataset).glob("run_date=*/*.parquet")]
+    if not files:
+        return set()
+    rows = duckdb.connect().execute(f"SELECT DISTINCT {columns} FROM read_parquet(?)", [files])
+    return {r if len(r) > 1 else r[0] for r in rows.fetchall()}
+
+
+def _fetch_incremental(
+    client: ManifoldClient,
+    dataset: str,
+    todo: list[Hashable],
+    fetch_one: Callable[[Any], dict],
+    dtypes: dict[str, str],
+    run_id: str,
+    run_date: str,
+) -> dict:
+    """Fetch `todo` with a small thread pool, flushing a Parquet file every CHUNK items.
+
+    Threads only hide network latency: the client's lock still enforces the global rate limit.
+    """
+    part = _partition(dataset, run_date)
+    fetched_at = datetime.now(UTC).isoformat()
+
+    def safe(key):
+        try:
+            return fetch_one(key)
+        except Exception as exc:  # deleted/private market etc.: log and move on
+            log.warning("%s %s skipped: %s", dataset, key, exc)
+            return None
+
+    n_written = n_errors = 0
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        for chunk_no, start in enumerate(range(0, len(todo), CHUNK)):
+            results = list(pool.map(safe, todo[start : start + CHUNK]))
+            rows = [r for r in results if r is not None]
+            n_errors += len(results) - len(rows)
+            if rows:
+                _write(
+                    rows, part / f"part-{run_id}-{chunk_no:04d}.parquet", run_id, fetched_at, dtypes
+                )
+                n_written += len(rows)
+            log.info("%s: %d / %d fetched", dataset, start + len(results), len(todo))
+    return {
+        "fetched_this_run": n_written,
+        "skipped_errors": n_errors,
+        "requests": client.n_requests,
+    }
+
+
+# ---- datasets --------------------------------------------------------------------------------
 def ingest_markets(client: ManifoldClient, run_id: str, run_date: str, force: bool) -> None:
     part = _partition("markets_lite", run_date)
     if part.exists() and not force:
@@ -73,13 +147,8 @@ def ingest_markets(client: ManifoldClient, run_id: str, run_date: str, force: bo
     fetched_at = datetime.now(UTC).isoformat()
     n = 0
     for i, page in enumerate(client.iter_market_pages()):
-        _write(
-            [lite_row(m) for m in page],
-            tmp / f"part-{i:04d}.parquet",
-            run_id,
-            fetched_at,
-            LITE_DTYPES,
-        )
+        rows = [lite_row(m) for m in page]
+        _write(rows, tmp / f"part-{i:04d}.parquet", run_id, fetched_at, LITE_DTYPES)
         n += len(page)
         if i % 25 == 0:
             log.info("page %d: %d markets so far", i, n)
@@ -89,83 +158,85 @@ def ingest_markets(client: ManifoldClient, run_id: str, run_date: str, force: bo
     _manifest(run_id, "markets_lite", {"rows": n, "requests": client.n_requests})
 
 
-def _candidate_ids(since_ms: int) -> list[str]:
-    """Resolved, tradable markets resolved on/after `since`, from the latest lite snapshot."""
-    latest = sorted((RAW_DIR / "markets_lite").glob("run_date=*"))[-1]
-    con = duckdb.connect()
-    ids = con.execute(
-        f"""
-        SELECT id FROM read_parquet('{latest}/*.parquet')
+def ingest_full(client: ManifoldClient, run_id: str, run_date: str, since: str) -> None:
+    """Full market (topics + answers) for every tradable market resolved on/after `since`."""
+    candidates = [
+        r[0]
+        for r in duckdb.connect()
+        .execute(
+            f"""
+        SELECT id FROM read_parquet('{_latest_lite()}')
         WHERE is_resolved AND resolution_time >= ? AND outcome_type NOT IN {NON_MARKET_TYPES}
         ORDER BY resolution_time DESC
         """,
-        [since_ms],
-    ).fetchall()
-    return [r[0] for r in ids]
-
-
-def _already_fetched() -> set[str]:
-    files = list((RAW_DIR / "markets_full").glob("run_date=*/*.parquet"))
-    if not files:
-        return set()
-    con = duckdb.connect()
-    rows = con.execute("SELECT DISTINCT id FROM read_parquet(?)", [[str(f) for f in files]])
-    return {r[0] for r in rows.fetchall()}
-
-
-def ingest_full(client: ManifoldClient, run_id: str, run_date: str, since: str) -> None:
-    since_ms = int(datetime.fromisoformat(since).replace(tzinfo=UTC).timestamp() * 1000)
-    candidates = _candidate_ids(since_ms)
-    done = _already_fetched()
+            [_ms(since)],
+        )
+        .fetchall()
+    ]
+    done = _existing_keys("markets_full", "id")
     todo = [i for i in candidates if i not in done]
+    log.info("full markets: %d candidates, %d to fetch", len(candidates), len(todo))
+    counts = _fetch_incremental(
+        client,
+        "markets_full",
+        todo,
+        lambda i: full_row(client.get_market(i)),
+        FULL_DTYPES,
+        run_id,
+        run_date,
+    )
+    _manifest(run_id, "markets_full", {"since": since, "candidates": len(candidates), **counts})
+
+
+def ingest_prices(client: ManifoldClient, run_id: str, run_date: str) -> None:
+    """Probability at 24h and 1h before close for binary markets resolved in the window.
+
+    Eligible: binary, resolved in [WINDOW_START, WINDOW_END), open at least 24h. Every resolution
+    and trader count is included, because the engagement model needs uncertainty for all binary
+    markets; the calibration filters (YES/NO, >=10 traders) are applied later in SQL.
+    """
+    markets = (
+        duckdb.connect()
+        .execute(
+            f"""
+        SELECT id, close_time FROM read_parquet('{_latest_lite()}')
+        WHERE is_resolved AND outcome_type = 'BINARY'
+          AND resolution_time >= ? AND resolution_time < ?
+          AND close_time - created_time >= 24 * {HOUR_MS}
+        ORDER BY resolution_time DESC
+        """,
+            [_ms(WINDOW_START), _ms(WINDOW_END)],
+        )
+        .fetchall()
+    )
+    close = dict(markets)
+    candidates = [(mid, h) for mid, _ in markets for h in PRICE_HORIZONS_HOURS]
+    done = _existing_keys("prices", "market_id, horizon_hours")
+    todo = [k for k in candidates if k not in done]
     log.info(
-        "full markets: %d candidates, %d already fetched, %d to fetch",
-        len(candidates),
-        len(candidates) - len(todo),
+        "prices: %d markets x %d horizons, %d to fetch",
+        len(markets),
+        len(PRICE_HORIZONS_HOURS),
         len(todo),
     )
-    part = _partition("markets_full", run_date)
-    fetched_at = datetime.now(UTC).isoformat()
 
-    def fetch(market_id: str) -> dict | None:
-        try:
-            return full_row(client.get_market(market_id))
-        except Exception as exc:  # deleted/private market: log and move on
-            log.warning("market %s skipped: %s", market_id, exc)
-            return None
+    def fetch_one(key: tuple[str, int]) -> dict:
+        market_id, hours = key
+        horizon = close[market_id] - hours * HOUR_MS
+        return price_row(market_id, hours, horizon, client.get_last_bet_before(market_id, horizon))
 
-    n_written = n_missing = 0
-    # A few threads hide network latency; the client's lock still enforces the global rate limit.
-    with ThreadPoolExecutor(max_workers=FULL_WORKERS) as pool:
-        for chunk_no, start in enumerate(range(0, len(todo), FULL_CHUNK)):
-            results = list(pool.map(fetch, todo[start : start + FULL_CHUNK]))
-            rows = [r for r in results if r is not None]
-            n_missing += len(results) - len(rows)
-            if rows:
-                name = f"part-{run_id}-{chunk_no:04d}.parquet"
-                _write(rows, part / name, run_id, fetched_at, FULL_DTYPES)
-                n_written += len(rows)
-            log.info("full markets: %d / %d fetched", start + len(results), len(todo))
-    _manifest(
-        run_id,
-        "markets_full",
-        {
-            "since": since,
-            "candidates": len(candidates),
-            "fetched_this_run": n_written,
-            "skipped_errors": n_missing,
-            "requests": client.n_requests,
-        },
-    )
+    counts = _fetch_incremental(client, "prices", todo, fetch_one, PRICE_DTYPES, run_id, run_date)
+    _manifest(run_id, "prices", {"markets": len(markets), "candidates": len(candidates), **counts})
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = parser.add_subparsers(dest="dataset", required=True)
-    m = sub.add_parser("markets")
-    m.add_argument("--force", action="store_true")
-    f = sub.add_parser("full")
-    f.add_argument("--since", default="2025-09-01", help="resolution date lower bound (UTC)")
+    sub.add_parser("markets").add_argument("--force", action="store_true")
+    sub.add_parser("full").add_argument(
+        "--since", default=WINDOW_START, help="resolution date lower bound (UTC)"
+    )
+    sub.add_parser("prices")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -176,8 +247,10 @@ def main() -> None:
     with ManifoldClient() as client:
         if args.dataset == "markets":
             ingest_markets(client, run_id, run_date, args.force)
-        else:
+        elif args.dataset == "full":
             ingest_full(client, run_id, run_date, args.since)
+        else:
+            ingest_prices(client, run_id, run_date)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,304 @@
+slug,category,priority
+acx,Personal / Manifold-meta,1
+commitment-devices,Personal / Manifold-meta,1
+coolfold,Personal / Manifold-meta,1
+daily-markets,Personal / Manifold-meta,1
+dailycoinflip-sQghyIcLOI,Personal / Manifold-meta,1
+dating,Personal / Manifold-meta,1
+experimental,Personal / Manifold-meta,1
+extremely-serious-and-important-que,Personal / Manifold-meta,1
+fairlyrandom,Personal / Manifold-meta,1
+free-lottery,Personal / Manifold-meta,1
+free-money,Personal / Manifold-meta,1
+fun,Personal / Manifold-meta,1
+hack-club,Personal / Manifold-meta,1
+lesswrong-annual-review,Personal / Manifold-meta,1
+mana,Personal / Manifold-meta,1
+manifest,Personal / Manifold-meta,1
+manifest-2026,Personal / Manifold-meta,1
+manifold-6748e065087e,Personal / Manifold-meta,1
+manifold-business-future,Personal / Manifold-meta,1
+manifold-features-25bad7c7792e,Personal / Manifold-meta,1
+manifold-leagues,Personal / Manifold-meta,1
+manifold-user-retention,Personal / Manifold-meta,1
+manifold-users,Personal / Manifold-meta,1
+metaculus,Personal / Manifold-meta,1
+metaforecasting,Personal / Manifold-meta,1
+metamarkets,Personal / Manifold-meta,1
+mirror,Personal / Manifold-meta,1
+nonpredictive,Personal / Manifold-meta,1
+nonpredictive-profits,Personal / Manifold-meta,1
+peloton-discord,Personal / Manifold-meta,1
+peloton-discord-65dd39510b70,Personal / Manifold-meta,1
+personal,Personal / Manifold-meta,1
+personal-goals,Personal / Manifold-meta,1
+predictions-on-predictions,Personal / Manifold-meta,1
+sex-and-love,Personal / Manifold-meta,1
+tetraspace,Personal / Manifold-meta,1
+unranked,Personal / Manifold-meta,1
+unstable-smp,Personal / Manifold-meta,1
+whale-watching,Personal / Manifold-meta,1
+will-i,Personal / Manifold-meta,1
+2022-fifa-world-cup,Sports,2
+2026-chess-world-championship,Sports,2
+2026-fifa-world-cup,Sports,2
+athletics,Sports,2
+atp-tour,Sports,2
+auto-racing,Sports,2
+baseball,Sports,2
+basketball,Sports,2
+chess,Sports,2
+college-basketball,Sports,2
+college-football,Sports,2
+combat-sports,Sports,2
+competitive-gaming,Sports,2
+cricket,Sports,2
+esports,Sports,2
+f1,Sports,2
+fantasy-football-nfl,Sports,2
+fifa-world-cup,Sports,2
+fifa-world-cup-props,Sports,2
+fighting,Sports,2
+football,Sports,2
+formula-1,Sports,2
+gaming,Sports,2
+golf,Sports,2
+hockey,Sports,2
+ipl,Sports,2
+major-league-soccer,Sports,2
+march-madness,Sports,2
+mlb,Sports,2
+motorsports,Sports,2
+ms-community-wc2026,Sports,2
+ms-official-wc2026,Sports,2
+nba,Sports,2
+nfl,Sports,2
+nfl-draft,Sports,2
+nfl-futures,Sports,2
+nhl,Sports,2
+premiere-league,Sports,2
+road-bicycle-racing,Sports,2
+rugby,Sports,2
+running,Sports,2
+soccer,Sports,2
+sports,Sports,2
+sports-betting,Sports,2
+sports-default,Sports,2
+super-bowl,Sports,2
+tennis,Sports,2
+tour-de-france,Sports,2
+uefa,Sports,2
+uefa-champions-league,Sports,2
+us-open,Sports,2
+vuelta-a-espana,Sports,2
+airline-industry,Economics,3
+bitcoin,Economics,3
+bitcoin-maxi,Economics,3
+business,Economics,3
+central-banks,Economics,3
+commodities,Economics,3
+companies,Economics,3
+credit-cards,Economics,3
+crypto-speculation,Economics,3
+economics-default,Economics,3
+energy,Economics,3
+federal-reserve,Economics,3
+finance,Economics,3
+gas-prices,Economics,3
+global-macro,Economics,3
+inflation,Economics,3
+interest-rates,Economics,3
+investing,Economics,3
+jobs,Economics,3
+metals,Economics,3
+mining,Economics,3
+oil,Economics,3
+prices,Economics,3
+rbi,Economics,3
+shipping,Economics,3
+sp-500-changes,Economics,3
+startups,Economics,3
+stocks,Economics,3
+tech-stocks,Economics,3
+us-economy,Economics,3
+arml,Science,4
+artemis-program,Science,4
+astronomy,Science,4
+biology,Science,4
+biology-competitions,Science,4
+climate,Science,4
+climate-change,Science,4
+competition-math,Science,4
+competitive-physics,Science,4
+extreme-weather,Science,4
+global-warming,Science,4
+health,Science,4
+imo,Science,4
+longevity,Science,4
+mathematics,Science,4
+medicine,Science,4
+pandemic,Science,4
+physics-a6878c3ad095,Science,4
+psychology,Science,4
+public-health,Science,4
+science-bowl,Science,4
+science-default,Science,4
+space,Science,4
+space-exploration,Science,4
+weather,Science,4
+agi,Technology,5
+ai,Technology,5
+ai-alignment,Technology,5
+ai-benchmarks,Technology,5
+ai-impacts,Technology,5
+ai-model-releases,Technology,5
+ai-safety,Technology,5
+anthropic,Technology,5
+apple,Technology,5
+big-tech,Technology,5
+chatgpt,Technology,5
+claude,Technology,5
+commercial-spaceflight,Technology,5
+competitive-programming,Technology,5
+computing,Technology,5
+elon-musk-14d9d9498c7e,Technology,5
+elon-musk-9SnzlR8p2A,Technology,5
+fable,Technology,5
+google-ef2cf716540e,Technology,5
+google-gemini,Technology,5
+gpt5-speculation,Technology,5
+imo-grand-challenge,Technology,5
+internet,Technology,5
+iphone,Technology,5
+llms,Technology,5
+metr,Technology,5
+openai,Technology,5
+programming,Technology,5
+rockets,Technology,5
+selfdriving-vehicles,Technology,5
+social-media,Technology,5
+spacex,Technology,5
+starship-launch-party,Technology,5
+technical-ai-timelines,Technology,5
+technology-default,Technology,5
+tesla,Technology,5
+tiktok,Technology,5
+twitter,Technology,5
+us-govt-ai-policy,Technology,5
+academy-awards,Culture,6
+anime,Culture,6
+awards-shows,Culture,6
+board-games,Culture,6
+books,Culture,6
+boxoffice,Culture,6
+cars,Culture,6
+celebrities,Culture,6
+cinema,Culture,6
+college-admissions,Culture,6
+colleges-universities,Culture,6
+culture-default,Culture,6
+education,Culture,6
+entertainment,Culture,6
+eurovision,Culture,6
+food,Culture,6
+game-shows,Culture,6
+gta,Culture,6
+higher-education,Culture,6
+hollywood,Culture,6
+jet-lag-the-game,Culture,6
+magic-the-gathering,Culture,6
+minecraft,Culture,6
+movies,Culture,6
+music-artists,Culture,6
+music-f213cbf1eab5,Culture,6
+nintendo,Culture,6
+oscars,Culture,6
+oscars-2026-gRPqg0hOcs,Culture,6
+podcasts,Culture,6
+puzzles,Culture,6
+release-dates,Culture,6
+religion,Culture,6
+steam,Culture,6
+streaming-b160dddff0ab,Culture,6
+taylor-swift,Culture,6
+travel,Culture,6
+upcoming-releases,Culture,6
+youtube,Culture,6
+2024-us-election,Politics & law,7
+2024-us-presidential-election,Politics & law,7
+2026-us-congressional-elections,Politics & law,7
+2026-us-election,Politics & law,7
+2028-us-presidential-election-6tdsp26zly,Politics & law,7
+australian-politics,Politics & law,7
+california,Politics & law,7
+california-politics,Politics & law,7
+canadian-politics,Politics & law,7
+charlie-kirk,Politics & law,7
+court-cases,Politics & law,7
+crime,Politics & law,7
+democratic-party,Politics & law,7
+donald-trump,Politics & law,7
+elections,Politics & law,7
+elections-world,Politics & law,7
+gov-shutdown-f8d8c012d5e7,Politics & law,7
+labour-party-uk,Politics & law,7
+law,Politics & law,7
+law-order,Politics & law,7
+legal-decisions,Politics & law,7
+los-angeles,Politics & law,7
+magaland,Politics & law,7
+new-york,Politics & law,7
+nyc,Politics & law,7
+politics-default,Politics & law,7
+san-francisco,Politics & law,7
+texas,Politics & law,7
+the-life-of-biden,Politics & law,7
+trump-cabinet,Politics & law,7
+trumps-second-term,Politics & law,7
+uk-conservative-party,Politics & law,7
+uk-politics,Politics & law,7
+united-states,Politics & law,7
+us-congress,Politics & law,7
+us-democracy,Politics & law,7
+us-politics,Politics & law,7
+us-senate,Politics & law,7
+arabisraeli-conflict,World,8
+argentina,World,8
+asia,World,8
+australia,World,8
+brazil-3292d24d179f,World,8
+canada,World,8
+china,World,8
+china-taiwan-potential-conflict,World,8
+europe,World,8
+european-union,World,8
+france,World,8
+geopolitics,World,8
+germany,World,8
+india,World,8
+iran,World,8
+iranian-politics,World,8
+israel,World,8
+israelhamas-conflict-2023,World,8
+israeliran-conflict,World,8
+italy,World,8
+japan,World,8
+latam-caribbean,World,8
+latin-america,World,8
+middle-east,World,8
+military,World,8
+natural-disasters,World,8
+news,World,8
+nuclear-risk,World,8
+russia,World,8
+spain,World,8
+taiwan,World,8
+taiwan-0039991aaaaf,World,8
+terrorism,World,8
+uk,World,8
+ukraine,World,8
+ukrainerussia-war,World,8
+venezuela,World,8
+wars,World,8
+world-default,World,8
+world-leaders,World,8

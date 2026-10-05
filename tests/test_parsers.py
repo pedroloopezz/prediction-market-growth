@@ -7,7 +7,7 @@ import pytest
 from pydantic import ValidationError
 
 from pipeline.config import SAMPLES_DIR
-from pipeline.ingest.models import Bet, full_row, lite_row
+from pipeline.ingest.models import PRICE_DTYPES, Bet, full_row, lite_row, price_row
 from pipeline.ingest.run import FULL_DTYPES, LITE_DTYPES, _write
 
 
@@ -79,3 +79,32 @@ def test_full_rows_write_with_list_column(tmp_path):
         f"SELECT group_slugs, n_answers FROM read_parquet('{tmp_path}/f.parquet')"
     ).fetchone()
     assert slugs == row["group_slugs"] and n_answers == row["n_answers"]
+
+
+def test_price_row_uses_prob_after_of_last_bet():
+    bet = load("manifold_bets.json")[0]
+    row = price_row(bet["contractId"], 24, bet["createdTime"] + 1, bet)
+    assert row["prob"] == bet["probAfter"]
+    assert row["bet_time"] < row["horizon_time"]
+
+
+def test_price_row_without_any_bet_is_null_not_guessed():
+    row = price_row("m1", 24, 1_700_000_000_000, None)
+    assert row["prob"] is None and row["bet_id"] is None
+
+
+def test_price_row_rejects_bet_from_another_market():
+    bet = load("manifold_bets.json")[0]
+    with pytest.raises(ValueError, match="belongs to"):
+        price_row("some-other-market", 24, bet["createdTime"] + 1, bet)
+
+
+def test_price_rows_write(tmp_path):
+    bet = load("manifold_bets.json")[0]
+    rows = [
+        price_row(bet["contractId"], 24, bet["createdTime"] + 1, bet),
+        price_row("m1", 1, 1_700_000_000_000, None),
+    ]
+    _write(rows, tmp_path / "p.parquet", "r1", "t", PRICE_DTYPES)
+    n = duckdb.sql(f"SELECT count(prob) FROM read_parquet('{tmp_path}/p.parquet')").fetchone()[0]
+    assert n == 1

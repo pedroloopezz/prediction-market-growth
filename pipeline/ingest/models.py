@@ -91,3 +91,42 @@ def full_row(raw: dict) -> dict:
     row["n_answers"] = len(m.answers)
     row["raw_json"] = json.dumps(raw)
     return row
+
+
+PRICE_DTYPES = {
+    "market_id": "string",
+    "horizon_hours": "Int64",
+    "horizon_time": "Int64",
+    "bet_id": "string",
+    "bet_time": "Int64",
+    "prob": "Float64",
+    "raw_json": "string",
+}
+
+
+def price_row(market_id: str, horizon_hours: int, horizon_time: int, raw_bet: dict | None) -> dict:
+    """Market probability at a horizon = probAfter of the last bet strictly before it.
+
+    No bet before the horizon means nobody had traded yet, so the price is left null rather than
+    guessed from the creator's starting probability.
+    """
+    row = {
+        "market_id": market_id,
+        "horizon_hours": horizon_hours,
+        "horizon_time": horizon_time,
+        "bet_id": None,
+        "bet_time": None,
+        "prob": None,
+        "raw_json": None,
+    }
+    if raw_bet is not None:
+        bet = Bet.model_validate(raw_bet)
+        if bet.contract_id != market_id:
+            raise ValueError(f"bet {bet.id} belongs to {bet.contract_id}, not {market_id}")
+        row.update(
+            bet_id=bet.id,
+            bet_time=bet.created_time,
+            prob=bet.prob_after,
+            raw_json=json.dumps(raw_bet),
+        )
+    return row
