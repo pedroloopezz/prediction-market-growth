@@ -1,0 +1,11 @@
+# Manifold data is never committed (personal, non-commercial use; see docs/decisions.md)
+data/
+*.duckdb
+*.duckdb.wal
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store

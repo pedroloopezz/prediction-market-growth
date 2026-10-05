@@ -1,0 +1,34 @@
+{
+  "id": "gx18r8g6AM5sXGJ0lpSQ",
+  "creatorId": "bCl07I6lA5ZuVJGS2k6kNvAomF73",
+  "createdTime": 1670047839002,
+  "closeTime": 1791149427991,
+  "question": "Will Tesla provide (or be included in) an autonomous ride-hailing service before the end of 2026",
+  "slug": "will-tesla-provide-an-autonomous-dr",
+  "pool": {
+    "NO": 1701.1833662019935,
+    "YES": 623.8696014155832
+  },
+  "probability": 0.7622505137354175,
+  "p": 0.5403917164054192,
+  "totalLiquidity": 1000,
+  "outcomeType": "BINARY",
+  "mechanism": "cpmm-1",
+  "volume": 43943.25883332165,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "YES",
+  "resolutionTime": 1791149427991,
+  "resolutionProbability": 0.7622505137354175,
+  "resolverId": "bCl07I6lA5ZuVJGS2k6kNvAomF73",
+  "uniqueBettorCount": 134,
+  "lastUpdatedTime": 1791149435790,
+  "lastBetTime": 1791011009351,
+  "lastCommentTime": 1791149435760,
+  "token": "MANA",
+  "groupSlugs": [
+    "ai",
+    "elon-musk-14d9d9498c7e"
+  ],
+  "textDescription": "The service allows anyone within some area (possibly a restricted area, possibly not) to hail an autonomous Tesla. They are either not able to or not required to drive it themselves.\n\nDec 3, 7:12pm: Will Tesla provide an autonomous driving service before the end of 2026 \u2192 Will Tesla provide (or be included in) an autonomous ride-hailing service before the end of 2026\n\nUpdate 2026-01-23 (PST) (AI summary of creator comment): The market will not resolve YES until the service has a larger number of cars operating in the area. A small pilot program where most hail attempts result in a safety driver does not meet the resolution requirements for an autonomous service.\n\nUpdate 2026-01-24 (PST) (AI summary of creator comment): For the market to resolve YES, wait times must stay under 20 minutes over a practically broad area to count as the service being available.\n\nUpdate 2026-05-12 (PST) (AI summary of creator comment): The creator is waiting for clearer evidence that the service is meeting demand before resolving YES. Currently, wait-time tracking data is unavailable, making it impossible to verify whether the service meets the criteria (wait times under 20 minutes over a practically broad area).\n\nUpdate 2026-05-19 (PST) (AI summary of creator comment): The creator acknowledges that wait time is an imperfect metric and that no single ungameable metric exists. The market may not hinge solely on wait times \u2014 the creator will use judgment across multiple indicators of whether a real, broadly available service is being provided, rather than a small-scale public spectacle."
+}

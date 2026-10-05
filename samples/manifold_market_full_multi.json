@@ -1,0 +1,109 @@
+{
+  "id": "QdhyScACtC",
+  "creatorId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+  "createdTime": 1789861365242,
+  "closeTime": 1791121843655,
+  "question": "Who will Trump announce as his new AI Czar?",
+  "slug": "who-will-trump-announce-as-his-new",
+  "totalLiquidity": 7800,
+  "outcomeType": "MULTIPLE_CHOICE",
+  "mechanism": "cpmm-multi-1",
+  "volume": 76957.98631563866,
+  "volume24Hours": 0,
+  "isResolved": true,
+  "resolution": "hN5Ps2u5IQ",
+  "resolutionTime": 1791121968535,
+  "resolverId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+  "uniqueBettorCount": 175,
+  "lastUpdatedTime": 1791158323393,
+  "lastBetTime": 1791121841117,
+  "lastCommentTime": 1791158323363,
+  "token": "MANA",
+  "shouldAnswersSumToOne": true,
+  "addAnswersMode": "ANYONE",
+  "answers": [
+    {
+      "id": "EshS66zZnp",
+      "index": 0,
+      "contractId": "QdhyScACtC",
+      "userId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "text": "No one by end of 2026",
+      "createdTime": 1789861365243,
+      "totalLiquidity": 194.1450686788302,
+      "subsidyPool": 0,
+      "isOther": false,
+      "resolutionTime": 1791121968535,
+      "resolutionProbability": 0.018425327266974323,
+      "resolverId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "probChanges": {
+        "day": 0,
+        "week": -0.2112645450930424,
+        "month": 0.07142857142857142
+      },
+      "volume": 9906.359950836904,
+      "pool": {
+        "YES": 9173.248072598382,
+        "NO": 172.19280665439265
+      },
+      "probability": 0.018425327266974323
+    },
+    {
+      "id": "ds9ECyNpuP",
+      "index": 1,
+      "contractId": "QdhyScACtC",
+      "userId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "text": "David Sacks",
+      "createdTime": 1789861365243,
+      "totalLiquidity": 194.1450686788302,
+      "subsidyPool": 0,
+      "isOther": false,
+      "resolutionTime": 1791121968535,
+      "resolutionProbability": 0.011098321022695765,
+      "resolverId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "probChanges": {
+        "day": 0,
+        "week": -0.1342548473352199,
+        "month": 0.07142857142857142
+      },
+      "volume": 7169.0095506920015,
+      "pool": {
+        "YES": 7415.710726825526,
+        "NO": 83.22560271398538
+      },
+      "probability": 0.011098321022695765
+    },
+    {
+      "id": "5LPlhCsuQu",
+      "index": 2,
+      "contractId": "QdhyScACtC",
+      "userId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "text": "Mark Zuckerberg",
+      "createdTime": 1789861365243,
+      "totalLiquidity": 194.1450686788302,
+      "subsidyPool": 0,
+      "isOther": false,
+      "resolutionTime": 1791121968535,
+      "resolutionProbability": 0.001302246526179691,
+      "resolverId": "JlVpsgzLsbOUT4pajswVMr0ZzmM2",
+      "probChanges": {
+        "day": 0,
+        "week": -0.0044914622024998345,
+        "month": 0.07142857142857142
+      },
+      "volume": 16,
+      "pool": {
+        "YES": 19320.910149062915,
+        "NO": 25.193396136848996
+      },
+      "probability": 0.001302246526179691
+    }
+  ],
+  "groupSlugs": [
+    "donald-trump",
+    "us-politics",
+    "ai",
+    "trumps-second-term",
+    "politics-default"
+  ],
+  "textDescription": "[image]Resolves upon announcement by Trump or his Admin, resolution does not require they actually begin work on the job. If Trump announces multiple individuals to co-lead the role, the market will r"
+}

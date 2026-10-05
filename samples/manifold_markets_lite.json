@@ -1,0 +1,68 @@
+[
+  {
+    "id": "RZUcNE8qSN",
+    "creatorId": "LclNrpxEnQdOUryNMHaRxUTMFqJ2",
+    "createdTime": 1791225245535,
+    "closeTime": 1791737820000,
+    "question": "NFL Week 5: Will the total combined score in the Pittsburgh Steelers vs. Indianapolis Colts game be OVER 45.5 points?",
+    "slug": "nfl-week-5-will-the-total-combined-uULZhUOlys",
+    "pool": {
+      "NO": 1000,
+      "YES": 1000
+    },
+    "probability": 0.5,
+    "p": 0.5,
+    "totalLiquidity": 1000,
+    "outcomeType": "BINARY",
+    "mechanism": "cpmm-1",
+    "volume": 0,
+    "volume24Hours": 0,
+    "isResolved": false,
+    "uniqueBettorCount": 0,
+    "lastUpdatedTime": 1791225245565
+  },
+  {
+    "id": "ENguUlIlq9",
+    "creatorId": "sZTGxjlxVEMaau1qQTZGXPbskNi2",
+    "createdTime": 1791225232227,
+    "closeTime": 4133934000000,
+    "question": "Will the world become a global far-right dictatorship regime in the 21st century?",
+    "slug": "will-the-world-become-a-global-farr-y0R8O988dI",
+    "pool": {
+      "NO": 100,
+      "YES": 100
+    },
+    "probability": 0.12,
+    "p": 0.12,
+    "totalLiquidity": 100,
+    "outcomeType": "BINARY",
+    "mechanism": "cpmm-1",
+    "volume": 0,
+    "volume24Hours": 0,
+    "isResolved": false,
+    "uniqueBettorCount": 0,
+    "lastUpdatedTime": 1791225232267
+  },
+  {
+    "id": "luyqRtRLIQ",
+    "creatorId": "sZTGxjlxVEMaau1qQTZGXPbskNi2",
+    "createdTime": 1791225153710,
+    "closeTime": 7289595000000,
+    "question": "Will the world become a global far-right dictatorship regime in the 22nd century?",
+    "slug": "will-the-world-become-a-global-farr-dZzccSScSI",
+    "pool": {
+      "NO": 100,
+      "YES": 100
+    },
+    "probability": 0.1,
+    "p": 0.1,
+    "totalLiquidity": 100,
+    "outcomeType": "BINARY",
+    "mechanism": "cpmm-1",
+    "volume": 0,
+    "volume24Hours": 0,
+    "isResolved": false,
+    "uniqueBettorCount": 0,
+    "lastUpdatedTime": 1791225153758
+  }
+]
