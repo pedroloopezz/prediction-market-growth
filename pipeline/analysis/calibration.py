@@ -199,7 +199,7 @@ def out_of_sample(d: pd.DataFrame) -> dict:
 def fig_reliability(t: pd.DataFrame, slope: dict, n: int) -> str:
     fig, ax = new_figure(7.2, 6.0)
     ax.plot([0, 1], [0, 1], color=MUTED, linewidth=1, linestyle="--")
-    ax.text(0.06, 0.30, "dashed line =\nperfect calibration", color=TEXT_2, fontsize=8)
+    ax.text(0.02, 0.42, "dashed line =\nperfect calibration", color=TEXT_2, fontsize=8)
     yerr = np.vstack([t.yes_rate - t.ci_low, t.ci_high - t.yes_rate])
     ax.errorbar(
         t.mean_price, t.yes_rate, yerr=yerr, fmt="none", ecolor=BLUE, elinewidth=1.5, capsize=3

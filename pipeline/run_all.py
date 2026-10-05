@@ -1,6 +1,6 @@
 """Reproduce everything from the public API with one command.
 
-    python -m pipeline.run_all            # ingest (incremental) -> warehouse -> tests -> analysis
+    python -m pipeline.run_all            # ingest (incremental) -> warehouse -> analysis -> tests
     python -m pipeline.run_all --skip-ingest   # rebuild from the raw Parquet already on disk
 
 A first run takes ~2.5 hours, almost all of it rate-limited API calls (Manifold allows 500
@@ -19,9 +19,11 @@ STEPS = [
     ("ingest: full markets", [sys.executable, "-m", "pipeline.ingest.run", "full"]),
     ("ingest: pre-close prices", [sys.executable, "-m", "pipeline.ingest.run", "prices"]),
     ("warehouse: build", [sys.executable, "-m", "pipeline.warehouse.build"]),
-    ("tests: parsers + data quality", [sys.executable, "-m", "pytest", "-q"]),
     ("analysis: growth", [sys.executable, "-m", "pipeline.analysis.demand"]),
     ("analysis: pricing", [sys.executable, "-m", "pipeline.analysis.calibration"]),
+    ("analysis: slide charts", [sys.executable, "-m", "pipeline.analysis.slides"]),
+    # last, so the memo-vs-results check runs against the numbers just produced
+    ("tests: parsers, data quality, reported numbers", [sys.executable, "-m", "pytest", "-q"]),
 ]
 
 

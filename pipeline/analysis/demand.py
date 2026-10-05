@@ -95,6 +95,10 @@ def concentration(df: pd.DataFrame) -> dict:
         "by_category": {c: stats(g) for c, g in df.groupby("category")},
         "zero_trader_markets": int((df.unique_traders == 0).sum()),
         "zero_trader_share": float((df.unique_traders == 0).mean()),
+        "creators": int(df.creator_id.nunique()),
+        "top_10_creators_share_of_markets": float(
+            df.creator_id.value_counts().head(10).sum() / len(df)
+        ),
     }
 
 
@@ -156,6 +160,8 @@ def listing_plan(df: pd.DataFrame, category_col: str = "category") -> pd.DataFra
         }
     )
     plan["plan_first_100"] = allocate(plan.trader_share)
+    # robustness: the same rule weighted by volume (closer to fee revenue on a real-money exchange)
+    plan["plan_by_volume_share"] = allocate(mix.share_volume)
     plan["change"] = plan.plan_first_100 - plan.current_per_100
     return plan.sort_values("plan_first_100", ascending=False)
 
@@ -308,10 +314,13 @@ def fig_concentration(df: pd.DataFrame, conc: dict) -> str:
         ax.plot(x, np.cumsum(v) / v.sum() * 100, color=color, linewidth=2, label=label)
         share = conc["overall"][metric]["share_of_markets_for_80pct"] * 100
         ax.scatter([share], [80], s=40, color=color, zorder=3, edgecolor="white", linewidth=1.5)
+        # the volume label sits up-left of its point so it never crosses the trader curve
+        offset, ha = ((-6, 6), "right") if metric == "volume" else ((8, -16), "left")
         ax.annotate(
             f"{share:.0f}% of markets",
             (share, 80),
-            xytext=(8, -16),
+            xytext=offset,
+            ha=ha,
             textcoords="offset points",
             color=TEXT,
             fontsize=9,

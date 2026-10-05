@@ -90,7 +90,7 @@ def _jsonable(x: Any) -> Any:
     if isinstance(x, np.integer):
         return int(x)
     if isinstance(x, np.floating | float):
-        return None if np.isnan(x) else round(float(x), 4)
+        return None if np.isnan(x) else round(float(x), 6)
     if isinstance(x, np.bool_):
         return bool(x)
     return x

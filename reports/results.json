@@ -6,197 +6,199 @@
       "overall": {
         "markets": 25036,
         "traders": {
-          "share_of_markets_for_80pct": 0.3589,
-          "top_10pct_share": 0.5034,
-          "top_1pct_share": 0.1752,
-          "bottom_50pct_share": 0.1171,
-          "bottom_64pct_share": 0.1992,
-          "gini": 0.6203
+          "share_of_markets_for_80pct": 0.358923,
+          "top_10pct_share": 0.503394,
+          "top_1pct_share": 0.175245,
+          "bottom_50pct_share": 0.117068,
+          "bottom_64pct_share": 0.199249,
+          "gini": 0.620265
         },
         "volume": {
-          "share_of_markets_for_80pct": 0.105,
-          "top_10pct_share": 0.7928,
-          "top_1pct_share": 0.4396,
-          "bottom_50pct_share": 0.0181,
-          "bottom_64pct_share": 0.0393,
-          "gini": 0.8657
+          "share_of_markets_for_80pct": 0.105009,
+          "top_10pct_share": 0.792809,
+          "top_1pct_share": 0.43958,
+          "bottom_50pct_share": 0.018132,
+          "bottom_64pct_share": 0.039287,
+          "gini": 0.865731
         }
       },
       "by_category": {
         "Culture": {
           "markets": 1265,
           "traders": {
-            "share_of_markets_for_80pct": 0.4482,
-            "top_10pct_share": 0.4075,
-            "top_1pct_share": 0.1161,
-            "bottom_50pct_share": 0.1662,
-            "bottom_64pct_share": 0.2663,
-            "gini": 0.5235
+            "share_of_markets_for_80pct": 0.448221,
+            "top_10pct_share": 0.407546,
+            "top_1pct_share": 0.116111,
+            "bottom_50pct_share": 0.16621,
+            "bottom_64pct_share": 0.266267,
+            "gini": 0.523485
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1771,
-            "top_10pct_share": 0.6743,
-            "top_1pct_share": 0.2798,
-            "bottom_50pct_share": 0.0373,
-            "bottom_64pct_share": 0.0742,
-            "gini": 0.7882
+            "share_of_markets_for_80pct": 0.177075,
+            "top_10pct_share": 0.674291,
+            "top_1pct_share": 0.279845,
+            "bottom_50pct_share": 0.03733,
+            "bottom_64pct_share": 0.074186,
+            "gini": 0.788248
           }
         },
         "Economics": {
           "markets": 2880,
           "traders": {
-            "share_of_markets_for_80pct": 0.3726,
-            "top_10pct_share": 0.4913,
-            "top_1pct_share": 0.1874,
-            "bottom_50pct_share": 0.1245,
-            "bottom_64pct_share": 0.2088,
-            "gini": 0.6064
+            "share_of_markets_for_80pct": 0.372569,
+            "top_10pct_share": 0.49129,
+            "top_1pct_share": 0.187446,
+            "bottom_50pct_share": 0.124541,
+            "bottom_64pct_share": 0.208816,
+            "gini": 0.606437
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1281,
-            "top_10pct_share": 0.76,
-            "top_1pct_share": 0.4364,
-            "bottom_50pct_share": 0.0206,
-            "bottom_64pct_share": 0.0443,
-            "gini": 0.8491
+            "share_of_markets_for_80pct": 0.128125,
+            "top_10pct_share": 0.760011,
+            "top_1pct_share": 0.43642,
+            "bottom_50pct_share": 0.020555,
+            "bottom_64pct_share": 0.044285,
+            "gini": 0.849085
           }
         },
         "Personal / Manifold-meta": {
           "markets": 5036,
           "traders": {
-            "share_of_markets_for_80pct": 0.4237,
-            "top_10pct_share": 0.4344,
-            "top_1pct_share": 0.1415,
-            "bottom_50pct_share": 0.149,
-            "bottom_64pct_share": 0.2484,
-            "gini": 0.5546
+            "share_of_markets_for_80pct": 0.423749,
+            "top_10pct_share": 0.434418,
+            "top_1pct_share": 0.141509,
+            "bottom_50pct_share": 0.148963,
+            "bottom_64pct_share": 0.24837,
+            "gini": 0.554598
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.0743,
-            "top_10pct_share": 0.8381,
-            "top_1pct_share": 0.5282,
-            "bottom_50pct_share": 0.0144,
-            "bottom_64pct_share": 0.0335,
-            "gini": 0.8917
+            "share_of_markets_for_80pct": 0.074265,
+            "top_10pct_share": 0.838109,
+            "top_1pct_share": 0.528203,
+            "bottom_50pct_share": 0.014398,
+            "bottom_64pct_share": 0.033499,
+            "gini": 0.89171
           }
         },
         "Politics & law": {
           "markets": 3052,
           "traders": {
-            "share_of_markets_for_80pct": 0.3503,
-            "top_10pct_share": 0.5263,
-            "top_1pct_share": 0.1853,
-            "bottom_50pct_share": 0.1145,
-            "bottom_64pct_share": 0.1933,
-            "gini": 0.6334
+            "share_of_markets_for_80pct": 0.350262,
+            "top_10pct_share": 0.526282,
+            "top_1pct_share": 0.185293,
+            "bottom_50pct_share": 0.114498,
+            "bottom_64pct_share": 0.193292,
+            "gini": 0.633351
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1229,
-            "top_10pct_share": 0.7719,
-            "top_1pct_share": 0.4138,
-            "bottom_50pct_share": 0.0251,
-            "bottom_64pct_share": 0.0524,
-            "gini": 0.8455
+            "share_of_markets_for_80pct": 0.12287,
+            "top_10pct_share": 0.771934,
+            "top_1pct_share": 0.413821,
+            "bottom_50pct_share": 0.025131,
+            "bottom_64pct_share": 0.052423,
+            "gini": 0.84549
           }
         },
         "Science": {
           "markets": 1237,
           "traders": {
-            "share_of_markets_for_80pct": 0.4196,
-            "top_10pct_share": 0.44,
-            "top_1pct_share": 0.1334,
-            "bottom_50pct_share": 0.1504,
-            "bottom_64pct_share": 0.2443,
-            "gini": 0.5541
+            "share_of_markets_for_80pct": 0.419563,
+            "top_10pct_share": 0.440008,
+            "top_1pct_share": 0.133405,
+            "bottom_50pct_share": 0.150377,
+            "bottom_64pct_share": 0.244329,
+            "gini": 0.554093
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1876,
-            "top_10pct_share": 0.6839,
-            "top_1pct_share": 0.3035,
-            "bottom_50pct_share": 0.0324,
-            "bottom_64pct_share": 0.0731,
-            "gini": 0.7933
+            "share_of_markets_for_80pct": 0.187551,
+            "top_10pct_share": 0.68394,
+            "top_1pct_share": 0.30346,
+            "bottom_50pct_share": 0.032367,
+            "bottom_64pct_share": 0.073075,
+            "gini": 0.793275
           }
         },
         "Sports": {
           "markets": 4195,
           "traders": {
-            "share_of_markets_for_80pct": 0.3554,
-            "top_10pct_share": 0.5148,
-            "top_1pct_share": 0.1506,
+            "share_of_markets_for_80pct": 0.355423,
+            "top_10pct_share": 0.514812,
+            "top_1pct_share": 0.150637,
             "bottom_50pct_share": 0.1181,
-            "bottom_64pct_share": 0.1969,
+            "bottom_64pct_share": 0.196856,
             "gini": 0.622
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1154,
-            "top_10pct_share": 0.7761,
-            "top_1pct_share": 0.3547,
-            "bottom_50pct_share": 0.0186,
-            "bottom_64pct_share": 0.0394,
-            "gini": 0.8531
+            "share_of_markets_for_80pct": 0.115375,
+            "top_10pct_share": 0.776097,
+            "top_1pct_share": 0.354736,
+            "bottom_50pct_share": 0.018551,
+            "bottom_64pct_share": 0.03936,
+            "gini": 0.853067
           }
         },
         "Technology": {
           "markets": 2847,
           "traders": {
-            "share_of_markets_for_80pct": 0.3952,
-            "top_10pct_share": 0.4617,
-            "top_1pct_share": 0.1463,
-            "bottom_50pct_share": 0.1361,
-            "bottom_64pct_share": 0.2253,
-            "gini": 0.5798
+            "share_of_markets_for_80pct": 0.395153,
+            "top_10pct_share": 0.461676,
+            "top_1pct_share": 0.146339,
+            "bottom_50pct_share": 0.136064,
+            "bottom_64pct_share": 0.225344,
+            "gini": 0.579848
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1096,
-            "top_10pct_share": 0.7885,
-            "top_1pct_share": 0.485,
-            "bottom_50pct_share": 0.0237,
-            "bottom_64pct_share": 0.053,
-            "gini": 0.8555
+            "share_of_markets_for_80pct": 0.109589,
+            "top_10pct_share": 0.78854,
+            "top_1pct_share": 0.485021,
+            "bottom_50pct_share": 0.023674,
+            "bottom_64pct_share": 0.053013,
+            "gini": 0.85548
           }
         },
         "Uncategorized": {
           "markets": 3549,
           "traders": {
-            "share_of_markets_for_80pct": 0.3305,
-            "top_10pct_share": 0.5336,
-            "top_1pct_share": 0.2193,
-            "bottom_50pct_share": 0.0997,
-            "bottom_64pct_share": 0.1788,
-            "gini": 0.6531
+            "share_of_markets_for_80pct": 0.330516,
+            "top_10pct_share": 0.533554,
+            "top_1pct_share": 0.219281,
+            "bottom_50pct_share": 0.099715,
+            "bottom_64pct_share": 0.178786,
+            "gini": 0.653056
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.0733,
-            "top_10pct_share": 0.8432,
-            "top_1pct_share": 0.5508,
-            "bottom_50pct_share": 0.0129,
-            "bottom_64pct_share": 0.0328,
-            "gini": 0.8944
+            "share_of_markets_for_80pct": 0.07326,
+            "top_10pct_share": 0.843249,
+            "top_1pct_share": 0.550789,
+            "bottom_50pct_share": 0.01292,
+            "bottom_64pct_share": 0.032827,
+            "gini": 0.894384
           }
         },
         "World": {
           "markets": 975,
           "traders": {
-            "share_of_markets_for_80pct": 0.3774,
-            "top_10pct_share": 0.499,
-            "top_1pct_share": 0.1799,
-            "bottom_50pct_share": 0.1272,
-            "bottom_64pct_share": 0.2114,
-            "gini": 0.6074
+            "share_of_markets_for_80pct": 0.377436,
+            "top_10pct_share": 0.499014,
+            "top_1pct_share": 0.179865,
+            "bottom_50pct_share": 0.127196,
+            "bottom_64pct_share": 0.211429,
+            "gini": 0.607358
           },
           "volume": {
-            "share_of_markets_for_80pct": 0.1579,
-            "top_10pct_share": 0.7165,
-            "top_1pct_share": 0.266,
-            "bottom_50pct_share": 0.0294,
-            "bottom_64pct_share": 0.0605,
-            "gini": 0.8113
+            "share_of_markets_for_80pct": 0.157949,
+            "top_10pct_share": 0.716511,
+            "top_1pct_share": 0.26601,
+            "bottom_50pct_share": 0.029437,
+            "bottom_64pct_share": 0.06047,
+            "gini": 0.811272
           }
         }
       },
       "zero_trader_markets": 667,
-      "zero_trader_share": 0.0266
+      "zero_trader_share": 0.026642,
+      "creators": 4301,
+      "top_10_creators_share_of_markets": 0.186372
     },
     "listing_mix": {
       "by_category": [
@@ -204,118 +206,118 @@
           "category": "World",
           "listings": 975,
           "traders": 31935,
-          "volume": 10990999.1844,
+          "volume": 10990999.184368,
           "median_traders": 17.0,
-          "mean_traders": 32.7538,
-          "zero_trader_share": 0.0082,
-          "share_listings": 0.0389,
-          "share_traders": 0.0592,
-          "share_volume": 0.036,
-          "engagement_index": 1.5206
+          "mean_traders": 32.753846,
+          "zero_trader_share": 0.008205,
+          "share_listings": 0.038944,
+          "share_traders": 0.059216,
+          "share_volume": 0.03598,
+          "engagement_index": 1.520551
         },
         {
           "category": "Technology",
           "listings": 2847,
           "traders": 92552,
-          "volume": 55964216.0341,
+          "volume": 55964216.034147,
           "median_traders": 17.0,
-          "mean_traders": 32.5086,
-          "zero_trader_share": 0.0105,
-          "share_listings": 0.1137,
-          "share_traders": 0.1716,
-          "share_volume": 0.1832,
-          "engagement_index": 1.5092
+          "mean_traders": 32.508606,
+          "zero_trader_share": 0.010537,
+          "share_listings": 0.113716,
+          "share_traders": 0.171617,
+          "share_volume": 0.183203,
+          "engagement_index": 1.509166
         },
         {
           "category": "Politics & law",
           "listings": 3052,
           "traders": 88255,
-          "volume": 43785730.6114,
+          "volume": 43785730.611377,
           "median_traders": 14.0,
-          "mean_traders": 28.9171,
-          "zero_trader_share": 0.0206,
-          "share_listings": 0.1219,
-          "share_traders": 0.1636,
-          "share_volume": 0.1433,
-          "engagement_index": 1.3424
+          "mean_traders": 28.917104,
+          "zero_trader_share": 0.020642,
+          "share_listings": 0.121904,
+          "share_traders": 0.163649,
+          "share_volume": 0.143336,
+          "engagement_index": 1.342435
         },
         {
           "category": "Economics",
           "listings": 2880,
           "traders": 73189,
-          "volume": 47443480.5198,
+          "volume": 47443480.51984,
           "median_traders": 12.0,
-          "mean_traders": 25.4128,
-          "zero_trader_share": 0.0174,
-          "share_listings": 0.115,
-          "share_traders": 0.1357,
-          "share_volume": 0.1553,
-          "engagement_index": 1.1798
+          "mean_traders": 25.412847,
+          "zero_trader_share": 0.017361,
+          "share_listings": 0.115034,
+          "share_traders": 0.135712,
+          "share_volume": 0.15531,
+          "engagement_index": 1.179755
         },
         {
           "category": "Science",
           "listings": 1237,
           "traders": 29579,
-          "volume": 14236244.9513,
+          "volume": 14236244.951303,
           "median_traders": 13.0,
-          "mean_traders": 23.9119,
-          "zero_trader_share": 0.017,
-          "share_listings": 0.0494,
-          "share_traders": 0.0548,
-          "share_volume": 0.0466,
-          "engagement_index": 1.1101
+          "mean_traders": 23.911884,
+          "zero_trader_share": 0.016977,
+          "share_listings": 0.049409,
+          "share_traders": 0.054848,
+          "share_volume": 0.046604,
+          "engagement_index": 1.110075
         },
         {
           "category": "Sports",
           "listings": 4195,
           "traders": 90330,
-          "volume": 69182496.415,
+          "volume": 69182496.414986,
           "median_traders": 10.0,
-          "mean_traders": 21.5328,
-          "zero_trader_share": 0.0198,
-          "share_listings": 0.1676,
-          "share_traders": 0.1675,
-          "share_volume": 0.2265,
-          "engagement_index": 0.9996
+          "mean_traders": 21.532777,
+          "zero_trader_share": 0.019785,
+          "share_listings": 0.167559,
+          "share_traders": 0.167496,
+          "share_volume": 0.226475,
+          "engagement_index": 0.999628
         },
         {
           "category": "Culture",
           "listings": 1265,
           "traders": 21178,
-          "volume": 8506919.9362,
+          "volume": 8506919.93617,
           "median_traders": 10.0,
-          "mean_traders": 16.7415,
-          "zero_trader_share": 0.0166,
-          "share_listings": 0.0505,
-          "share_traders": 0.0393,
-          "share_volume": 0.0278,
+          "mean_traders": 16.741502,
+          "zero_trader_share": 0.016601,
+          "share_listings": 0.050527,
+          "share_traders": 0.03927,
+          "share_volume": 0.027848,
           "engagement_index": 0.7772
         },
         {
           "category": "Personal / Manifold-meta",
           "listings": 5036,
           "traders": 70568,
-          "volume": 36845464.555,
+          "volume": 36845464.555038,
           "median_traders": 8.0,
-          "mean_traders": 14.0127,
-          "zero_trader_share": 0.0324,
-          "share_listings": 0.2012,
-          "share_traders": 0.1309,
-          "share_volume": 0.1206,
-          "engagement_index": 0.6505
+          "mean_traders": 14.012708,
+          "zero_trader_share": 0.032367,
+          "share_listings": 0.20115,
+          "share_traders": 0.130852,
+          "share_volume": 0.120617,
+          "engagement_index": 0.65052
         },
         {
           "category": "Uncategorized",
           "listings": 3549,
           "traders": 41709,
-          "volume": 18520245.2012,
+          "volume": 18520245.201176,
           "median_traders": 5.0,
-          "mean_traders": 11.7523,
-          "zero_trader_share": 0.0642,
-          "share_listings": 0.1418,
-          "share_traders": 0.0773,
-          "share_volume": 0.0606,
-          "engagement_index": 0.5456
+          "mean_traders": 11.752325,
+          "zero_trader_share": 0.064243,
+          "share_listings": 0.141756,
+          "share_traders": 0.07734,
+          "share_volume": 0.060628,
+          "engagement_index": 0.545585
         }
       ],
       "by_category_alt_ordering": [
@@ -323,118 +325,118 @@
           "category_alt": "World",
           "listings": 975,
           "traders": 31935,
-          "volume": 10990999.1844,
+          "volume": 10990999.184368,
           "median_traders": 17.0,
-          "mean_traders": 32.7538,
-          "zero_trader_share": 0.0082,
-          "share_listings": 0.0389,
-          "share_traders": 0.0592,
-          "share_volume": 0.036,
-          "engagement_index": 1.5206
+          "mean_traders": 32.753846,
+          "zero_trader_share": 0.008205,
+          "share_listings": 0.038944,
+          "share_traders": 0.059216,
+          "share_volume": 0.03598,
+          "engagement_index": 1.520551
         },
         {
           "category_alt": "Technology",
           "listings": 2847,
           "traders": 92552,
-          "volume": 55964216.0341,
+          "volume": 55964216.034147,
           "median_traders": 17.0,
-          "mean_traders": 32.5086,
-          "zero_trader_share": 0.0105,
-          "share_listings": 0.1137,
-          "share_traders": 0.1716,
-          "share_volume": 0.1832,
-          "engagement_index": 1.5092
+          "mean_traders": 32.508606,
+          "zero_trader_share": 0.010537,
+          "share_listings": 0.113716,
+          "share_traders": 0.171617,
+          "share_volume": 0.183203,
+          "engagement_index": 1.509166
         },
         {
           "category_alt": "Politics & law",
           "listings": 3588,
           "traders": 106689,
-          "volume": 55654383.25,
+          "volume": 55654383.250015,
           "median_traders": 14.0,
-          "mean_traders": 29.7349,
-          "zero_trader_share": 0.0192,
-          "share_listings": 0.1433,
-          "share_traders": 0.1978,
-          "share_volume": 0.1822,
-          "engagement_index": 1.3804
+          "mean_traders": 29.73495,
+          "zero_trader_share": 0.019231,
+          "share_listings": 0.143314,
+          "share_traders": 0.197831,
+          "share_volume": 0.182189,
+          "engagement_index": 1.380403
         },
         {
           "category_alt": "Science",
           "listings": 1237,
           "traders": 29579,
-          "volume": 14236244.9513,
+          "volume": 14236244.951303,
           "median_traders": 13.0,
-          "mean_traders": 23.9119,
-          "zero_trader_share": 0.017,
-          "share_listings": 0.0494,
-          "share_traders": 0.0548,
-          "share_volume": 0.0466,
-          "engagement_index": 1.1101
+          "mean_traders": 23.911884,
+          "zero_trader_share": 0.016977,
+          "share_listings": 0.049409,
+          "share_traders": 0.054848,
+          "share_volume": 0.046604,
+          "engagement_index": 1.110075
         },
         {
           "category_alt": "Economics",
           "listings": 2344,
           "traders": 54755,
-          "volume": 35574827.8812,
+          "volume": 35574827.881201,
           "median_traders": 12.0,
-          "mean_traders": 23.3596,
-          "zero_trader_share": 0.0188,
-          "share_listings": 0.0936,
-          "share_traders": 0.1015,
-          "share_volume": 0.1165,
-          "engagement_index": 1.0844
+          "mean_traders": 23.359642,
+          "zero_trader_share": 0.018771,
+          "share_listings": 0.093625,
+          "share_traders": 0.101531,
+          "share_volume": 0.116457,
+          "engagement_index": 1.084438
         },
         {
           "category_alt": "Sports",
           "listings": 4195,
           "traders": 90330,
-          "volume": 69182496.415,
+          "volume": 69182496.414986,
           "median_traders": 10.0,
-          "mean_traders": 21.5328,
-          "zero_trader_share": 0.0198,
-          "share_listings": 0.1676,
-          "share_traders": 0.1675,
-          "share_volume": 0.2265,
-          "engagement_index": 0.9996
+          "mean_traders": 21.532777,
+          "zero_trader_share": 0.019785,
+          "share_listings": 0.167559,
+          "share_traders": 0.167496,
+          "share_volume": 0.226475,
+          "engagement_index": 0.999628
         },
         {
           "category_alt": "Culture",
           "listings": 1265,
           "traders": 21178,
-          "volume": 8506919.9362,
+          "volume": 8506919.93617,
           "median_traders": 10.0,
-          "mean_traders": 16.7415,
-          "zero_trader_share": 0.0166,
-          "share_listings": 0.0505,
-          "share_traders": 0.0393,
-          "share_volume": 0.0278,
+          "mean_traders": 16.741502,
+          "zero_trader_share": 0.016601,
+          "share_listings": 0.050527,
+          "share_traders": 0.03927,
+          "share_volume": 0.027848,
           "engagement_index": 0.7772
         },
         {
           "category_alt": "Personal / Manifold-meta",
           "listings": 5036,
           "traders": 70568,
-          "volume": 36845464.555,
+          "volume": 36845464.555038,
           "median_traders": 8.0,
-          "mean_traders": 14.0127,
-          "zero_trader_share": 0.0324,
-          "share_listings": 0.2012,
-          "share_traders": 0.1309,
-          "share_volume": 0.1206,
-          "engagement_index": 0.6505
+          "mean_traders": 14.012708,
+          "zero_trader_share": 0.032367,
+          "share_listings": 0.20115,
+          "share_traders": 0.130852,
+          "share_volume": 0.120617,
+          "engagement_index": 0.65052
         },
         {
           "category_alt": "Uncategorized",
           "listings": 3549,
           "traders": 41709,
-          "volume": 18520245.2012,
+          "volume": 18520245.201176,
           "median_traders": 5.0,
-          "mean_traders": 11.7523,
-          "zero_trader_share": 0.0642,
-          "share_listings": 0.1418,
-          "share_traders": 0.0773,
-          "share_volume": 0.0606,
-          "engagement_index": 0.5456
+          "mean_traders": 11.752325,
+          "zero_trader_share": 0.064243,
+          "share_listings": 0.141756,
+          "share_traders": 0.07734,
+          "share_volume": 0.060628,
+          "engagement_index": 0.545585
         }
       ],
       "by_market_type": [
@@ -442,40 +444,40 @@
           "market_type": "multi-outcome",
           "listings": 8164,
           "traders": 179402,
-          "volume": 130599494.5519,
+          "volume": 130599494.55188,
           "median_traders": 10.0,
-          "mean_traders": 21.9748,
-          "zero_trader_share": 0.0312,
-          "share_listings": 0.3261,
-          "share_traders": 0.3327,
-          "share_volume": 0.4275,
-          "engagement_index": 1.0201
+          "mean_traders": 21.974767,
+          "zero_trader_share": 0.031235,
+          "share_listings": 0.32609,
+          "share_traders": 0.33266,
+          "share_volume": 0.427528,
+          "engagement_index": 1.020147
         },
         {
           "market_type": "binary",
           "listings": 16832,
           "traders": 359510,
-          "volume": 174790199.2354,
+          "volume": 174790199.235387,
           "median_traders": 11.0,
-          "mean_traders": 21.3587,
-          "zero_trader_share": 0.0244,
-          "share_listings": 0.6723,
-          "share_traders": 0.6666,
-          "share_volume": 0.5722,
-          "engagement_index": 0.9915
+          "mean_traders": 21.358721,
+          "zero_trader_share": 0.024358,
+          "share_listings": 0.672312,
+          "share_traders": 0.66663,
+          "share_volume": 0.57219,
+          "engagement_index": 0.991548
         },
         {
           "market_type": "numeric",
           "listings": 40,
           "traders": 383,
-          "volume": 86103.6211,
+          "volume": 86103.621137,
           "median_traders": 5.5,
           "mean_traders": 9.575,
           "zero_trader_share": 0.05,
-          "share_listings": 0.0016,
-          "share_traders": 0.0007,
-          "share_volume": 0.0003,
-          "engagement_index": 0.4445
+          "share_listings": 0.001598,
+          "share_traders": 0.00071,
+          "share_volume": 0.000282,
+          "engagement_index": 0.444506
         }
       ],
       "by_category_and_type": [
@@ -484,280 +486,280 @@
           "market_type": "binary",
           "listings": 763,
           "traders": 26171,
-          "volume": 9068210.7118,
+          "volume": 9068210.711766,
           "median_traders": 17.0,
-          "mean_traders": 34.3001,
-          "zero_trader_share": 0.0066,
-          "share_listings": 0.0305,
-          "share_traders": 0.0485,
-          "share_volume": 0.0297,
-          "engagement_index": 1.5923
+          "mean_traders": 34.300131,
+          "zero_trader_share": 0.006553,
+          "share_listings": 0.030476,
+          "share_traders": 0.048528,
+          "share_volume": 0.029686,
+          "engagement_index": 1.592335
         },
         {
           "category": "Technology",
           "market_type": "binary",
           "listings": 2118,
           "traders": 70889,
-          "volume": 44144187.7111,
+          "volume": 44144187.711142,
           "median_traders": 18.0,
-          "mean_traders": 33.4698,
-          "zero_trader_share": 0.0057,
-          "share_listings": 0.0846,
-          "share_traders": 0.1314,
-          "share_volume": 0.1445,
-          "engagement_index": 1.5538
+          "mean_traders": 33.469783,
+          "zero_trader_share": 0.005666,
+          "share_listings": 0.084598,
+          "share_traders": 0.131448,
+          "share_volume": 0.14451,
+          "engagement_index": 1.553787
         },
         {
           "category": "Politics & law",
           "market_type": "binary",
           "listings": 2003,
           "traders": 61613,
-          "volume": 27562715.7674,
+          "volume": 27562715.767351,
           "median_traders": 15.0,
-          "mean_traders": 30.7604,
-          "zero_trader_share": 0.0125,
-          "share_listings": 0.08,
-          "share_traders": 0.1142,
-          "share_volume": 0.0902,
-          "engagement_index": 1.428
+          "mean_traders": 30.760359,
+          "zero_trader_share": 0.012481,
+          "share_listings": 0.080005,
+          "share_traders": 0.114247,
+          "share_volume": 0.090229,
+          "engagement_index": 1.428006
         },
         {
           "category": "Technology",
           "market_type": "multi-outcome",
           "listings": 721,
           "traders": 21550,
-          "volume": 11793207.6881,
+          "volume": 11793207.688135,
           "median_traders": 15.0,
-          "mean_traders": 29.889,
-          "zero_trader_share": 0.025,
-          "share_listings": 0.0288,
-          "share_traders": 0.04,
-          "share_volume": 0.0386,
-          "engagement_index": 1.3876
+          "mean_traders": 29.889043,
+          "zero_trader_share": 0.024965,
+          "share_listings": 0.028799,
+          "share_traders": 0.03996,
+          "share_volume": 0.038606,
+          "engagement_index": 1.387556
         },
         {
           "category": "Sports",
           "market_type": "numeric",
           "listings": 1,
           "traders": 28,
-          "volume": 7563.9041,
+          "volume": 7563.904118,
           "median_traders": 28.0,
           "mean_traders": 28.0,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0,
-          "share_traders": 0.0001,
-          "share_volume": 0.0,
-          "engagement_index": 1.2999
+          "share_listings": 4e-05,
+          "share_traders": 5.2e-05,
+          "share_volume": 2.5e-05,
+          "engagement_index": 1.29986
         },
         {
           "category": "World",
           "market_type": "multi-outcome",
           "listings": 212,
           "traders": 5764,
-          "volume": 1922788.4726,
+          "volume": 1922788.472602,
           "median_traders": 12.0,
-          "mean_traders": 27.1887,
-          "zero_trader_share": 0.0142,
-          "share_listings": 0.0085,
-          "share_traders": 0.0107,
-          "share_volume": 0.0063,
-          "engagement_index": 1.2622
+          "mean_traders": 27.188679,
+          "zero_trader_share": 0.014151,
+          "share_listings": 0.008468,
+          "share_traders": 0.010688,
+          "share_volume": 0.006294,
+          "engagement_index": 1.262196
         },
         {
           "category": "Economics",
           "market_type": "binary",
           "listings": 2173,
           "traders": 58407,
-          "volume": 37741604.7072,
+          "volume": 37741604.707162,
           "median_traders": 12.0,
-          "mean_traders": 26.8785,
-          "zero_trader_share": 0.0133,
-          "share_listings": 0.0868,
-          "share_traders": 0.1083,
-          "share_volume": 0.1236,
-          "engagement_index": 1.2478
+          "mean_traders": 26.878509,
+          "zero_trader_share": 0.013346,
+          "share_listings": 0.086795,
+          "share_traders": 0.108303,
+          "share_volume": 0.12355,
+          "engagement_index": 1.247796
         },
         {
           "category": "Sports",
           "market_type": "multi-outcome",
           "listings": 2293,
           "traders": 61027,
-          "volume": 58426319.9802,
+          "volume": 58426319.980169,
           "median_traders": 11.0,
-          "mean_traders": 26.6145,
-          "zero_trader_share": 0.0122,
-          "share_listings": 0.0916,
-          "share_traders": 0.1132,
-          "share_volume": 0.1913,
-          "engagement_index": 1.2355
+          "mean_traders": 26.614479,
+          "zero_trader_share": 0.012211,
+          "share_listings": 0.091588,
+          "share_traders": 0.113161,
+          "share_volume": 0.191263,
+          "engagement_index": 1.235539
         },
         {
           "category": "Science",
           "market_type": "binary",
           "listings": 835,
           "traders": 21459,
-          "volume": 7932915.7733,
+          "volume": 7932915.773296,
           "median_traders": 14.0,
-          "mean_traders": 25.6994,
-          "zero_trader_share": 0.0096,
-          "share_listings": 0.0334,
-          "share_traders": 0.0398,
-          "share_volume": 0.026,
-          "engagement_index": 1.1931
+          "mean_traders": 25.699401,
+          "zero_trader_share": 0.009581,
+          "share_listings": 0.033352,
+          "share_traders": 0.039791,
+          "share_volume": 0.025969,
+          "engagement_index": 1.193058
         },
         {
           "category": "Politics & law",
           "market_type": "multi-outcome",
           "listings": 1046,
           "traders": 26623,
-          "volume": 16222624.9154,
+          "volume": 16222624.91538,
           "median_traders": 11.0,
-          "mean_traders": 25.4522,
-          "zero_trader_share": 0.0363,
-          "share_listings": 0.0418,
-          "share_traders": 0.0494,
-          "share_volume": 0.0531,
-          "engagement_index": 1.1816
+          "mean_traders": 25.452199,
+          "zero_trader_share": 0.036329,
+          "share_listings": 0.04178,
+          "share_traders": 0.049366,
+          "share_volume": 0.053106,
+          "engagement_index": 1.181582
         },
         {
           "category": "Economics",
           "market_type": "multi-outcome",
           "listings": 703,
           "traders": 14738,
-          "volume": 9699989.1292,
+          "volume": 9699989.129177,
           "median_traders": 12.0,
-          "mean_traders": 20.9644,
-          "zero_trader_share": 0.0299,
-          "share_listings": 0.0281,
-          "share_traders": 0.0273,
-          "share_volume": 0.0318,
-          "engagement_index": 0.9732
+          "mean_traders": 20.964438,
+          "zero_trader_share": 0.029872,
+          "share_listings": 0.02808,
+          "share_traders": 0.027328,
+          "share_volume": 0.031754,
+          "engagement_index": 0.973244
         },
         {
           "category": "Science",
           "market_type": "multi-outcome",
           "listings": 399,
           "traders": 8101,
-          "volume": 6302343.8131,
+          "volume": 6302343.813095,
           "median_traders": 12.0,
-          "mean_traders": 20.3033,
-          "zero_trader_share": 0.0326,
-          "share_listings": 0.0159,
-          "share_traders": 0.015,
-          "share_volume": 0.0206,
-          "engagement_index": 0.9425
+          "mean_traders": 20.303258,
+          "zero_trader_share": 0.032581,
+          "share_listings": 0.015937,
+          "share_traders": 0.015021,
+          "share_volume": 0.020631,
+          "engagement_index": 0.94255
         },
         {
           "category": "Culture",
           "market_type": "multi-outcome",
           "listings": 514,
           "traders": 8967,
-          "volume": 4471787.3879,
+          "volume": 4471787.387946,
           "median_traders": 11.0,
-          "mean_traders": 17.4455,
-          "zero_trader_share": 0.0253,
-          "share_listings": 0.0205,
-          "share_traders": 0.0166,
-          "share_volume": 0.0146,
-          "engagement_index": 0.8099
+          "mean_traders": 17.445525,
+          "zero_trader_share": 0.025292,
+          "share_listings": 0.02053,
+          "share_traders": 0.016627,
+          "share_volume": 0.014639,
+          "engagement_index": 0.809884
         },
         {
           "category": "Culture",
           "market_type": "binary",
           "listings": 750,
           "traders": 12206,
-          "volume": 4009989.0699,
+          "volume": 4009989.069854,
           "median_traders": 10.0,
-          "mean_traders": 16.2747,
-          "zero_trader_share": 0.0107,
-          "share_listings": 0.03,
-          "share_traders": 0.0226,
-          "share_volume": 0.0131,
-          "engagement_index": 0.7555
+          "mean_traders": 16.274667,
+          "zero_trader_share": 0.010667,
+          "share_listings": 0.029957,
+          "share_traders": 0.022633,
+          "share_volume": 0.013127,
+          "engagement_index": 0.755528
         },
         {
           "category": "Sports",
           "market_type": "binary",
           "listings": 1901,
           "traders": 29275,
-          "volume": 10748612.5307,
+          "volume": 10748612.530698,
           "median_traders": 9.0,
-          "mean_traders": 15.3998,
-          "zero_trader_share": 0.0289,
-          "share_listings": 0.0759,
-          "share_traders": 0.0543,
-          "share_volume": 0.0352,
-          "engagement_index": 0.7149
+          "mean_traders": 15.39979,
+          "zero_trader_share": 0.028932,
+          "share_listings": 0.075931,
+          "share_traders": 0.054284,
+          "share_volume": 0.035186,
+          "engagement_index": 0.714913
         },
         {
           "category": "Personal / Manifold-meta",
           "market_type": "multi-outcome",
           "listings": 1318,
           "traders": 19755,
-          "volume": 13659747.0542,
+          "volume": 13659747.05417,
           "median_traders": 8.0,
-          "mean_traders": 14.9886,
-          "zero_trader_share": 0.0319,
-          "share_listings": 0.0526,
-          "share_traders": 0.0366,
-          "share_volume": 0.0447,
-          "engagement_index": 0.6958
+          "mean_traders": 14.988619,
+          "zero_trader_share": 0.031866,
+          "share_listings": 0.052644,
+          "share_traders": 0.036631,
+          "share_volume": 0.044716,
+          "engagement_index": 0.695825
         },
         {
           "category": "Technology",
           "market_type": "numeric",
           "listings": 8,
           "traders": 113,
-          "volume": 26820.6349,
+          "volume": 26820.63487,
           "median_traders": 11.0,
           "mean_traders": 14.125,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0003,
-          "share_traders": 0.0002,
-          "share_volume": 0.0001,
-          "engagement_index": 0.6557
+          "share_listings": 0.00032,
+          "share_traders": 0.00021,
+          "share_volume": 8.8e-05,
+          "engagement_index": 0.655733
         },
         {
           "category": "Personal / Manifold-meta",
           "market_type": "binary",
           "listings": 3715,
           "traders": 50802,
-          "volume": 23185421.8334,
+          "volume": 23185421.833368,
           "median_traders": 9.0,
-          "mean_traders": 13.6748,
-          "zero_trader_share": 0.0326,
-          "share_listings": 0.1484,
-          "share_traders": 0.0942,
-          "share_volume": 0.0759,
-          "engagement_index": 0.6348
+          "mean_traders": 13.674832,
+          "zero_trader_share": 0.032571,
+          "share_listings": 0.148386,
+          "share_traders": 0.094201,
+          "share_volume": 0.075899,
+          "engagement_index": 0.634835
         },
         {
           "category": "Uncategorized",
           "market_type": "multi-outcome",
           "listings": 958,
           "traders": 12877,
-          "volume": 8100686.1112,
+          "volume": 8100686.111207,
           "median_traders": 5.0,
-          "mean_traders": 13.4415,
-          "zero_trader_share": 0.0825,
-          "share_listings": 0.0383,
-          "share_traders": 0.0239,
-          "share_volume": 0.0265,
-          "engagement_index": 0.624
+          "mean_traders": 13.441545,
+          "zero_trader_share": 0.082463,
+          "share_listings": 0.038265,
+          "share_traders": 0.023877,
+          "share_volume": 0.026518,
+          "engagement_index": 0.624005
         },
         {
           "category": "Uncategorized",
           "market_type": "binary",
           "listings": 2574,
           "traders": 28688,
-          "volume": 10396541.1307,
+          "volume": 10396541.13075,
           "median_traders": 6.0,
-          "mean_traders": 11.1453,
-          "zero_trader_share": 0.0571,
-          "share_listings": 0.1028,
-          "share_traders": 0.0532,
-          "share_volume": 0.034,
-          "engagement_index": 0.5174
+          "mean_traders": 11.145299,
+          "zero_trader_share": 0.05711,
+          "share_listings": 0.102812,
+          "share_traders": 0.053195,
+          "share_volume": 0.034034,
+          "engagement_index": 0.517405
         },
         {
           "category": "Economics",
@@ -768,66 +770,66 @@
           "median_traders": 5.0,
           "mean_traders": 11.0,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0002,
-          "share_traders": 0.0001,
-          "share_volume": 0.0,
-          "engagement_index": 0.5107
+          "share_listings": 0.00016,
+          "share_traders": 8.2e-05,
+          "share_volume": 6e-06,
+          "engagement_index": 0.510659
         },
         {
           "category": "Uncategorized",
           "market_type": "numeric",
           "listings": 17,
           "traders": 144,
-          "volume": 23017.9592,
+          "volume": 23017.95922,
           "median_traders": 5.0,
-          "mean_traders": 8.4706,
-          "zero_trader_share": 0.1176,
-          "share_listings": 0.0007,
-          "share_traders": 0.0003,
-          "share_volume": 0.0001,
-          "engagement_index": 0.3932
+          "mean_traders": 8.470588,
+          "zero_trader_share": 0.117647,
+          "share_listings": 0.000679,
+          "share_traders": 0.000267,
+          "share_volume": 7.5e-05,
+          "engagement_index": 0.393235
         },
         {
           "category": "Politics & law",
           "market_type": "numeric",
           "listings": 3,
           "traders": 19,
-          "volume": 389.9286,
+          "volume": 389.928647,
           "median_traders": 6.0,
-          "mean_traders": 6.3333,
+          "mean_traders": 6.333333,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0001,
-          "share_traders": 0.0,
-          "share_volume": 0.0,
-          "engagement_index": 0.294
+          "share_listings": 0.00012,
+          "share_traders": 3.5e-05,
+          "share_volume": 1e-06,
+          "engagement_index": 0.294016
         },
         {
           "category": "Science",
           "market_type": "numeric",
           "listings": 3,
           "traders": 19,
-          "volume": 985.3649,
+          "volume": 985.364913,
           "median_traders": 4.0,
-          "mean_traders": 6.3333,
+          "mean_traders": 6.333333,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0001,
-          "share_traders": 0.0,
-          "share_volume": 0.0,
-          "engagement_index": 0.294
+          "share_listings": 0.00012,
+          "share_traders": 3.5e-05,
+          "share_volume": 3e-06,
+          "engagement_index": 0.294016
         },
         {
           "category": "Culture",
           "market_type": "numeric",
           "listings": 1,
           "traders": 5,
-          "volume": 25143.4784,
+          "volume": 25143.47837,
           "median_traders": 5.0,
           "mean_traders": 5.0,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0,
-          "share_traders": 0.0,
-          "share_volume": 0.0001,
-          "engagement_index": 0.2321
+          "share_listings": 4e-05,
+          "share_traders": 9e-06,
+          "share_volume": 8.2e-05,
+          "engagement_index": 0.232118
         },
         {
           "category": "Personal / Manifold-meta",
@@ -836,12 +838,12 @@
           "traders": 11,
           "volume": 295.6675,
           "median_traders": 3.0,
-          "mean_traders": 3.6667,
+          "mean_traders": 3.666667,
           "zero_trader_share": 0.0,
-          "share_listings": 0.0001,
-          "share_traders": 0.0,
-          "share_volume": 0.0,
-          "engagement_index": 0.1702
+          "share_listings": 0.00012,
+          "share_traders": 2e-05,
+          "share_volume": 1e-06,
+          "engagement_index": 0.17022
         }
       ],
       "exchange_categories_only": [
@@ -849,829 +851,829 @@
           "category": "World",
           "listings": 975,
           "traders": 31935,
-          "volume": 10990999.1844,
+          "volume": 10990999.184368,
           "median_traders": 17.0,
-          "mean_traders": 32.7538,
-          "zero_trader_share": 0.0082,
-          "share_listings": 0.0593,
-          "share_traders": 0.0748,
-          "share_volume": 0.0439,
-          "engagement_index": 1.2619
+          "mean_traders": 32.753846,
+          "zero_trader_share": 0.008205,
+          "share_listings": 0.059267,
+          "share_traders": 0.074786,
+          "share_volume": 0.043945,
+          "engagement_index": 1.261852
         },
         {
           "category": "Technology",
           "listings": 2847,
           "traders": 92552,
-          "volume": 55964216.0341,
+          "volume": 55964216.034147,
           "median_traders": 17.0,
-          "mean_traders": 32.5086,
-          "zero_trader_share": 0.0105,
-          "share_listings": 0.1731,
-          "share_traders": 0.2167,
-          "share_volume": 0.2238,
-          "engagement_index": 1.2524
+          "mean_traders": 32.508606,
+          "zero_trader_share": 0.010537,
+          "share_listings": 0.173059,
+          "share_traders": 0.21674,
+          "share_volume": 0.223758,
+          "engagement_index": 1.252404
         },
         {
           "category": "Politics & law",
           "listings": 3052,
           "traders": 88255,
-          "volume": 43785730.6114,
+          "volume": 43785730.611377,
           "median_traders": 14.0,
-          "mean_traders": 28.9171,
-          "zero_trader_share": 0.0206,
-          "share_listings": 0.1855,
-          "share_traders": 0.2067,
-          "share_volume": 0.1751,
-          "engagement_index": 1.114
+          "mean_traders": 28.917104,
+          "zero_trader_share": 0.020642,
+          "share_listings": 0.185521,
+          "share_traders": 0.206677,
+          "share_volume": 0.175066,
+          "engagement_index": 1.11404
         },
         {
           "category": "Economics",
           "listings": 2880,
           "traders": 73189,
-          "volume": 47443480.5198,
+          "volume": 47443480.51984,
           "median_traders": 12.0,
-          "mean_traders": 25.4128,
-          "zero_trader_share": 0.0174,
-          "share_listings": 0.1751,
-          "share_traders": 0.1714,
-          "share_volume": 0.1897,
-          "engagement_index": 0.979
+          "mean_traders": 25.412847,
+          "zero_trader_share": 0.017361,
+          "share_listings": 0.175065,
+          "share_traders": 0.171396,
+          "share_volume": 0.18969,
+          "engagement_index": 0.979038
         },
         {
           "category": "Science",
           "listings": 1237,
           "traders": 29579,
-          "volume": 14236244.9513,
+          "volume": 14236244.951303,
           "median_traders": 13.0,
-          "mean_traders": 23.9119,
-          "zero_trader_share": 0.017,
-          "share_listings": 0.0752,
-          "share_traders": 0.0693,
-          "share_volume": 0.0569,
-          "engagement_index": 0.9212
+          "mean_traders": 23.911884,
+          "zero_trader_share": 0.016977,
+          "share_listings": 0.075193,
+          "share_traders": 0.069269,
+          "share_volume": 0.05692,
+          "engagement_index": 0.921213
         },
         {
           "category": "Sports",
           "listings": 4195,
           "traders": 90330,
-          "volume": 69182496.415,
+          "volume": 69182496.414986,
           "median_traders": 10.0,
-          "mean_traders": 21.5328,
-          "zero_trader_share": 0.0198,
+          "mean_traders": 21.532777,
+          "zero_trader_share": 0.019785,
           "share_listings": 0.255,
-          "share_traders": 0.2115,
-          "share_volume": 0.2766,
-          "engagement_index": 0.8296
+          "share_traders": 0.211537,
+          "share_volume": 0.276608,
+          "engagement_index": 0.829557
         },
         {
           "category": "Culture",
           "listings": 1265,
           "traders": 21178,
-          "volume": 8506919.9362,
+          "volume": 8506919.93617,
           "median_traders": 10.0,
-          "mean_traders": 16.7415,
-          "zero_trader_share": 0.0166,
-          "share_listings": 0.0769,
-          "share_traders": 0.0496,
-          "share_volume": 0.034,
-          "engagement_index": 0.645
+          "mean_traders": 16.741502,
+          "zero_trader_share": 0.016601,
+          "share_listings": 0.076895,
+          "share_traders": 0.049595,
+          "share_volume": 0.034013,
+          "engagement_index": 0.644972
         }
       ]
     },
     "personal_meta": {
-      "share_listings": 0.2012,
-      "share_traders": 0.1309,
+      "share_listings": 0.20115,
+      "share_traders": 0.130852,
       "median_traders": 8.0
     },
     "drivers": {
       "main": {
         "label": "log(1+traders), all markets",
         "n": 25036,
-        "r2": 0.2221,
+        "r2": 0.222107,
         "n_clusters": 4301,
         "terms": {
           "Intercept": {
-            "coef": 1.6459,
-            "se": 0.1446,
+            "coef": 1.645856,
+            "se": 0.144596,
             "p": 0.0,
-            "ci_low": 1.3625,
-            "ci_high": 1.9293
+            "ci_low": 1.362452,
+            "ci_high": 1.929259
           },
           "C(category, Treatment('Sports'))[T.Culture]": {
-            "coef": -0.1549,
-            "se": 0.1002,
-            "p": 0.1222,
-            "ci_low": -0.3513,
-            "ci_high": 0.0415
+            "coef": -0.154872,
+            "se": 0.100206,
+            "p": 0.122219,
+            "ci_low": -0.351272,
+            "ci_high": 0.041529
           },
           "C(category, Treatment('Sports'))[T.Economics]": {
-            "coef": 0.1115,
-            "se": 0.1099,
-            "p": 0.3106,
-            "ci_low": -0.104,
-            "ci_high": 0.3269
+            "coef": 0.111468,
+            "se": 0.109939,
+            "p": 0.310628,
+            "ci_low": -0.104008,
+            "ci_high": 0.326943
           },
           "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
-            "coef": -0.135,
-            "se": 0.1243,
-            "p": 0.2776,
-            "ci_low": -0.3786,
-            "ci_high": 0.1087
+            "coef": -0.134953,
+            "se": 0.124309,
+            "p": 0.277645,
+            "ci_low": -0.378593,
+            "ci_high": 0.108688
           },
           "C(category, Treatment('Sports'))[T.Politics & law]": {
-            "coef": 0.1133,
-            "se": 0.1043,
-            "p": 0.2774,
-            "ci_low": -0.0911,
-            "ci_high": 0.3177
+            "coef": 0.113281,
+            "se": 0.104294,
+            "p": 0.277406,
+            "ci_low": -0.091132,
+            "ci_high": 0.317693
           },
           "C(category, Treatment('Sports'))[T.Science]": {
-            "coef": 0.051,
-            "se": 0.0944,
-            "p": 0.5889,
-            "ci_low": -0.134,
-            "ci_high": 0.2361
+            "coef": 0.051035,
+            "se": 0.094426,
+            "p": 0.588871,
+            "ci_low": -0.134037,
+            "ci_high": 0.236107
           },
           "C(category, Treatment('Sports'))[T.Technology]": {
-            "coef": 0.2577,
-            "se": 0.0994,
-            "p": 0.0095,
-            "ci_low": 0.0629,
-            "ci_high": 0.4525
+            "coef": 0.257701,
+            "se": 0.099374,
+            "p": 0.009508,
+            "ci_low": 0.062931,
+            "ci_high": 0.452472
           },
           "C(category, Treatment('Sports'))[T.Uncategorized]": {
-            "coef": -0.4888,
-            "se": 0.114,
-            "p": 0.0,
-            "ci_low": -0.7123,
-            "ci_high": -0.2653
+            "coef": -0.488814,
+            "se": 0.114038,
+            "p": 1.8e-05,
+            "ci_low": -0.712324,
+            "ci_high": -0.265304
           },
           "C(category, Treatment('Sports'))[T.World]": {
-            "coef": 0.2366,
-            "se": 0.1401,
-            "p": 0.0912,
-            "ci_low": -0.0379,
-            "ci_high": 0.5111
+            "coef": 0.236595,
+            "se": 0.140061,
+            "p": 0.091175,
+            "ci_low": -0.037919,
+            "ci_high": 0.511109
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
-            "coef": 0.0455,
-            "se": 0.0865,
-            "p": 0.5987,
-            "ci_low": -0.124,
-            "ci_high": 0.215
+            "coef": 0.045516,
+            "se": 0.086476,
+            "p": 0.598654,
+            "ci_low": -0.123975,
+            "ci_high": 0.215006
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
-            "coef": 0.0608,
-            "se": 0.0837,
-            "p": 0.4676,
-            "ci_low": -0.1033,
-            "ci_high": 0.2249
+            "coef": 0.060816,
+            "se": 0.083723,
+            "p": 0.467595,
+            "ci_low": -0.103278,
+            "ci_high": 0.224911
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
-            "coef": -0.0469,
-            "se": 0.1245,
-            "p": 0.7062,
-            "ci_low": -0.2909,
-            "ci_high": 0.197
+            "coef": -0.046924,
+            "se": 0.124466,
+            "p": 0.706174,
+            "ci_low": -0.290873,
+            "ci_high": 0.197025
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
-            "coef": -0.0412,
-            "se": 0.0897,
-            "p": 0.6457,
-            "ci_low": -0.2169,
-            "ci_high": 0.1345
+            "coef": -0.041215,
+            "se": 0.089652,
+            "p": 0.645714,
+            "ci_low": -0.216929,
+            "ci_high": 0.134499
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
-            "coef": 0.044,
-            "se": 0.0853,
-            "p": 0.6065,
-            "ci_low": -0.1233,
-            "ci_high": 0.2112
+            "coef": 0.043964,
+            "se": 0.085348,
+            "p": 0.606474,
+            "ci_low": -0.123316,
+            "ci_high": 0.211244
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
-            "coef": -0.0631,
-            "se": 0.0923,
-            "p": 0.4943,
-            "ci_low": -0.2441,
-            "ci_high": 0.1179
+            "coef": -0.063107,
+            "se": 0.092336,
+            "p": 0.494326,
+            "ci_low": -0.244082,
+            "ci_high": 0.117869
           },
           "log_duration": {
-            "coef": 0.129,
-            "se": 0.0097,
+            "coef": 0.129041,
+            "se": 0.009673,
             "p": 0.0,
-            "ci_low": 0.1101,
+            "ci_low": 0.110081,
             "ci_high": 0.148
           },
           "log_answers": {
-            "coef": 0.0682,
-            "se": 0.0257,
-            "p": 0.008,
-            "ci_low": 0.0178,
-            "ci_high": 0.1186
+            "coef": 0.068201,
+            "se": 0.025734,
+            "p": 0.008043,
+            "ci_low": 0.017764,
+            "ci_high": 0.118638
           },
           "log_prior_markets": {
-            "coef": -0.0039,
-            "se": 0.019,
-            "p": 0.8391,
-            "ci_low": -0.0411,
-            "ci_high": 0.0334
+            "coef": -0.003862,
+            "se": 0.019018,
+            "p": 0.839062,
+            "ci_low": -0.041136,
+            "ci_high": 0.033412
           }
         },
         "category_effects": [
           {
             "category": "Technology",
-            "pct_vs_base": 0.294,
-            "ci_low": 0.065,
-            "ci_high": 0.5722,
-            "p": 0.0095
+            "pct_vs_base": 0.293952,
+            "ci_low": 0.064953,
+            "ci_high": 0.572194,
+            "p": 0.009508
           },
           {
             "category": "World",
-            "pct_vs_base": 0.2669,
-            "ci_low": -0.0372,
-            "ci_high": 0.6671,
-            "p": 0.0912
+            "pct_vs_base": 0.266928,
+            "ci_low": -0.037209,
+            "ci_high": 0.667139,
+            "p": 0.091175
           },
           {
             "category": "Politics & law",
-            "pct_vs_base": 0.1199,
-            "ci_low": -0.0871,
-            "ci_high": 0.374,
-            "p": 0.2774
+            "pct_vs_base": 0.119946,
+            "ci_low": -0.087103,
+            "ci_high": 0.373954,
+            "p": 0.277406
           },
           {
             "category": "Economics",
-            "pct_vs_base": 0.1179,
-            "ci_low": -0.0988,
-            "ci_high": 0.3867,
-            "p": 0.3106
+            "pct_vs_base": 0.117917,
+            "ci_low": -0.098782,
+            "ci_high": 0.386723,
+            "p": 0.310628
           },
           {
             "category": "Science",
-            "pct_vs_base": 0.0524,
-            "ci_low": -0.1254,
-            "ci_high": 0.2663,
-            "p": 0.5889
+            "pct_vs_base": 0.05236,
+            "ci_low": -0.125442,
+            "ci_high": 0.266309,
+            "p": 0.588871
           },
           {
             "category": "Personal / Manifold-meta",
-            "pct_vs_base": -0.1262,
-            "ci_low": -0.3152,
-            "ci_high": 0.1148,
-            "p": 0.2776
+            "pct_vs_base": -0.126243,
+            "ci_low": -0.315176,
+            "ci_high": 0.114814,
+            "p": 0.277645
           },
           {
             "category": "Culture",
-            "pct_vs_base": -0.1435,
-            "ci_low": -0.2962,
-            "ci_high": 0.0424,
-            "p": 0.1222
+            "pct_vs_base": -0.143475,
+            "ci_low": -0.296208,
+            "ci_high": 0.042404,
+            "p": 0.122219
           },
           {
             "category": "Uncategorized",
-            "pct_vs_base": -0.3866,
-            "ci_low": -0.5095,
-            "ci_high": -0.233,
-            "p": 0.0
+            "pct_vs_base": -0.386647,
+            "ci_low": -0.509497,
+            "ci_high": -0.233027,
+            "p": 1.8e-05
           }
         ],
         "plain_effects": {
-          "doubling_duration_pct": 0.0936,
-          "10x_creator_experience_pct": -0.0089,
-          "doubling_answers_pct": 0.0484
+          "doubling_duration_pct": 0.093566,
+          "10x_creator_experience_pct": -0.008854,
+          "doubling_answers_pct": 0.048408
         }
       },
       "binary_with_uncertainty": {
         "label": "log(1+traders), binary markets with price_24h",
         "n": 14332,
-        "r2": 0.1552,
+        "r2": 0.155208,
         "n_clusters": 3206,
         "terms": {
           "Intercept": {
-            "coef": 2.2163,
-            "se": 0.1972,
+            "coef": 2.21633,
+            "se": 0.197205,
             "p": 0.0,
-            "ci_low": 1.8298,
-            "ci_high": 2.6028
+            "ci_low": 1.829816,
+            "ci_high": 2.602844
           },
           "C(category, Treatment('Sports'))[T.Culture]": {
-            "coef": -0.0708,
-            "se": 0.072,
-            "p": 0.3251,
-            "ci_low": -0.2119,
-            "ci_high": 0.0702
+            "coef": -0.070813,
+            "se": 0.07196,
+            "p": 0.325081,
+            "ci_low": -0.211852,
+            "ci_high": 0.070225
           },
           "C(category, Treatment('Sports'))[T.Economics]": {
-            "coef": 0.2197,
-            "se": 0.0983,
-            "p": 0.0254,
-            "ci_low": 0.027,
-            "ci_high": 0.4124
+            "coef": 0.219701,
+            "se": 0.098301,
+            "p": 0.025418,
+            "ci_low": 0.027035,
+            "ci_high": 0.412367
           },
           "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
-            "coef": 0.0065,
-            "se": 0.1302,
-            "p": 0.9601,
-            "ci_low": -0.2487,
-            "ci_high": 0.2617
+            "coef": 0.006511,
+            "se": 0.130195,
+            "p": 0.960114,
+            "ci_low": -0.248666,
+            "ci_high": 0.261688
           },
           "C(category, Treatment('Sports'))[T.Politics & law]": {
-            "coef": 0.3172,
-            "se": 0.0761,
-            "p": 0.0,
-            "ci_low": 0.168,
-            "ci_high": 0.4664
+            "coef": 0.317209,
+            "se": 0.076138,
+            "p": 3.1e-05,
+            "ci_low": 0.167981,
+            "ci_high": 0.466437
           },
           "C(category, Treatment('Sports'))[T.Science]": {
-            "coef": 0.2762,
-            "se": 0.0786,
-            "p": 0.0004,
-            "ci_low": 0.1222,
-            "ci_high": 0.4303
+            "coef": 0.276248,
+            "se": 0.078577,
+            "p": 0.000439,
+            "ci_low": 0.12224,
+            "ci_high": 0.430257
           },
           "C(category, Treatment('Sports'))[T.Technology]": {
-            "coef": 0.453,
-            "se": 0.075,
+            "coef": 0.45296,
+            "se": 0.074988,
             "p": 0.0,
-            "ci_low": 0.306,
-            "ci_high": 0.5999
+            "ci_low": 0.305987,
+            "ci_high": 0.599933
           },
           "C(category, Treatment('Sports'))[T.Uncategorized]": {
-            "coef": -0.2926,
-            "se": 0.0984,
-            "p": 0.003,
-            "ci_low": -0.4855,
-            "ci_high": -0.0996
+            "coef": -0.292557,
+            "se": 0.098427,
+            "p": 0.002955,
+            "ci_low": -0.485469,
+            "ci_high": -0.099645
           },
           "C(category, Treatment('Sports'))[T.World]": {
-            "coef": 0.3952,
-            "se": 0.1057,
-            "p": 0.0002,
-            "ci_low": 0.188,
-            "ci_high": 0.6025
+            "coef": 0.395249,
+            "se": 0.105719,
+            "p": 0.000185,
+            "ci_low": 0.188044,
+            "ci_high": 0.602455
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
-            "coef": 0.0718,
-            "se": 0.0601,
-            "p": 0.2319,
-            "ci_low": -0.0459,
-            "ci_high": 0.1895
+            "coef": 0.071808,
+            "se": 0.060065,
+            "p": 0.231894,
+            "ci_low": -0.045918,
+            "ci_high": 0.189534
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
-            "coef": 0.0389,
-            "se": 0.0584,
-            "p": 0.5057,
-            "ci_low": -0.0756,
-            "ci_high": 0.1534
+            "coef": 0.038874,
+            "se": 0.058408,
+            "p": 0.505693,
+            "ci_low": -0.075604,
+            "ci_high": 0.153352
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
-            "coef": -0.156,
-            "se": 0.1362,
-            "p": 0.252,
-            "ci_low": -0.4228,
-            "ci_high": 0.1109
+            "coef": -0.155976,
+            "se": 0.136151,
+            "p": 0.251957,
+            "ci_low": -0.422827,
+            "ci_high": 0.110875
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
-            "coef": 0.0144,
-            "se": 0.0607,
-            "p": 0.8127,
-            "ci_low": -0.1047,
-            "ci_high": 0.1334
+            "coef": 0.014393,
+            "se": 0.060742,
+            "p": 0.812691,
+            "ci_low": -0.104659,
+            "ci_high": 0.133445
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
-            "coef": 0.0193,
-            "se": 0.0655,
-            "p": 0.7687,
-            "ci_low": -0.1092,
-            "ci_high": 0.1477
+            "coef": 0.01927,
+            "se": 0.065533,
+            "p": 0.768716,
+            "ci_low": -0.109172,
+            "ci_high": 0.147713
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
-            "coef": -0.0558,
-            "se": 0.0593,
-            "p": 0.3463,
-            "ci_low": -0.1721,
-            "ci_high": 0.0604
+            "coef": -0.055849,
+            "se": 0.059306,
+            "p": 0.346334,
+            "ci_low": -0.172086,
+            "ci_high": 0.060387
           },
           "log_duration": {
-            "coef": -0.0222,
-            "se": 0.0195,
-            "p": 0.2556,
-            "ci_low": -0.0604,
-            "ci_high": 0.0161
+            "coef": -0.022191,
+            "se": 0.019518,
+            "p": 0.255556,
+            "ci_low": -0.060445,
+            "ci_high": 0.016063
           },
           "log_prior_markets": {
-            "coef": -0.0067,
-            "se": 0.0165,
-            "p": 0.686,
-            "ci_low": -0.0391,
-            "ci_high": 0.0257
+            "coef": -0.006683,
+            "se": 0.016532,
+            "p": 0.686043,
+            "ci_low": -0.039085,
+            "ci_high": 0.02572
           },
           "uncertainty": {
-            "coef": 1.5797,
-            "se": 0.2004,
+            "coef": 1.579739,
+            "se": 0.200413,
             "p": 0.0,
-            "ci_low": 1.1869,
-            "ci_high": 1.9725
+            "ci_low": 1.186936,
+            "ci_high": 1.972541
           }
         },
         "plain_effects": {
-          "doubling_duration_pct": -0.0153,
-          "10x_creator_experience_pct": -0.0153,
-          "plus_0.1_from_coinflip_pct": 0.1711
+          "doubling_duration_pct": -0.015264,
+          "10x_creator_experience_pct": -0.01527,
+          "plus_0.1_from_coinflip_pct": 0.171136
         }
       },
       "robust_volume_outcome": {
         "label": "log(1+volume), all markets",
         "n": 25036,
-        "r2": 0.2351,
+        "r2": 0.235106,
         "n_clusters": 4301,
         "terms": {
           "Intercept": {
-            "coef": 5.3161,
-            "se": 0.3533,
+            "coef": 5.316073,
+            "se": 0.353278,
             "p": 0.0,
-            "ci_low": 4.6237,
-            "ci_high": 6.0085
+            "ci_low": 4.62366,
+            "ci_high": 6.008486
           },
           "C(category, Treatment('Sports'))[T.Culture]": {
-            "coef": -0.4252,
-            "se": 0.2661,
-            "p": 0.1101,
-            "ci_low": -0.9468,
-            "ci_high": 0.0964
+            "coef": -0.42522,
+            "se": 0.266135,
+            "p": 0.110096,
+            "ci_low": -0.946836,
+            "ci_high": 0.096395
           },
           "C(category, Treatment('Sports'))[T.Economics]": {
-            "coef": 0.2076,
-            "se": 0.2914,
-            "p": 0.4763,
-            "ci_low": -0.3636,
-            "ci_high": 0.7787
+            "coef": 0.207561,
+            "se": 0.291406,
+            "p": 0.476295,
+            "ci_low": -0.363584,
+            "ci_high": 0.778706
           },
           "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
-            "coef": -0.6632,
-            "se": 0.3252,
-            "p": 0.0414,
-            "ci_low": -1.3006,
-            "ci_high": -0.0259
+            "coef": -0.663222,
+            "se": 0.325183,
+            "p": 0.041397,
+            "ci_low": -1.300569,
+            "ci_high": -0.025875
           },
           "C(category, Treatment('Sports'))[T.Politics & law]": {
-            "coef": 0.0198,
-            "se": 0.2763,
-            "p": 0.9427,
-            "ci_low": -0.5218,
-            "ci_high": 0.5615
+            "coef": 0.019849,
+            "se": 0.276345,
+            "p": 0.942741,
+            "ci_low": -0.521778,
+            "ci_high": 0.561476
           },
           "C(category, Treatment('Sports'))[T.Science]": {
-            "coef": -0.0556,
-            "se": 0.258,
-            "p": 0.8294,
-            "ci_low": -0.5613,
-            "ci_high": 0.4502
+            "coef": -0.055588,
+            "se": 0.258046,
+            "p": 0.82944,
+            "ci_low": -0.561349,
+            "ci_high": 0.450172
           },
           "C(category, Treatment('Sports'))[T.Technology]": {
-            "coef": 0.1617,
-            "se": 0.2756,
-            "p": 0.5573,
-            "ci_low": -0.3785,
-            "ci_high": 0.7019
+            "coef": 0.161729,
+            "se": 0.27561,
+            "p": 0.557336,
+            "ci_low": -0.378458,
+            "ci_high": 0.701915
           },
           "C(category, Treatment('Sports'))[T.Uncategorized]": {
-            "coef": -1.1553,
-            "se": 0.3121,
-            "p": 0.0002,
-            "ci_low": -1.767,
-            "ci_high": -0.5436
+            "coef": -1.155291,
+            "se": 0.312086,
+            "p": 0.000214,
+            "ci_low": -1.766968,
+            "ci_high": -0.543614
           },
           "C(category, Treatment('Sports'))[T.World]": {
-            "coef": -0.0611,
-            "se": 0.3651,
-            "p": 0.8671,
-            "ci_low": -0.7767,
-            "ci_high": 0.6545
+            "coef": -0.061082,
+            "se": 0.365123,
+            "p": 0.867141,
+            "ci_low": -0.77671,
+            "ci_high": 0.654547
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
-            "coef": -0.0221,
-            "se": 0.204,
-            "p": 0.9138,
-            "ci_low": -0.4219,
-            "ci_high": 0.3777
+            "coef": -0.02207,
+            "se": 0.203977,
+            "p": 0.913837,
+            "ci_low": -0.421859,
+            "ci_high": 0.377718
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
-            "coef": 0.0948,
-            "se": 0.1939,
-            "p": 0.6248,
-            "ci_low": -0.2853,
-            "ci_high": 0.4749
+            "coef": 0.094835,
+            "se": 0.193936,
+            "p": 0.624841,
+            "ci_low": -0.285273,
+            "ci_high": 0.474943
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
-            "coef": -0.0056,
-            "se": 0.2445,
-            "p": 0.9816,
-            "ci_low": -0.4848,
-            "ci_high": 0.4735
+            "coef": -0.005644,
+            "se": 0.244486,
+            "p": 0.981583,
+            "ci_low": -0.484827,
+            "ci_high": 0.47354
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
-            "coef": -0.0916,
-            "se": 0.209,
-            "p": 0.6611,
-            "ci_low": -0.5013,
-            "ci_high": 0.318
+            "coef": -0.091629,
+            "se": 0.209022,
+            "p": 0.661119,
+            "ci_low": -0.501304,
+            "ci_high": 0.318047
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
-            "coef": 0.0774,
-            "se": 0.2041,
-            "p": 0.7045,
-            "ci_low": -0.3226,
-            "ci_high": 0.4775
+            "coef": 0.077417,
+            "se": 0.204112,
+            "p": 0.704473,
+            "ci_low": -0.322634,
+            "ci_high": 0.477469
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
-            "coef": -0.1352,
-            "se": 0.2201,
-            "p": 0.5392,
-            "ci_low": -0.5666,
-            "ci_high": 0.2963
+            "coef": -0.135155,
+            "se": 0.220126,
+            "p": 0.539221,
+            "ci_low": -0.566594,
+            "ci_high": 0.296284
           },
           "log_duration": {
-            "coef": 0.277,
-            "se": 0.0231,
+            "coef": 0.276963,
+            "se": 0.023119,
             "p": 0.0,
-            "ci_low": 0.2316,
-            "ci_high": 0.3223
+            "ci_low": 0.23165,
+            "ci_high": 0.322275
           },
           "log_answers": {
-            "coef": 0.4488,
-            "se": 0.0653,
+            "coef": 0.448752,
+            "se": 0.065287,
             "p": 0.0,
-            "ci_low": 0.3208,
-            "ci_high": 0.5767
+            "ci_low": 0.320791,
+            "ci_high": 0.576712
           },
           "log_prior_markets": {
-            "coef": -0.0057,
-            "se": 0.0474,
-            "p": 0.9041,
-            "ci_low": -0.0985,
-            "ci_high": 0.0871
+            "coef": -0.005706,
+            "se": 0.047362,
+            "p": 0.904109,
+            "ci_low": -0.098535,
+            "ci_high": 0.087123
           }
         },
         "category_effects": [
           {
             "category": "Economics",
-            "pct_vs_base": 0.2307,
-            "ci_low": -0.3048,
-            "ci_high": 1.1787,
-            "p": 0.4763
+            "pct_vs_base": 0.230673,
+            "ci_low": -0.30482,
+            "ci_high": 1.178651,
+            "p": 0.476295
           },
           {
             "category": "Technology",
-            "pct_vs_base": 0.1755,
-            "ci_low": -0.3151,
-            "ci_high": 1.0176,
-            "p": 0.5573
+            "pct_vs_base": 0.175542,
+            "ci_low": -0.315083,
+            "ci_high": 1.017614,
+            "p": 0.557336
           },
           {
             "category": "Politics & law",
-            "pct_vs_base": 0.02,
-            "ci_low": -0.4065,
-            "ci_high": 0.7533,
-            "p": 0.9427
+            "pct_vs_base": 0.020047,
+            "ci_low": -0.406536,
+            "ci_high": 0.753258,
+            "p": 0.942741
           },
           {
             "category": "Science",
-            "pct_vs_base": -0.0541,
-            "ci_low": -0.4296,
-            "ci_high": 0.5686,
-            "p": 0.8294
+            "pct_vs_base": -0.054071,
+            "ci_low": -0.429561,
+            "ci_high": 0.568582,
+            "p": 0.82944
           },
           {
             "category": "World",
-            "pct_vs_base": -0.0593,
-            "ci_low": -0.5401,
-            "ci_high": 0.9243,
-            "p": 0.8671
+            "pct_vs_base": -0.059254,
+            "ci_low": -0.540083,
+            "ci_high": 0.92427,
+            "p": 0.867141
           },
           {
             "category": "Culture",
-            "pct_vs_base": -0.3464,
-            "ci_low": -0.612,
-            "ci_high": 0.1012,
-            "p": 0.1101
+            "pct_vs_base": -0.346374,
+            "ci_low": -0.612033,
+            "ci_high": 0.101194,
+            "p": 0.110096
           },
           {
             "category": "Personal / Manifold-meta",
-            "pct_vs_base": -0.4848,
-            "ci_low": -0.7276,
-            "ci_high": -0.0255,
-            "p": 0.0414
+            "pct_vs_base": -0.484811,
+            "ci_low": -0.727623,
+            "ci_high": -0.025543,
+            "p": 0.041397
           },
           {
             "category": "Uncategorized",
-            "pct_vs_base": -0.685,
-            "ci_low": -0.8291,
-            "ci_high": -0.4194,
-            "p": 0.0002
+            "pct_vs_base": -0.685034,
+            "ci_low": -0.82915,
+            "ci_high": -0.419354,
+            "p": 0.000214
           }
         ]
       },
       "robust_category_alt": {
         "label": "log(1+traders), Politics & law ranked above Economics",
         "n": 25036,
-        "r2": 0.2221,
+        "r2": 0.22213,
         "n_clusters": 4301,
         "terms": {
           "Intercept": {
-            "coef": 1.6462,
-            "se": 0.1446,
+            "coef": 1.646209,
+            "se": 0.144632,
             "p": 0.0,
-            "ci_low": 1.3627,
-            "ci_high": 1.9297
+            "ci_low": 1.362734,
+            "ci_high": 1.929683
           },
           "C(category_alt, Treatment('Sports'))[T.Culture]": {
-            "coef": -0.1549,
-            "se": 0.1002,
-            "p": 0.1222,
-            "ci_low": -0.3513,
-            "ci_high": 0.0415
+            "coef": -0.154865,
+            "se": 0.100202,
+            "p": 0.12222,
+            "ci_low": -0.351258,
+            "ci_high": 0.041528
           },
           "C(category_alt, Treatment('Sports'))[T.Economics]": {
-            "coef": 0.0993,
-            "se": 0.1189,
-            "p": 0.4036,
-            "ci_low": -0.1337,
-            "ci_high": 0.3323
+            "coef": 0.099286,
+            "se": 0.118885,
+            "p": 0.403638,
+            "ci_low": -0.133725,
+            "ci_high": 0.332296
           },
           "C(category_alt, Treatment('Sports'))[T.Personal / Manifold-meta]": {
-            "coef": -0.1351,
-            "se": 0.1243,
-            "p": 0.2773,
-            "ci_low": -0.3787,
-            "ci_high": 0.1086
+            "coef": -0.135066,
+            "se": 0.124316,
+            "p": 0.27727,
+            "ci_low": -0.378721,
+            "ci_high": 0.108589
           },
           "C(category_alt, Treatment('Sports'))[T.Politics & law]": {
-            "coef": 0.1209,
-            "se": 0.0987,
-            "p": 0.2208,
-            "ci_low": -0.0726,
-            "ci_high": 0.3145
+            "coef": 0.120908,
+            "se": 0.098749,
+            "p": 0.220803,
+            "ci_low": -0.072637,
+            "ci_high": 0.314454
           },
           "C(category_alt, Treatment('Sports'))[T.Science]": {
-            "coef": 0.0511,
-            "se": 0.0944,
-            "p": 0.5888,
-            "ci_low": -0.1341,
-            "ci_high": 0.2362
+            "coef": 0.051055,
+            "se": 0.094449,
+            "p": 0.588813,
+            "ci_low": -0.134061,
+            "ci_high": 0.236171
           },
           "C(category_alt, Treatment('Sports'))[T.Technology]": {
-            "coef": 0.2577,
-            "se": 0.0994,
-            "p": 0.0095,
-            "ci_low": 0.0629,
-            "ci_high": 0.4525
+            "coef": 0.257715,
+            "se": 0.099372,
+            "p": 0.009502,
+            "ci_low": 0.062949,
+            "ci_high": 0.45248
           },
           "C(category_alt, Treatment('Sports'))[T.Uncategorized]": {
-            "coef": -0.4889,
-            "se": 0.1141,
-            "p": 0.0,
-            "ci_low": -0.7125,
-            "ci_high": -0.2654
+            "coef": -0.488942,
+            "se": 0.114057,
+            "p": 1.8e-05,
+            "ci_low": -0.712489,
+            "ci_high": -0.265394
           },
           "C(category_alt, Treatment('Sports'))[T.World]": {
-            "coef": 0.2366,
-            "se": 0.1402,
-            "p": 0.0915,
-            "ci_low": -0.0382,
-            "ci_high": 0.5114
+            "coef": 0.236611,
+            "se": 0.140207,
+            "p": 0.091491,
+            "ci_low": -0.03819,
+            "ci_high": 0.511411
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
-            "coef": 0.0459,
-            "se": 0.0867,
-            "p": 0.5962,
-            "ci_low": -0.124,
-            "ci_high": 0.2159
+            "coef": 0.045942,
+            "se": 0.086694,
+            "p": 0.596164,
+            "ci_low": -0.123977,
+            "ci_high": 0.21586
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
-            "coef": 0.0609,
-            "se": 0.0838,
-            "p": 0.467,
-            "ci_low": -0.1032,
-            "ci_high": 0.2251
+            "coef": 0.06092,
+            "se": 0.083753,
+            "p": 0.466999,
+            "ci_low": -0.103234,
+            "ci_high": 0.225073
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
-            "coef": -0.0468,
-            "se": 0.1245,
-            "p": 0.7069,
-            "ci_low": -0.2908,
-            "ci_high": 0.1972
+            "coef": -0.046805,
+            "se": 0.124488,
+            "p": 0.70693,
+            "ci_low": -0.290798,
+            "ci_high": 0.197188
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
-            "coef": -0.0409,
-            "se": 0.0898,
-            "p": 0.6489,
-            "ci_low": -0.217,
-            "ci_high": 0.1352
+            "coef": -0.040902,
+            "se": 0.089836,
+            "p": 0.648897,
+            "ci_low": -0.216977,
+            "ci_high": 0.135174
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
-            "coef": 0.0443,
-            "se": 0.0854,
-            "p": 0.6041,
-            "ci_low": -0.1231,
-            "ci_high": 0.2116
+            "coef": 0.044266,
+            "se": 0.085377,
+            "p": 0.604125,
+            "ci_low": -0.123069,
+            "ci_high": 0.211601
           },
           "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
-            "coef": -0.0631,
-            "se": 0.0925,
-            "p": 0.4953,
-            "ci_low": -0.2444,
-            "ci_high": 0.1182
+            "coef": -0.06309,
+            "se": 0.09251,
+            "p": 0.495253,
+            "ci_low": -0.244407,
+            "ci_high": 0.118227
           },
           "log_duration": {
-            "coef": 0.129,
-            "se": 0.0097,
+            "coef": 0.128979,
+            "se": 0.009673,
             "p": 0.0,
-            "ci_low": 0.11,
-            "ci_high": 0.1479
+            "ci_low": 0.110021,
+            "ci_high": 0.147936
           },
           "log_answers": {
-            "coef": 0.0681,
-            "se": 0.0258,
-            "p": 0.0084,
-            "ci_low": 0.0174,
-            "ci_high": 0.1187
+            "coef": 0.06808,
+            "se": 0.025836,
+            "p": 0.008412,
+            "ci_low": 0.017442,
+            "ci_high": 0.118718
           },
           "log_prior_markets": {
-            "coef": -0.0039,
-            "se": 0.019,
-            "p": 0.839,
-            "ci_low": -0.0412,
-            "ci_high": 0.0334
+            "coef": -0.003866,
+            "se": 0.019031,
+            "p": 0.839018,
+            "ci_low": -0.041166,
+            "ci_high": 0.033433
           }
         },
         "category_effects": [
           {
             "category": "Technology",
-            "pct_vs_base": 0.294,
-            "ci_low": 0.065,
-            "ci_high": 0.5722,
-            "p": 0.0095
+            "pct_vs_base": 0.29397,
+            "ci_low": 0.064972,
+            "ci_high": 0.572207,
+            "p": 0.009502
           },
           {
             "category": "World",
-            "pct_vs_base": 0.2669,
-            "ci_low": -0.0375,
-            "ci_high": 0.6676,
-            "p": 0.0915
+            "pct_vs_base": 0.266948,
+            "ci_low": -0.03747,
+            "ci_high": 0.667642,
+            "p": 0.091491
           },
           {
             "category": "Politics & law",
-            "pct_vs_base": 0.1285,
-            "ci_low": -0.0701,
-            "ci_high": 0.3695,
-            "p": 0.2208
+            "pct_vs_base": 0.128521,
+            "ci_low": -0.070062,
+            "ci_high": 0.369511,
+            "p": 0.220803
           },
           {
             "category": "Economics",
-            "pct_vs_base": 0.1044,
-            "ci_low": -0.1252,
-            "ci_high": 0.3942,
-            "p": 0.4036
+            "pct_vs_base": 0.104382,
+            "ci_low": -0.125169,
+            "ci_high": 0.394166,
+            "p": 0.403638
           },
           {
             "category": "Science",
-            "pct_vs_base": 0.0524,
-            "ci_low": -0.1255,
-            "ci_high": 0.2664,
-            "p": 0.5888
+            "pct_vs_base": 0.052381,
+            "ci_low": -0.125463,
+            "ci_high": 0.266391,
+            "p": 0.588813
           },
           {
             "category": "Personal / Manifold-meta",
-            "pct_vs_base": -0.1263,
-            "ci_low": -0.3153,
-            "ci_high": 0.1147,
-            "p": 0.2773
+            "pct_vs_base": -0.126342,
+            "ci_low": -0.315264,
+            "ci_high": 0.114704,
+            "p": 0.27727
           },
           {
             "category": "Culture",
-            "pct_vs_base": -0.1435,
-            "ci_low": -0.2962,
-            "ci_high": 0.0424,
-            "p": 0.1222
+            "pct_vs_base": -0.143469,
+            "ci_low": -0.296198,
+            "ci_high": 0.042403,
+            "p": 0.12222
           },
           {
             "category": "Uncategorized",
-            "pct_vs_base": -0.3867,
-            "ci_low": -0.5096,
-            "ci_high": -0.2331,
-            "p": 0.0
+            "pct_vs_base": -0.386725,
+            "ci_low": -0.509578,
+            "ci_high": -0.233097,
+            "p": 1.8e-05
           }
         ]
       },
       "robust_within_creator": {
         "n": 25036,
-        "r2_within": 0.1837,
+        "r2_within": 0.183726,
         "log_prior_markets": {
-          "coef": -0.0018,
-          "se": 0.0219,
-          "p": 0.9341,
-          "10x_creator_experience_pct": -0.0042
+          "coef": -0.001815,
+          "se": 0.021929,
+          "p": 0.934053,
+          "10x_creator_experience_pct": -0.00417
         }
       }
     },
@@ -1681,193 +1683,193 @@
         "markets": 2087,
         "creators": 2087,
         "median_traders": 10.0,
-        "mean_traders": 16.8237,
-        "zero_trader_share": 0.0259
+        "mean_traders": 16.82367,
+        "zero_trader_share": 0.025874
       },
       {
         "experience": "1-9",
         "markets": 5186,
         "creators": 2366,
         "median_traders": 10.0,
-        "mean_traders": 18.0312,
-        "zero_trader_share": 0.0239
+        "mean_traders": 18.031238,
+        "zero_trader_share": 0.023911
       },
       {
         "experience": "10-49",
         "markets": 5494,
         "creators": 1022,
         "median_traders": 11.0,
-        "mean_traders": 21.6068,
-        "zero_trader_share": 0.0217
+        "mean_traders": 21.606844,
+        "zero_trader_share": 0.02166
       },
       {
         "experience": "50-199",
         "markets": 5303,
         "creators": 378,
         "median_traders": 12.0,
-        "mean_traders": 25.9195,
-        "zero_trader_share": 0.0304
+        "mean_traders": 25.91948,
+        "zero_trader_share": 0.03036
       },
       {
         "experience": "200-999",
         "markets": 4641,
         "creators": 110,
         "median_traders": 11.0,
-        "mean_traders": 24.5413,
-        "zero_trader_share": 0.0297
+        "mean_traders": 24.541263,
+        "zero_trader_share": 0.029735
       },
       {
         "experience": "1,000+",
         "markets": 2325,
         "creators": 23,
         "median_traders": 9.0,
-        "mean_traders": 17.4705,
-        "zero_trader_share": 0.0305
+        "mean_traders": 17.470538,
+        "zero_trader_share": 0.030538
       }
     ],
     "creator_track_record": {
       "definition": "avg unique traders on the creator's markets that closed before this market opened; defined only with >= 3 such markets",
       "label": "log(1+traders) + log(1+track record), markets with a record",
       "n": 18236,
-      "r2": 0.3142,
+      "r2": 0.31421,
       "n_clusters": 1617,
       "terms": {
         "Intercept": {
-          "coef": 0.5197,
-          "se": 0.1395,
-          "p": 0.0002,
-          "ci_low": 0.2463,
-          "ci_high": 0.7932
+          "coef": 0.519711,
+          "se": 0.139519,
+          "p": 0.000195,
+          "ci_low": 0.24626,
+          "ci_high": 0.793163
         },
         "C(category, Treatment('Sports'))[T.Culture]": {
-          "coef": -0.1302,
-          "se": 0.0713,
-          "p": 0.0678,
-          "ci_low": -0.2699,
-          "ci_high": 0.0095
+          "coef": -0.130172,
+          "se": 0.071267,
+          "p": 0.06777,
+          "ci_low": -0.269853,
+          "ci_high": 0.009509
         },
         "C(category, Treatment('Sports'))[T.Economics]": {
-          "coef": 0.0911,
-          "se": 0.0736,
-          "p": 0.2155,
-          "ci_low": -0.0531,
-          "ci_high": 0.2354
+          "coef": 0.091142,
+          "se": 0.073581,
+          "p": 0.215474,
+          "ci_low": -0.053075,
+          "ci_high": 0.235359
         },
         "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
-          "coef": -0.0068,
-          "se": 0.0701,
+          "coef": -0.006794,
+          "se": 0.070106,
           "p": 0.9228,
-          "ci_low": -0.1442,
-          "ci_high": 0.1306
+          "ci_low": -0.144199,
+          "ci_high": 0.130611
         },
         "C(category, Treatment('Sports'))[T.Politics & law]": {
-          "coef": 0.1131,
-          "se": 0.0746,
-          "p": 0.1292,
-          "ci_low": -0.033,
-          "ci_high": 0.2593
+          "coef": 0.113136,
+          "se": 0.07457,
+          "p": 0.129225,
+          "ci_low": -0.03302,
+          "ci_high": 0.259291
         },
         "C(category, Treatment('Sports'))[T.Science]": {
-          "coef": 0.074,
-          "se": 0.0706,
-          "p": 0.2949,
-          "ci_low": -0.0645,
-          "ci_high": 0.2124
+          "coef": 0.073989,
+          "se": 0.070637,
+          "p": 0.294888,
+          "ci_low": -0.064456,
+          "ci_high": 0.212435
         },
         "C(category, Treatment('Sports'))[T.Technology]": {
-          "coef": 0.2107,
-          "se": 0.0697,
-          "p": 0.0025,
-          "ci_low": 0.0742,
-          "ci_high": 0.3473
+          "coef": 0.210744,
+          "se": 0.069663,
+          "p": 0.002485,
+          "ci_low": 0.074206,
+          "ci_high": 0.347281
         },
         "C(category, Treatment('Sports'))[T.Uncategorized]": {
-          "coef": -0.3712,
-          "se": 0.0892,
-          "p": 0.0,
-          "ci_low": -0.5459,
-          "ci_high": -0.1965
+          "coef": -0.371191,
+          "se": 0.08915,
+          "p": 3.1e-05,
+          "ci_low": -0.545922,
+          "ci_high": -0.19646
         },
         "C(category, Treatment('Sports'))[T.World]": {
-          "coef": 0.1851,
-          "se": 0.1184,
-          "p": 0.1181,
-          "ci_low": -0.047,
-          "ci_high": 0.4172
+          "coef": 0.185114,
+          "se": 0.118437,
+          "p": 0.118057,
+          "ci_low": -0.047017,
+          "ci_high": 0.417246
         },
         "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
-          "coef": 0.0766,
-          "se": 0.0816,
-          "p": 0.3474,
-          "ci_low": -0.0832,
-          "ci_high": 0.2365
+          "coef": 0.076632,
+          "se": 0.081558,
+          "p": 0.347421,
+          "ci_low": -0.083218,
+          "ci_high": 0.236483
         },
         "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
-          "coef": 0.0684,
-          "se": 0.08,
-          "p": 0.3928,
-          "ci_low": -0.0884,
-          "ci_high": 0.2251
+          "coef": 0.06836,
+          "se": 0.079988,
+          "p": 0.392759,
+          "ci_low": -0.088414,
+          "ci_high": 0.225133
         },
         "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
-          "coef": 0.1022,
-          "se": 0.0754,
-          "p": 0.1755,
-          "ci_low": -0.0456,
-          "ci_high": 0.25
+          "coef": 0.102162,
+          "se": 0.075411,
+          "p": 0.175501,
+          "ci_low": -0.04564,
+          "ci_high": 0.249965
         },
         "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
-          "coef": -0.0362,
-          "se": 0.0848,
-          "p": 0.6693,
-          "ci_low": -0.2023,
-          "ci_high": 0.1299
+          "coef": -0.036208,
+          "se": 0.084765,
+          "p": 0.669265,
+          "ci_low": -0.202343,
+          "ci_high": 0.129928
         },
         "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
-          "coef": 0.0875,
-          "se": 0.0812,
-          "p": 0.2809,
-          "ci_low": -0.0716,
-          "ci_high": 0.2466
+          "coef": 0.087523,
+          "se": 0.081171,
+          "p": 0.28092,
+          "ci_low": -0.071569,
+          "ci_high": 0.246614
         },
         "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
-          "coef": -0.0269,
-          "se": 0.0916,
-          "p": 0.7692,
-          "ci_low": -0.2064,
-          "ci_high": 0.1526
+          "coef": -0.026873,
+          "se": 0.09158,
+          "p": 0.769188,
+          "ci_low": -0.206366,
+          "ci_high": 0.15262
         },
         "log_duration": {
-          "coef": 0.1188,
-          "se": 0.0086,
+          "coef": 0.118831,
+          "se": 0.00858,
           "p": 0.0,
-          "ci_low": 0.102,
-          "ci_high": 0.1356
+          "ci_low": 0.102014,
+          "ci_high": 0.135647
         },
         "log_answers": {
-          "coef": 0.0648,
-          "se": 0.0223,
-          "p": 0.0036,
-          "ci_low": 0.0212,
-          "ci_high": 0.1085
+          "coef": 0.06483,
+          "se": 0.022271,
+          "p": 0.003604,
+          "ci_low": 0.021179,
+          "ci_high": 0.10848
         },
         "log_prior_markets": {
-          "coef": -0.07,
-          "se": 0.0226,
-          "p": 0.0019,
-          "ci_low": -0.1143,
-          "ci_high": -0.0257
+          "coef": -0.069983,
+          "se": 0.022586,
+          "p": 0.001945,
+          "ci_low": -0.114251,
+          "ci_high": -0.025714
         },
         "log_track_record": {
-          "coef": 0.5287,
-          "se": 0.0517,
+          "coef": 0.528663,
+          "se": 0.051689,
           "p": 0.0,
-          "ci_low": 0.4274,
-          "ci_high": 0.63
+          "ci_low": 0.427354,
+          "ci_high": 0.629972
         }
       },
-      "doubling_track_record_pct": 0.4426,
-      "experience_10x_pct_with_track_record": -0.1488,
+      "doubling_track_record_pct": 0.442592,
+      "experience_10x_pct_with_track_record": -0.148828,
       "quintiles": [
         {
           "track_record_quintile": "Q1 (lowest)",
@@ -1971,130 +1973,144 @@
       "plan": [
         {
           "category": "Technology",
-          "current_share": 0.1731,
+          "current_share": 0.173059,
           "current_per_100": 17,
-          "trader_share": 0.2167,
+          "trader_share": 0.21674,
           "median_traders": 17.0,
           "plan_first_100": 22,
+          "plan_by_volume_share": 22,
           "change": 5
         },
         {
           "category": "Politics & law",
-          "current_share": 0.1855,
+          "current_share": 0.185521,
           "current_per_100": 19,
-          "trader_share": 0.2067,
+          "trader_share": 0.206677,
           "median_traders": 14.0,
           "plan_first_100": 21,
+          "plan_by_volume_share": 18,
           "change": 2
         },
         {
           "category": "Sports",
           "current_share": 0.255,
           "current_per_100": 25,
-          "trader_share": 0.2115,
+          "trader_share": 0.211537,
           "median_traders": 10.0,
           "plan_first_100": 21,
+          "plan_by_volume_share": 28,
           "change": -4
         },
         {
           "category": "Economics",
-          "current_share": 0.1751,
+          "current_share": 0.175065,
           "current_per_100": 17,
-          "trader_share": 0.1714,
+          "trader_share": 0.171396,
           "median_traders": 12.0,
           "plan_first_100": 17,
+          "plan_by_volume_share": 19,
           "change": 0
         },
         {
           "category": "World",
-          "current_share": 0.0593,
+          "current_share": 0.059267,
           "current_per_100": 6,
-          "trader_share": 0.0748,
+          "trader_share": 0.074786,
           "median_traders": 17.0,
           "plan_first_100": 7,
+          "plan_by_volume_share": 4,
           "change": 1
         },
         {
           "category": "Science",
-          "current_share": 0.0752,
+          "current_share": 0.075193,
           "current_per_100": 8,
-          "trader_share": 0.0693,
+          "trader_share": 0.069269,
           "median_traders": 13.0,
           "plan_first_100": 7,
+          "plan_by_volume_share": 6,
           "change": -1
         },
         {
           "category": "Culture",
-          "current_share": 0.0769,
+          "current_share": 0.076895,
           "current_per_100": 8,
-          "trader_share": 0.0496,
+          "trader_share": 0.049595,
           "median_traders": 10.0,
           "plan_first_100": 5,
+          "plan_by_volume_share": 3,
           "change": -3
         }
       ],
       "robust_category_alt": [
         {
           "category_alt": "Politics & law",
-          "current_share": 0.2181,
+          "current_share": 0.218102,
           "current_per_100": 22,
-          "trader_share": 0.2498,
+          "trader_share": 0.249847,
           "median_traders": 14.0,
           "plan_first_100": 25,
+          "plan_by_volume_share": 22,
           "change": 3
         },
         {
           "category_alt": "Technology",
-          "current_share": 0.1731,
+          "current_share": 0.173059,
           "current_per_100": 17,
-          "trader_share": 0.2167,
+          "trader_share": 0.21674,
           "median_traders": 17.0,
           "plan_first_100": 22,
+          "plan_by_volume_share": 22,
           "change": 5
         },
         {
           "category_alt": "Sports",
           "current_share": 0.255,
           "current_per_100": 25,
-          "trader_share": 0.2115,
+          "trader_share": 0.211537,
           "median_traders": 10.0,
           "plan_first_100": 21,
+          "plan_by_volume_share": 28,
           "change": -4
         },
         {
           "category_alt": "Economics",
-          "current_share": 0.1425,
+          "current_share": 0.142484,
           "current_per_100": 14,
-          "trader_share": 0.1282,
+          "trader_share": 0.128226,
           "median_traders": 12.0,
           "plan_first_100": 13,
+          "plan_by_volume_share": 14,
           "change": -1
         },
         {
           "category_alt": "World",
-          "current_share": 0.0593,
+          "current_share": 0.059267,
           "current_per_100": 6,
-          "trader_share": 0.0748,
+          "trader_share": 0.074786,
           "median_traders": 17.0,
           "plan_first_100": 7,
+          "plan_by_volume_share": 4,
           "change": 1
         },
         {
           "category_alt": "Science",
-          "current_share": 0.0752,
+          "current_share": 0.075193,
           "current_per_100": 8,
-          "trader_share": 0.0693,
+          "trader_share": 0.069269,
           "median_traders": 13.0,
           "plan_first_100": 7,
+          "plan_by_volume_share": 6,
           "change": -1
         },
         {
           "category_alt": "Culture",
-          "current_share": 0.0769,
+          "current_share": 0.076895,
           "current_per_100": 8,
-          "trader_share": 0.0496,
+          "trader_share": 0.049595,
           "median_traders": 10.0,
           "plan_first_100": 5,
+          "plan_by_volume_share": 4,
           "change": -3
         }
       ],
@@ -2112,379 +2128,379 @@
     "sample": {
       "rule": "binary, resolved YES/NO, price_24h present, >= 10 unique traders",
       "n": 8482,
-      "yes_rate": 0.3432,
-      "near_certain_24h_share": 0.0564
+      "yes_rate": 0.343197,
+      "near_certain_24h_share": 0.056355
     },
     "scores": {
       "n": 8482,
-      "yes_rate": 0.3432,
-      "brier_price_24h": 0.0751,
-      "brier_price_1h": 0.052,
-      "brier_naive": 0.2254,
-      "log_loss_price_24h": 0.2459,
-      "log_loss_price_1h": 0.1767,
-      "log_loss_naive": 0.6431,
-      "naive_base_rate": 0.3432
+      "yes_rate": 0.343197,
+      "brier_price_24h": 0.075137,
+      "brier_price_1h": 0.052011,
+      "brier_naive": 0.225413,
+      "log_loss_price_24h": 0.245947,
+      "log_loss_price_1h": 0.17669,
+      "log_loss_naive": 0.643134,
+      "naive_base_rate": 0.343197
     },
     "calibration_table_24h": [
       {
         "bucket": "-0.0-0.1",
         "n": 3856,
-        "mean_price": 0.0332,
-        "yes_rate": 0.0132,
-        "ci_low": 0.0101,
-        "ci_high": 0.0173,
-        "gap": -0.0199
+        "mean_price": 0.033157,
+        "yes_rate": 0.013226,
+        "ci_low": 0.010074,
+        "ci_high": 0.017347,
+        "gap": -0.019931
       },
       {
         "bucket": "0.1-0.2",
         "n": 678,
-        "mean_price": 0.1425,
-        "yes_rate": 0.1106,
-        "ci_low": 0.0892,
-        "ci_high": 0.1365,
-        "gap": -0.0319
+        "mean_price": 0.142505,
+        "yes_rate": 0.110619,
+        "ci_low": 0.089168,
+        "ci_high": 0.136459,
+        "gap": -0.031886
       },
       {
         "bucket": "0.2-0.3",
         "n": 400,
-        "mean_price": 0.2472,
+        "mean_price": 0.247183,
         "yes_rate": 0.205,
-        "ci_low": 0.1683,
-        "ci_high": 0.2473,
-        "gap": -0.0422
+        "ci_low": 0.168332,
+        "ci_high": 0.24728,
+        "gap": -0.042183
       },
       {
         "bucket": "0.3-0.4",
         "n": 312,
-        "mean_price": 0.3495,
-        "yes_rate": 0.3558,
-        "ci_low": 0.3047,
-        "ci_high": 0.4104,
-        "gap": 0.0063
+        "mean_price": 0.349513,
+        "yes_rate": 0.355769,
+        "ci_low": 0.304695,
+        "ci_high": 0.410352,
+        "gap": 0.006256
       },
       {
         "bucket": "0.4-0.5",
         "n": 336,
-        "mean_price": 0.4611,
-        "yes_rate": 0.4583,
-        "ci_low": 0.4058,
-        "ci_high": 0.5118,
-        "gap": -0.0028
+        "mean_price": 0.461105,
+        "yes_rate": 0.458333,
+        "ci_low": 0.405827,
+        "ci_high": 0.511782,
+        "gap": -0.002772
       },
       {
         "bucket": "0.5-0.6",
         "n": 480,
-        "mean_price": 0.5358,
-        "yes_rate": 0.5167,
-        "ci_low": 0.472,
-        "ci_high": 0.5611,
-        "gap": -0.0192
+        "mean_price": 0.535826,
+        "yes_rate": 0.516667,
+        "ci_low": 0.472006,
+        "ci_high": 0.561063,
+        "gap": -0.019159
       },
       {
         "bucket": "0.6-0.7",
         "n": 298,
-        "mean_price": 0.6514,
-        "yes_rate": 0.7013,
-        "ci_low": 0.6471,
-        "ci_high": 0.7505,
-        "gap": 0.0499
+        "mean_price": 0.651421,
+        "yes_rate": 0.701342,
+        "ci_low": 0.647084,
+        "ci_high": 0.750475,
+        "gap": 0.049921
       },
       {
         "bucket": "0.7-0.8",
         "n": 325,
-        "mean_price": 0.7499,
-        "yes_rate": 0.7692,
-        "ci_low": 0.7204,
-        "ci_high": 0.8117,
-        "gap": 0.0193
+        "mean_price": 0.749886,
+        "yes_rate": 0.769231,
+        "ci_low": 0.720438,
+        "ci_high": 0.811733,
+        "gap": 0.019345
       },
       {
         "bucket": "0.8-0.9",
         "n": 422,
-        "mean_price": 0.8522,
-        "yes_rate": 0.8839,
-        "ci_low": 0.8498,
-        "ci_high": 0.911,
-        "gap": 0.0317
+        "mean_price": 0.852217,
+        "yes_rate": 0.883886,
+        "ci_low": 0.849799,
+        "ci_high": 0.911047,
+        "gap": 0.03167
       },
       {
         "bucket": "0.9-1.0",
         "n": 1375,
-        "mean_price": 0.9685,
-        "yes_rate": 0.9876,
-        "ci_low": 0.9803,
-        "ci_high": 0.9923,
-        "gap": 0.0192
+        "mean_price": 0.968452,
+        "yes_rate": 0.987636,
+        "ci_low": 0.980289,
+        "ci_high": 0.992267,
+        "gap": 0.019184
       }
     ],
     "calibration_table_1h": [
       {
         "bucket": "-0.0-0.1",
         "n": 4292,
-        "mean_price": 0.0279,
-        "yes_rate": 0.0075,
-        "ci_low": 0.0053,
-        "ci_high": 0.0105,
-        "gap": -0.0205
+        "mean_price": 0.027921,
+        "yes_rate": 0.007456,
+        "ci_low": 0.005286,
+        "ci_high": 0.010506,
+        "gap": -0.020465
       },
       {
         "bucket": "0.1-0.2",
         "n": 540,
-        "mean_price": 0.1418,
-        "yes_rate": 0.0889,
-        "ci_low": 0.0677,
-        "ci_high": 0.1159,
-        "gap": -0.0529
+        "mean_price": 0.141799,
+        "yes_rate": 0.088889,
+        "ci_low": 0.067699,
+        "ci_high": 0.115887,
+        "gap": -0.05291
       },
       {
         "bucket": "0.2-0.3",
         "n": 248,
-        "mean_price": 0.2478,
-        "yes_rate": 0.1613,
-        "ci_low": 0.1207,
-        "ci_high": 0.2122,
-        "gap": -0.0865
+        "mean_price": 0.247822,
+        "yes_rate": 0.16129,
+        "ci_low": 0.120738,
+        "ci_high": 0.212176,
+        "gap": -0.086532
       },
       {
         "bucket": "0.3-0.4",
         "n": 218,
-        "mean_price": 0.3473,
-        "yes_rate": 0.3578,
-        "ci_low": 0.2971,
-        "ci_high": 0.4234,
-        "gap": 0.0105
+        "mean_price": 0.347258,
+        "yes_rate": 0.357798,
+        "ci_low": 0.297133,
+        "ci_high": 0.423388,
+        "gap": 0.01054
       },
       {
         "bucket": "0.4-0.5",
         "n": 214,
-        "mean_price": 0.4588,
-        "yes_rate": 0.4299,
-        "ci_low": 0.3654,
-        "ci_high": 0.4969,
-        "gap": -0.0289
+        "mean_price": 0.458845,
+        "yes_rate": 0.429907,
+        "ci_low": 0.365389,
+        "ci_high": 0.496897,
+        "gap": -0.028938
       },
       {
         "bucket": "0.5-0.6",
         "n": 375,
-        "mean_price": 0.5312,
+        "mean_price": 0.531249,
         "yes_rate": 0.52,
-        "ci_low": 0.4695,
-        "ci_high": 0.5701,
-        "gap": -0.0112
+        "ci_low": 0.469487,
+        "ci_high": 0.570107,
+        "gap": -0.011249
       },
       {
         "bucket": "0.6-0.7",
         "n": 177,
-        "mean_price": 0.6527,
-        "yes_rate": 0.6893,
-        "ci_low": 0.6177,
-        "ci_high": 0.7528,
-        "gap": 0.0366
+        "mean_price": 0.652682,
+        "yes_rate": 0.689266,
+        "ci_low": 0.617673,
+        "ci_high": 0.752817,
+        "gap": 0.036584
       },
       {
         "bucket": "0.7-0.8",
         "n": 235,
-        "mean_price": 0.7505,
-        "yes_rate": 0.7574,
-        "ci_low": 0.6988,
-        "ci_high": 0.8078,
-        "gap": 0.007
+        "mean_price": 0.750485,
+        "yes_rate": 0.757447,
+        "ci_low": 0.698788,
+        "ci_high": 0.807824,
+        "gap": 0.006962
       },
       {
         "bucket": "0.8-0.9",
         "n": 305,
-        "mean_price": 0.8525,
-        "yes_rate": 0.8656,
-        "ci_low": 0.8227,
-        "ci_high": 0.8993,
-        "gap": 0.013
+        "mean_price": 0.85255,
+        "yes_rate": 0.865574,
+        "ci_low": 0.822712,
+        "ci_high": 0.899341,
+        "gap": 0.013024
       },
       {
         "bucket": "0.9-1.0",
         "n": 1878,
-        "mean_price": 0.9749,
-        "yes_rate": 0.9915,
-        "ci_low": 0.9862,
-        "ci_high": 0.9947,
-        "gap": 0.0166
+        "mean_price": 0.974868,
+        "yes_rate": 0.99148,
+        "ci_low": 0.986205,
+        "ci_high": 0.994749,
+        "gap": 0.016612
       }
     ],
     "logit_simple": {
       "label": "result ~ logit(price_24h)",
       "n": 8482,
-      "pseudo_r2": 0.6264,
+      "pseudo_r2": 0.626443,
       "n_clusters": 2391,
       "terms": {
         "Intercept": {
-          "coef": -0.0068,
-          "se": 0.0482,
-          "p": 0.8872,
-          "ci_low": -0.1014,
-          "ci_high": 0.0877
+          "coef": -0.006843,
+          "se": 0.048223,
+          "p": 0.887156,
+          "ci_low": -0.101358,
+          "ci_high": 0.087672
         },
         "logit_p24": {
-          "coef": 1.2502,
-          "se": 0.0305,
+          "coef": 1.250208,
+          "se": 0.030466,
           "p": 0.0,
-          "ci_low": 1.1905,
-          "ci_high": 1.3099
+          "ci_low": 1.190496,
+          "ci_high": 1.309921
         }
       }
     },
     "logit_1h": {
       "label": "result ~ logit(price_1h)",
       "n": 8482,
-      "pseudo_r2": 0.7382,
+      "pseudo_r2": 0.738238,
       "n_clusters": 2391,
       "terms": {
         "Intercept": {
-          "coef": -0.1013,
-          "se": 0.0535,
-          "p": 0.0585,
-          "ci_low": -0.2062,
-          "ci_high": 0.0036
+          "coef": -0.101289,
+          "se": 0.053534,
+          "p": 0.058483,
+          "ci_low": -0.206212,
+          "ci_high": 0.003635
         },
         "logit_p1": {
-          "coef": 1.3195,
-          "se": 0.0333,
+          "coef": 1.319483,
+          "se": 0.033328,
           "p": 0.0,
-          "ci_low": 1.2542,
-          "ci_high": 1.3848
+          "ci_low": 1.254161,
+          "ci_high": 1.384806
         }
       }
     },
     "longshot_returns_24h": {
       "under_10pct": {
         "n": 3855,
-        "mean_price": 0.0331,
-        "yes_rate": 0.0132,
-        "avg_return": -0.67
+        "mean_price": 0.03314,
+        "yes_rate": 0.01323,
+        "avg_return": -0.670047
       },
       "10_to_50pct": {
         "n": 1727,
-        "mean_price": 0.2661,
-        "yes_rate": 0.2444,
-        "avg_return": -0.1317
+        "mean_price": 0.266109,
+        "yes_rate": 0.244354,
+        "avg_return": -0.131665
       },
       "over_50pct": {
         "n": 2900,
-        "mean_price": 0.8229,
-        "yes_rate": 0.8407,
-        "avg_return": 0.0195
+        "mean_price": 0.822859,
+        "yes_rate": 0.84069,
+        "avg_return": 0.019542
       }
     },
     "logit_full": {
       "label": "+ category (Sports base), log volume, log duration",
       "n": 8482,
-      "pseudo_r2": 0.6337,
+      "pseudo_r2": 0.633686,
       "n_clusters": 2391,
       "terms": {
         "Intercept": {
-          "coef": -0.8287,
-          "se": 0.2597,
-          "p": 0.0014,
-          "ci_low": -1.3377,
-          "ci_high": -0.3198
+          "coef": -0.828711,
+          "se": 0.25967,
+          "p": 0.001416,
+          "ci_low": -1.337655,
+          "ci_high": -0.319768
         },
         "C(category, Treatment('Sports'))[T.Culture]": {
-          "coef": 0.1409,
-          "se": 0.264,
-          "p": 0.5935,
-          "ci_low": -0.3765,
-          "ci_high": 0.6582
+          "coef": 0.140882,
+          "se": 0.263966,
+          "p": 0.593541,
+          "ci_low": -0.376482,
+          "ci_high": 0.658246
         },
         "C(category, Treatment('Sports'))[T.Economics]": {
-          "coef": 0.4595,
-          "se": 0.159,
-          "p": 0.0038,
-          "ci_low": 0.148,
-          "ci_high": 0.7711
+          "coef": 0.459502,
+          "se": 0.158957,
+          "p": 0.003844,
+          "ci_low": 0.147951,
+          "ci_high": 0.771052
         },
         "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
-          "coef": 0.2286,
-          "se": 0.1461,
-          "p": 0.1177,
-          "ci_low": -0.0578,
+          "coef": 0.228555,
+          "se": 0.146097,
+          "p": 0.117721,
+          "ci_low": -0.057789,
           "ci_high": 0.5149
         },
         "C(category, Treatment('Sports'))[T.Politics & law]": {
-          "coef": 0.7062,
-          "se": 0.1703,
-          "p": 0.0,
-          "ci_low": 0.3725,
-          "ci_high": 1.0399
+          "coef": 0.706164,
+          "se": 0.170261,
+          "p": 3.4e-05,
+          "ci_low": 0.372459,
+          "ci_high": 1.039869
         },
         "C(category, Treatment('Sports'))[T.Science]": {
-          "coef": 0.3961,
-          "se": 0.2231,
+          "coef": 0.396056,
+          "se": 0.223132,
           "p": 0.0759,
-          "ci_low": -0.0413,
-          "ci_high": 0.8334
+          "ci_low": -0.041275,
+          "ci_high": 0.833387
         },
         "C(category, Treatment('Sports'))[T.Technology]": {
-          "coef": 0.6538,
-          "se": 0.1604,
-          "p": 0.0,
-          "ci_low": 0.3394,
-          "ci_high": 0.9681
+          "coef": 0.653778,
+          "se": 0.160387,
+          "p": 4.6e-05,
+          "ci_low": 0.339425,
+          "ci_high": 0.968132
         },
         "C(category, Treatment('Sports'))[T.Uncategorized]": {
-          "coef": 0.1973,
-          "se": 0.1846,
-          "p": 0.285,
-          "ci_low": -0.1644,
-          "ci_high": 0.5591
+          "coef": 0.197348,
+          "se": 0.184581,
+          "p": 0.284995,
+          "ci_low": -0.164425,
+          "ci_high": 0.55912
         },
         "C(category, Treatment('Sports'))[T.World]": {
-          "coef": 0.7505,
-          "se": 0.2287,
-          "p": 0.001,
-          "ci_low": 0.3023,
-          "ci_high": 1.1987
+          "coef": 0.750476,
+          "se": 0.228669,
+          "p": 0.001031,
+          "ci_low": 0.302293,
+          "ci_high": 1.198659
         },
         "logit_p24": {
-          "coef": 1.2615,
-          "se": 0.0318,
+          "coef": 1.261511,
+          "se": 0.03177,
           "p": 0.0,
-          "ci_low": 1.1992,
-          "ci_high": 1.3238
+          "ci_low": 1.199242,
+          "ci_high": 1.323779
         },
         "log_volume": {
-          "coef": 0.1446,
-          "se": 0.0304,
-          "p": 0.0,
-          "ci_low": 0.085,
-          "ci_high": 0.2041
+          "coef": 0.144554,
+          "se": 0.030364,
+          "p": 2e-06,
+          "ci_low": 0.085041,
+          "ci_high": 0.204066
         },
         "log_duration": {
-          "coef": -0.1008,
-          "se": 0.0225,
-          "p": 0.0,
-          "ci_low": -0.1449,
-          "ci_high": -0.0567
+          "coef": -0.100787,
+          "se": 0.022512,
+          "p": 8e-06,
+          "ci_low": -0.144909,
+          "ci_high": -0.056665
         }
       }
     },
     "logit_interior_only": {
       "label": "price_24h within [0.01, 0.99]",
       "n": 8004,
-      "pseudo_r2": 0.606,
+      "pseudo_r2": 0.605986,
       "n_clusters": 2318,
       "terms": {
         "Intercept": {
-          "coef": -0.0079,
-          "se": 0.0483,
-          "p": 0.8701,
-          "ci_low": -0.1025,
-          "ci_high": 0.0867
+          "coef": -0.007891,
+          "se": 0.048269,
+          "p": 0.870142,
+          "ci_low": -0.102496,
+          "ci_high": 0.086715
         },
         "logit_p24": {
-          "coef": 1.2491,
-          "se": 0.0308,
+          "coef": 1.249124,
+          "se": 0.03077,
           "p": 0.0,
-          "ci_low": 1.1888,
-          "ci_high": 1.3094
+          "ci_low": 1.188815,
+          "ci_high": 1.309432
         }
       },
       "n_dropped": 478
@@ -2493,154 +2509,154 @@
       {
         "category": "Culture",
         "n": 361,
-        "slope_coef": 1.3164,
-        "slope_se": 0.1575,
+        "slope_coef": 1.316357,
+        "slope_se": 0.157511,
         "slope_p": 0.0,
-        "slope_ci_low": 1.0076,
-        "slope_ci_high": 1.6251,
-        "intercept": -0.3265,
-        "brier": 0.052
+        "slope_ci_low": 1.007641,
+        "slope_ci_high": 1.625072,
+        "intercept": -0.326515,
+        "brier": 0.051981
       },
       {
         "category": "Economics",
         "n": 1289,
-        "slope_coef": 1.4948,
-        "slope_se": 0.1038,
+        "slope_coef": 1.494838,
+        "slope_se": 0.103845,
         "slope_p": 0.0,
-        "slope_ci_low": 1.2913,
-        "slope_ci_high": 1.6984,
-        "intercept": 0.1873,
-        "brier": 0.0646
+        "slope_ci_low": 1.291306,
+        "slope_ci_high": 1.698371,
+        "intercept": 0.187341,
+        "brier": 0.064616
       },
       {
         "category": "Personal / Manifold-meta",
         "n": 1344,
-        "slope_coef": 1.1319,
-        "slope_se": 0.0722,
+        "slope_coef": 1.131931,
+        "slope_se": 0.072204,
         "slope_p": 0.0,
-        "slope_ci_low": 0.9904,
-        "slope_ci_high": 1.2734,
-        "intercept": -0.0755,
-        "brier": 0.1281
+        "slope_ci_low": 0.990414,
+        "slope_ci_high": 1.273448,
+        "intercept": -0.075522,
+        "brier": 0.128088
       },
       {
         "category": "Politics & law",
         "n": 1320,
-        "slope_coef": 1.2815,
-        "slope_se": 0.0733,
+        "slope_coef": 1.281489,
+        "slope_se": 0.073287,
         "slope_p": 0.0,
-        "slope_ci_low": 1.1378,
-        "slope_ci_high": 1.4251,
-        "intercept": 0.3208,
-        "brier": 0.0536
+        "slope_ci_low": 1.137848,
+        "slope_ci_high": 1.425129,
+        "intercept": 0.320796,
+        "brier": 0.053575
       },
       {
         "category": "Science",
         "n": 551,
-        "slope_coef": 1.3015,
-        "slope_se": 0.1022,
+        "slope_coef": 1.301474,
+        "slope_se": 0.102218,
         "slope_p": 0.0,
-        "slope_ci_low": 1.1011,
-        "slope_ci_high": 1.5018,
-        "intercept": -0.0521,
-        "brier": 0.0526
+        "slope_ci_low": 1.101131,
+        "slope_ci_high": 1.501818,
+        "intercept": -0.052072,
+        "brier": 0.052622
       },
       {
         "category": "Sports",
         "n": 855,
-        "slope_coef": 1.1109,
-        "slope_se": 0.0809,
+        "slope_coef": 1.110886,
+        "slope_se": 0.080922,
         "slope_p": 0.0,
-        "slope_ci_low": 0.9523,
-        "slope_ci_high": 1.2695,
-        "intercept": -0.3169,
-        "brier": 0.114
+        "slope_ci_low": 0.952281,
+        "slope_ci_high": 1.269491,
+        "intercept": -0.316934,
+        "brier": 0.114041
       },
       {
         "category": "Technology",
         "n": 1508,
-        "slope_coef": 1.3361,
-        "slope_se": 0.0736,
+        "slope_coef": 1.33607,
+        "slope_se": 0.073598,
         "slope_p": 0.0,
-        "slope_ci_low": 1.1918,
-        "slope_ci_high": 1.4803,
-        "intercept": 0.223,
-        "brier": 0.0577
+        "slope_ci_low": 1.19182,
+        "slope_ci_high": 1.48032,
+        "intercept": 0.223016,
+        "brier": 0.057654
       },
       {
         "category": "Uncategorized",
         "n": 713,
-        "slope_coef": 1.1894,
-        "slope_se": 0.0907,
+        "slope_coef": 1.189365,
+        "slope_se": 0.090723,
         "slope_p": 0.0,
-        "slope_ci_low": 1.0116,
-        "slope_ci_high": 1.3672,
-        "intercept": -0.2585,
-        "brier": 0.0754
+        "slope_ci_low": 1.011552,
+        "slope_ci_high": 1.367178,
+        "intercept": -0.258544,
+        "brier": 0.075374
       },
       {
         "category": "World",
         "n": 541,
-        "slope_coef": 1.3086,
-        "slope_se": 0.1436,
+        "slope_coef": 1.308558,
+        "slope_se": 0.143632,
         "slope_p": 0.0,
-        "slope_ci_low": 1.027,
-        "slope_ci_high": 1.5901,
-        "intercept": 0.3919,
-        "brier": 0.0466
+        "slope_ci_low": 1.027044,
+        "slope_ci_high": 1.590072,
+        "intercept": 0.391857,
+        "brier": 0.046587
       }
     ],
     "slope_by_traders": [
       {
         "trader_bin": "10-19",
         "n": 3949,
-        "slope_coef": 1.2194,
-        "slope_se": 0.0427,
+        "slope_coef": 1.219398,
+        "slope_se": 0.042655,
         "slope_p": 0.0,
-        "slope_ci_low": 1.1358,
+        "slope_ci_low": 1.135795,
         "slope_ci_high": 1.303,
-        "intercept": -0.1445,
-        "brier": 0.0861
+        "intercept": -0.144468,
+        "brier": 0.086105
       },
       {
         "trader_bin": "20-49",
         "n": 3303,
-        "slope_coef": 1.2484,
-        "slope_se": 0.0477,
+        "slope_coef": 1.248417,
+        "slope_se": 0.047655,
         "slope_p": 0.0,
-        "slope_ci_low": 1.155,
-        "slope_ci_high": 1.3418,
-        "intercept": 0.0601,
-        "brier": 0.0703
+        "slope_ci_low": 1.155015,
+        "slope_ci_high": 1.341818,
+        "intercept": 0.060118,
+        "brier": 0.070301
       },
       {
         "trader_bin": "50+",
         "n": 1230,
-        "slope_coef": 1.4107,
-        "slope_se": 0.0912,
+        "slope_coef": 1.410739,
+        "slope_se": 0.09116,
         "slope_p": 0.0,
-        "slope_ci_low": 1.2321,
-        "slope_ci_high": 1.5894,
-        "intercept": 0.4893,
-        "brier": 0.0529
+        "slope_ci_low": 1.232069,
+        "slope_ci_high": 1.58941,
+        "intercept": 0.489332,
+        "brier": 0.052911
       }
     ],
     "exchange_categories_only": {
       "n": 6425,
-      "yes_rate": 0.3289,
-      "brier_price_24h": 0.064,
-      "brier_price_1h": 0.0404,
-      "brier_naive": 0.2207,
-      "log_loss_price_24h": 0.2139,
-      "log_loss_price_1h": 0.1433,
-      "log_loss_naive": 0.6334,
-      "naive_base_rate": 0.3289,
+      "yes_rate": 0.328872,
+      "brier_price_24h": 0.064034,
+      "brier_price_1h": 0.040391,
+      "brier_naive": 0.220715,
+      "log_loss_price_24h": 0.213911,
+      "log_loss_price_1h": 0.143256,
+      "log_loss_naive": 0.633377,
+      "naive_base_rate": 0.328872,
       "slope": {
-        "coef": 1.2896,
-        "se": 0.0352,
+        "coef": 1.289563,
+        "se": 0.035216,
         "p": 0.0,
-        "ci_low": 1.2205,
-        "ci_high": 1.3586
+        "ci_low": 1.220541,
+        "ci_high": 1.358585
       }
     },
     "out_of_sample": {
@@ -2655,272 +2671,272 @@
       "n_train": 5937,
       "n_test": 2545,
       "train_slope": {
-        "coef": 1.3032,
-        "se": 0.0374,
+        "coef": 1.303179,
+        "se": 0.037408,
         "p": 0.0,
-        "ci_low": 1.2299,
-        "ci_high": 1.3765
+        "ci_low": 1.229861,
+        "ci_high": 1.376496
       },
       "train_intercept": {
-        "coef": 0.0274,
-        "se": 0.065,
-        "p": 0.6738,
-        "ci_low": -0.1001,
-        "ci_high": 0.1548
+        "coef": 0.027373,
+        "se": 0.065035,
+        "p": 0.67383,
+        "ci_low": -0.100094,
+        "ci_high": 0.15484
       },
       "test_slope": {
-        "coef": 1.1491,
-        "se": 0.0467,
+        "coef": 1.149085,
+        "se": 0.046657,
         "p": 0.0,
-        "ci_low": 1.0576,
-        "ci_high": 1.2405
+        "ci_low": 1.057639,
+        "ci_high": 1.24053
       },
       "test_intercept": {
-        "coef": -0.0417,
-        "se": 0.0653,
-        "p": 0.5233,
-        "ci_low": -0.1697,
-        "ci_high": 0.0863
+        "coef": -0.041679,
+        "se": 0.065293,
+        "p": 0.52325,
+        "ci_low": -0.16965,
+        "ci_high": 0.086292
       },
-      "test_brier_raw_price": 0.0971,
-      "test_brier_recalibrated": 0.0975,
-      "test_brier_naive": 0.2699,
-      "test_log_loss_raw_price": 0.3057,
-      "test_log_loss_recalibrated": 0.3053,
-      "test_log_loss_naive": 0.7379
+      "test_brier_raw_price": 0.097124,
+      "test_brier_recalibrated": 0.097506,
+      "test_brier_naive": 0.26989,
+      "test_log_loss_raw_price": 0.305656,
+      "test_log_loss_recalibrated": 0.305301,
+      "test_log_loss_naive": 0.737875
     },
     "robustness": {
       "min_traders_5": {
         "n": 11554,
-        "yes_rate": 0.3471,
-        "brier_price_24h": 0.084,
-        "brier_price_1h": 0.062,
-        "brier_naive": 0.2266,
-        "log_loss_price_24h": 0.2714,
-        "log_loss_price_1h": 0.2062,
-        "log_loss_naive": 0.6456,
-        "naive_base_rate": 0.3471,
+        "yes_rate": 0.347066,
+        "brier_price_24h": 0.084006,
+        "brier_price_1h": 0.062049,
+        "brier_naive": 0.226611,
+        "log_loss_price_24h": 0.271396,
+        "log_loss_price_1h": 0.206179,
+        "log_loss_naive": 0.645611,
+        "naive_base_rate": 0.347066,
         "slope": {
-          "coef": 1.2559,
-          "se": 0.0296,
+          "coef": 1.255933,
+          "se": 0.029588,
           "p": 0.0,
-          "ci_low": 1.1979,
-          "ci_high": 1.3139
+          "ci_low": 1.197942,
+          "ci_high": 1.313924
         },
         "intercept": {
-          "coef": -0.0449,
-          "se": 0.0377,
-          "p": 0.2338,
-          "ci_low": -0.1188,
-          "ci_high": 0.029
+          "coef": -0.044907,
+          "se": 0.037719,
+          "p": 0.23383,
+          "ci_low": -0.118836,
+          "ci_high": 0.029022
         },
         "calibration_table": [
           {
             "bucket": "-0.0-0.1",
             "n": 4783,
-            "mean_price": 0.0348,
-            "yes_rate": 0.0136,
-            "ci_low": 0.0107,
-            "ci_high": 0.0173,
-            "gap": -0.0213
+            "mean_price": 0.034842,
+            "yes_rate": 0.01359,
+            "ci_low": 0.010677,
+            "ci_high": 0.017283,
+            "gap": -0.021252
           },
           {
             "bucket": "0.1-0.2",
             "n": 1050,
-            "mean_price": 0.142,
-            "yes_rate": 0.0914,
-            "ci_low": 0.0755,
-            "ci_high": 0.1104,
-            "gap": -0.0506
+            "mean_price": 0.142007,
+            "yes_rate": 0.091429,
+            "ci_low": 0.075453,
+            "ci_high": 0.110383,
+            "gap": -0.050579
           },
           {
             "bucket": "0.2-0.3",
             "n": 641,
-            "mean_price": 0.2472,
-            "yes_rate": 0.1997,
-            "ci_low": 0.1706,
-            "ci_high": 0.2324,
-            "gap": -0.0475
+            "mean_price": 0.247172,
+            "yes_rate": 0.199688,
+            "ci_low": 0.17057,
+            "ci_high": 0.232385,
+            "gap": -0.047484
           },
           {
             "bucket": "0.3-0.4",
             "n": 529,
-            "mean_price": 0.3503,
-            "yes_rate": 0.3497,
-            "ci_low": 0.3103,
-            "ci_high": 0.3913,
-            "gap": -0.0006
+            "mean_price": 0.35034,
+            "yes_rate": 0.349716,
+            "ci_low": 0.310294,
+            "ci_high": 0.391306,
+            "gap": -0.000623
           },
           {
             "bucket": "0.4-0.5",
             "n": 581,
-            "mean_price": 0.4575,
-            "yes_rate": 0.4441,
-            "ci_low": 0.4042,
+            "mean_price": 0.457481,
+            "yes_rate": 0.444062,
+            "ci_low": 0.404159,
             "ci_high": 0.4847,
-            "gap": -0.0134
+            "gap": -0.013419
           },
           {
             "bucket": "0.5-0.6",
             "n": 718,
-            "mean_price": 0.5404,
-            "yes_rate": 0.5251,
-            "ci_low": 0.4885,
-            "ci_high": 0.5614,
-            "gap": -0.0153
+            "mean_price": 0.540398,
+            "yes_rate": 0.52507,
+            "ci_low": 0.488506,
+            "ci_high": 0.561366,
+            "gap": -0.015328
           },
           {
             "bucket": "0.6-0.7",
             "n": 471,
-            "mean_price": 0.6507,
-            "yes_rate": 0.6773,
-            "ci_low": 0.6338,
-            "ci_high": 0.7179,
-            "gap": 0.0266
+            "mean_price": 0.650716,
+            "yes_rate": 0.677282,
+            "ci_low": 0.633773,
+            "ci_high": 0.717924,
+            "gap": 0.026567
           },
           {
             "bucket": "0.7-0.8",
             "n": 472,
-            "mean_price": 0.7498,
-            "yes_rate": 0.7733,
-            "ci_low": 0.7334,
-            "ci_high": 0.8088,
-            "gap": 0.0235
+            "mean_price": 0.749843,
+            "yes_rate": 0.773305,
+            "ci_low": 0.733414,
+            "ci_high": 0.808783,
+            "gap": 0.023462
           },
           {
             "bucket": "0.8-0.9",
             "n": 580,
-            "mean_price": 0.8532,
-            "yes_rate": 0.8862,
-            "ci_low": 0.8578,
-            "ci_high": 0.9096,
-            "gap": 0.033
+            "mean_price": 0.853235,
+            "yes_rate": 0.886207,
+            "ci_low": 0.857781,
+            "ci_high": 0.90955,
+            "gap": 0.032972
           },
           {
             "bucket": "0.9-1.0",
             "n": 1729,
-            "mean_price": 0.967,
-            "yes_rate": 0.985,
-            "ci_low": 0.9781,
-            "ci_high": 0.9897,
-            "gap": 0.0179
+            "mean_price": 0.967041,
+            "yes_rate": 0.984962,
+            "ci_low": 0.978057,
+            "ci_high": 0.989718,
+            "gap": 0.017922
           }
         ]
       },
       "min_traders_20": {
         "n": 4533,
-        "yes_rate": 0.343,
-        "brier_price_24h": 0.0656,
-        "brier_price_1h": 0.0436,
-        "brier_naive": 0.2254,
-        "log_loss_price_24h": 0.2183,
-        "log_loss_price_1h": 0.1513,
-        "log_loss_naive": 0.643,
-        "naive_base_rate": 0.343,
+        "yes_rate": 0.34304,
+        "brier_price_24h": 0.065582,
+        "brier_price_1h": 0.043628,
+        "brier_naive": 0.225364,
+        "log_loss_price_24h": 0.218282,
+        "log_loss_price_1h": 0.151344,
+        "log_loss_naive": 0.643031,
+        "naive_base_rate": 0.34304,
         "slope": {
-          "coef": 1.2852,
-          "se": 0.0425,
+          "coef": 1.285236,
+          "se": 0.042523,
           "p": 0.0,
-          "ci_low": 1.2019,
-          "ci_high": 1.3686
+          "ci_low": 1.201893,
+          "ci_high": 1.368579
         },
         "intercept": {
-          "coef": 0.1521,
-          "se": 0.068,
-          "p": 0.0254,
-          "ci_low": 0.0188,
-          "ci_high": 0.2855
+          "coef": 0.152113,
+          "se": 0.068039,
+          "p": 0.025374,
+          "ci_low": 0.018759,
+          "ci_high": 0.285468
         },
         "calibration_table": [
           {
             "bucket": "-0.0-0.1",
             "n": 2251,
-            "mean_price": 0.0311,
-            "yes_rate": 0.0107,
-            "ci_low": 0.0072,
-            "ci_high": 0.0158,
-            "gap": -0.0205
+            "mean_price": 0.031123,
+            "yes_rate": 0.010662,
+            "ci_low": 0.007175,
+            "ci_high": 0.015816,
+            "gap": -0.020461
           },
           {
             "bucket": "0.1-0.2",
             "n": 315,
-            "mean_price": 0.1391,
-            "yes_rate": 0.1556,
-            "ci_low": 0.1197,
-            "ci_high": 0.1997,
-            "gap": 0.0164
+            "mean_price": 0.139138,
+            "yes_rate": 0.155556,
+            "ci_low": 0.119707,
+            "ci_high": 0.199704,
+            "gap": 0.016418
           },
           {
             "bucket": "0.2-0.3",
             "n": 161,
-            "mean_price": 0.2496,
-            "yes_rate": 0.2112,
-            "ci_low": 0.1552,
-            "ci_high": 0.2806,
-            "gap": -0.0384
+            "mean_price": 0.24961,
+            "yes_rate": 0.21118,
+            "ci_low": 0.155241,
+            "ci_high": 0.280581,
+            "gap": -0.03843
           },
           {
             "bucket": "0.3-0.4",
             "n": 116,
-            "mean_price": 0.3468,
-            "yes_rate": 0.3017,
-            "ci_low": 0.2257,
-            "ci_high": 0.3905,
-            "gap": -0.0451
+            "mean_price": 0.346808,
+            "yes_rate": 0.301724,
+            "ci_low": 0.225654,
+            "ci_high": 0.390506,
+            "gap": -0.045083
           },
           {
             "bucket": "0.4-0.5",
             "n": 152,
-            "mean_price": 0.4628,
-            "yes_rate": 0.5197,
-            "ci_low": 0.4408,
-            "ci_high": 0.5977,
-            "gap": 0.0569
+            "mean_price": 0.462826,
+            "yes_rate": 0.519737,
+            "ci_low": 0.440807,
+            "ci_high": 0.597693,
+            "gap": 0.056911
           },
           {
             "bucket": "0.5-0.6",
             "n": 250,
-            "mean_price": 0.5309,
+            "mean_price": 0.530945,
             "yes_rate": 0.58,
-            "ci_low": 0.5181,
-            "ci_high": 0.6395,
-            "gap": 0.0491
+            "ci_low": 0.51806,
+            "ci_high": 0.639519,
+            "gap": 0.049055
           },
           {
             "bucket": "0.6-0.7",
             "n": 146,
-            "mean_price": 0.6492,
-            "yes_rate": 0.726,
-            "ci_low": 0.6486,
-            "ci_high": 0.7919,
-            "gap": 0.0768
+            "mean_price": 0.649247,
+            "yes_rate": 0.726027,
+            "ci_low": 0.648586,
+            "ci_high": 0.791879,
+            "gap": 0.076781
           },
           {
             "bucket": "0.7-0.8",
             "n": 145,
-            "mean_price": 0.748,
-            "yes_rate": 0.7862,
-            "ci_low": 0.7125,
-            "ci_high": 0.8451,
-            "gap": 0.0382
+            "mean_price": 0.747998,
+            "yes_rate": 0.786207,
+            "ci_low": 0.712541,
+            "ci_high": 0.845099,
+            "gap": 0.038209
           },
           {
             "bucket": "0.8-0.9",
             "n": 219,
-            "mean_price": 0.8535,
-            "yes_rate": 0.9178,
-            "ci_low": 0.8738,
-            "ci_high": 0.9474,
-            "gap": 0.0643
+            "mean_price": 0.853523,
+            "yes_rate": 0.917808,
+            "ci_low": 0.873831,
+            "ci_high": 0.94738,
+            "gap": 0.064285
           },
           {
             "bucket": "0.9-1.0",
             "n": 778,
-            "mean_price": 0.9694,
-            "yes_rate": 0.9871,
-            "ci_low": 0.9765,
-            "ci_high": 0.993,
-            "gap": 0.0177
+            "mean_price": 0.969431,
+            "yes_rate": 0.987147,
+            "ci_low": 0.976502,
+            "ci_high": 0.993004,
+            "gap": 0.017716
           }
         ]
       }
