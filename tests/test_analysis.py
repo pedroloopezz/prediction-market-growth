@@ -3,6 +3,7 @@
 import pandas as pd
 import pytest
 
+from pipeline.analysis.calibration import brier, log_loss, wilson
 from pipeline.analysis.demand import (
     allocate,
     bottom_share,
@@ -60,3 +61,21 @@ def test_bottom_share_is_complement_of_top():
 def test_median_ci_brackets_the_median():
     med, lo, hi = median_ci(pd.Series(range(101)))
     assert med == 50 and lo < 50 < hi
+
+
+def test_wilson_interval_known_value():
+    # 50 of 100: Wilson 95% CI is about [0.404, 0.596]
+    lo, hi = wilson(50, 100)
+    assert lo == pytest.approx(0.4038, abs=1e-3) and hi == pytest.approx(0.5962, abs=1e-3)
+
+
+def test_wilson_stays_inside_unit_interval_at_extremes():
+    lo, hi = wilson(0, 30)
+    assert lo == pytest.approx(0.0, abs=1e-12) and 0 < hi < 0.2
+
+
+def test_brier_and_log_loss_reward_better_forecasts():
+    y = pd.Series([1, 0, 1, 0])
+    good, bad = pd.Series([0.9, 0.1, 0.8, 0.2]), pd.Series([0.5, 0.5, 0.5, 0.5])
+    assert brier(good, y) < brier(bad, y) == pytest.approx(0.25)
+    assert log_loss(good, y) < log_loss(bad, y)

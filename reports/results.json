@@ -2093,5 +2093,826 @@
       "category_effects": "reports/figures/growth_category_effects.png",
       "listing_plan": "reports/figures/growth_listing_plan.png"
     }
+  },
+  "pricing": {
+    "sample": {
+      "rule": "binary, resolved YES/NO, price_24h present, >= 10 unique traders",
+      "n": 8482,
+      "yes_rate": 0.3432,
+      "near_certain_24h_share": 0.0564
+    },
+    "scores": {
+      "n": 8482,
+      "yes_rate": 0.3432,
+      "brier_price_24h": 0.0751,
+      "brier_price_1h": 0.052,
+      "brier_naive": 0.2254,
+      "log_loss_price_24h": 0.2459,
+      "log_loss_price_1h": 0.1767,
+      "log_loss_naive": 0.6431,
+      "naive_base_rate": 0.3432
+    },
+    "calibration_table_24h": [
+      {
+        "bucket": "-0.0-0.1",
+        "n": 3856,
+        "mean_price": 0.0332,
+        "yes_rate": 0.0132,
+        "ci_low": 0.0101,
+        "ci_high": 0.0173,
+        "gap": -0.0199
+      },
+      {
+        "bucket": "0.1-0.2",
+        "n": 678,
+        "mean_price": 0.1425,
+        "yes_rate": 0.1106,
+        "ci_low": 0.0892,
+        "ci_high": 0.1365,
+        "gap": -0.0319
+      },
+      {
+        "bucket": "0.2-0.3",
+        "n": 400,
+        "mean_price": 0.2472,
+        "yes_rate": 0.205,
+        "ci_low": 0.1683,
+        "ci_high": 0.2473,
+        "gap": -0.0422
+      },
+      {
+        "bucket": "0.3-0.4",
+        "n": 312,
+        "mean_price": 0.3495,
+        "yes_rate": 0.3558,
+        "ci_low": 0.3047,
+        "ci_high": 0.4104,
+        "gap": 0.0063
+      },
+      {
+        "bucket": "0.4-0.5",
+        "n": 336,
+        "mean_price": 0.4611,
+        "yes_rate": 0.4583,
+        "ci_low": 0.4058,
+        "ci_high": 0.5118,
+        "gap": -0.0028
+      },
+      {
+        "bucket": "0.5-0.6",
+        "n": 480,
+        "mean_price": 0.5358,
+        "yes_rate": 0.5167,
+        "ci_low": 0.472,
+        "ci_high": 0.5611,
+        "gap": -0.0192
+      },
+      {
+        "bucket": "0.6-0.7",
+        "n": 298,
+        "mean_price": 0.6514,
+        "yes_rate": 0.7013,
+        "ci_low": 0.6471,
+        "ci_high": 0.7505,
+        "gap": 0.0499
+      },
+      {
+        "bucket": "0.7-0.8",
+        "n": 325,
+        "mean_price": 0.7499,
+        "yes_rate": 0.7692,
+        "ci_low": 0.7204,
+        "ci_high": 0.8117,
+        "gap": 0.0193
+      },
+      {
+        "bucket": "0.8-0.9",
+        "n": 422,
+        "mean_price": 0.8522,
+        "yes_rate": 0.8839,
+        "ci_low": 0.8498,
+        "ci_high": 0.911,
+        "gap": 0.0317
+      },
+      {
+        "bucket": "0.9-1.0",
+        "n": 1375,
+        "mean_price": 0.9685,
+        "yes_rate": 0.9876,
+        "ci_low": 0.9803,
+        "ci_high": 0.9923,
+        "gap": 0.0192
+      }
+    ],
+    "calibration_table_1h": [
+      {
+        "bucket": "-0.0-0.1",
+        "n": 4292,
+        "mean_price": 0.0279,
+        "yes_rate": 0.0075,
+        "ci_low": 0.0053,
+        "ci_high": 0.0105,
+        "gap": -0.0205
+      },
+      {
+        "bucket": "0.1-0.2",
+        "n": 540,
+        "mean_price": 0.1418,
+        "yes_rate": 0.0889,
+        "ci_low": 0.0677,
+        "ci_high": 0.1159,
+        "gap": -0.0529
+      },
+      {
+        "bucket": "0.2-0.3",
+        "n": 248,
+        "mean_price": 0.2478,
+        "yes_rate": 0.1613,
+        "ci_low": 0.1207,
+        "ci_high": 0.2122,
+        "gap": -0.0865
+      },
+      {
+        "bucket": "0.3-0.4",
+        "n": 218,
+        "mean_price": 0.3473,
+        "yes_rate": 0.3578,
+        "ci_low": 0.2971,
+        "ci_high": 0.4234,
+        "gap": 0.0105
+      },
+      {
+        "bucket": "0.4-0.5",
+        "n": 214,
+        "mean_price": 0.4588,
+        "yes_rate": 0.4299,
+        "ci_low": 0.3654,
+        "ci_high": 0.4969,
+        "gap": -0.0289
+      },
+      {
+        "bucket": "0.5-0.6",
+        "n": 375,
+        "mean_price": 0.5312,
+        "yes_rate": 0.52,
+        "ci_low": 0.4695,
+        "ci_high": 0.5701,
+        "gap": -0.0112
+      },
+      {
+        "bucket": "0.6-0.7",
+        "n": 177,
+        "mean_price": 0.6527,
+        "yes_rate": 0.6893,
+        "ci_low": 0.6177,
+        "ci_high": 0.7528,
+        "gap": 0.0366
+      },
+      {
+        "bucket": "0.7-0.8",
+        "n": 235,
+        "mean_price": 0.7505,
+        "yes_rate": 0.7574,
+        "ci_low": 0.6988,
+        "ci_high": 0.8078,
+        "gap": 0.007
+      },
+      {
+        "bucket": "0.8-0.9",
+        "n": 305,
+        "mean_price": 0.8525,
+        "yes_rate": 0.8656,
+        "ci_low": 0.8227,
+        "ci_high": 0.8993,
+        "gap": 0.013
+      },
+      {
+        "bucket": "0.9-1.0",
+        "n": 1878,
+        "mean_price": 0.9749,
+        "yes_rate": 0.9915,
+        "ci_low": 0.9862,
+        "ci_high": 0.9947,
+        "gap": 0.0166
+      }
+    ],
+    "logit_simple": {
+      "label": "result ~ logit(price_24h)",
+      "n": 8482,
+      "pseudo_r2": 0.6264,
+      "n_clusters": 2391,
+      "terms": {
+        "Intercept": {
+          "coef": -0.0068,
+          "se": 0.0482,
+          "p": 0.8872,
+          "ci_low": -0.1014,
+          "ci_high": 0.0877
+        },
+        "logit_p24": {
+          "coef": 1.2502,
+          "se": 0.0305,
+          "p": 0.0,
+          "ci_low": 1.1905,
+          "ci_high": 1.3099
+        }
+      }
+    },
+    "logit_1h": {
+      "label": "result ~ logit(price_1h)",
+      "n": 8482,
+      "pseudo_r2": 0.7382,
+      "n_clusters": 2391,
+      "terms": {
+        "Intercept": {
+          "coef": -0.1013,
+          "se": 0.0535,
+          "p": 0.0585,
+          "ci_low": -0.2062,
+          "ci_high": 0.0036
+        },
+        "logit_p1": {
+          "coef": 1.3195,
+          "se": 0.0333,
+          "p": 0.0,
+          "ci_low": 1.2542,
+          "ci_high": 1.3848
+        }
+      }
+    },
+    "longshot_returns_24h": {
+      "under_10pct": {
+        "n": 3855,
+        "mean_price": 0.0331,
+        "yes_rate": 0.0132,
+        "avg_return": -0.67
+      },
+      "10_to_50pct": {
+        "n": 1727,
+        "mean_price": 0.2661,
+        "yes_rate": 0.2444,
+        "avg_return": -0.1317
+      },
+      "over_50pct": {
+        "n": 2900,
+        "mean_price": 0.8229,
+        "yes_rate": 0.8407,
+        "avg_return": 0.0195
+      }
+    },
+    "logit_full": {
+      "label": "+ category (Sports base), log volume, log duration",
+      "n": 8482,
+      "pseudo_r2": 0.6337,
+      "n_clusters": 2391,
+      "terms": {
+        "Intercept": {
+          "coef": -0.8287,
+          "se": 0.2597,
+          "p": 0.0014,
+          "ci_low": -1.3377,
+          "ci_high": -0.3198
+        },
+        "C(category, Treatment('Sports'))[T.Culture]": {
+          "coef": 0.1409,
+          "se": 0.264,
+          "p": 0.5935,
+          "ci_low": -0.3765,
+          "ci_high": 0.6582
+        },
+        "C(category, Treatment('Sports'))[T.Economics]": {
+          "coef": 0.4595,
+          "se": 0.159,
+          "p": 0.0038,
+          "ci_low": 0.148,
+          "ci_high": 0.7711
+        },
+        "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
+          "coef": 0.2286,
+          "se": 0.1461,
+          "p": 0.1177,
+          "ci_low": -0.0578,
+          "ci_high": 0.5149
+        },
+        "C(category, Treatment('Sports'))[T.Politics & law]": {
+          "coef": 0.7062,
+          "se": 0.1703,
+          "p": 0.0,
+          "ci_low": 0.3725,
+          "ci_high": 1.0399
+        },
+        "C(category, Treatment('Sports'))[T.Science]": {
+          "coef": 0.3961,
+          "se": 0.2231,
+          "p": 0.0759,
+          "ci_low": -0.0413,
+          "ci_high": 0.8334
+        },
+        "C(category, Treatment('Sports'))[T.Technology]": {
+          "coef": 0.6538,
+          "se": 0.1604,
+          "p": 0.0,
+          "ci_low": 0.3394,
+          "ci_high": 0.9681
+        },
+        "C(category, Treatment('Sports'))[T.Uncategorized]": {
+          "coef": 0.1973,
+          "se": 0.1846,
+          "p": 0.285,
+          "ci_low": -0.1644,
+          "ci_high": 0.5591
+        },
+        "C(category, Treatment('Sports'))[T.World]": {
+          "coef": 0.7505,
+          "se": 0.2287,
+          "p": 0.001,
+          "ci_low": 0.3023,
+          "ci_high": 1.1987
+        },
+        "logit_p24": {
+          "coef": 1.2615,
+          "se": 0.0318,
+          "p": 0.0,
+          "ci_low": 1.1992,
+          "ci_high": 1.3238
+        },
+        "log_volume": {
+          "coef": 0.1446,
+          "se": 0.0304,
+          "p": 0.0,
+          "ci_low": 0.085,
+          "ci_high": 0.2041
+        },
+        "log_duration": {
+          "coef": -0.1008,
+          "se": 0.0225,
+          "p": 0.0,
+          "ci_low": -0.1449,
+          "ci_high": -0.0567
+        }
+      }
+    },
+    "logit_interior_only": {
+      "label": "price_24h within [0.01, 0.99]",
+      "n": 8004,
+      "pseudo_r2": 0.606,
+      "n_clusters": 2318,
+      "terms": {
+        "Intercept": {
+          "coef": -0.0079,
+          "se": 0.0483,
+          "p": 0.8701,
+          "ci_low": -0.1025,
+          "ci_high": 0.0867
+        },
+        "logit_p24": {
+          "coef": 1.2491,
+          "se": 0.0308,
+          "p": 0.0,
+          "ci_low": 1.1888,
+          "ci_high": 1.3094
+        }
+      },
+      "n_dropped": 478
+    },
+    "slope_by_category": [
+      {
+        "category": "Culture",
+        "n": 361,
+        "slope_coef": 1.3164,
+        "slope_se": 0.1575,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.0076,
+        "slope_ci_high": 1.6251,
+        "intercept": -0.3265,
+        "brier": 0.052
+      },
+      {
+        "category": "Economics",
+        "n": 1289,
+        "slope_coef": 1.4948,
+        "slope_se": 0.1038,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.2913,
+        "slope_ci_high": 1.6984,
+        "intercept": 0.1873,
+        "brier": 0.0646
+      },
+      {
+        "category": "Personal / Manifold-meta",
+        "n": 1344,
+        "slope_coef": 1.1319,
+        "slope_se": 0.0722,
+        "slope_p": 0.0,
+        "slope_ci_low": 0.9904,
+        "slope_ci_high": 1.2734,
+        "intercept": -0.0755,
+        "brier": 0.1281
+      },
+      {
+        "category": "Politics & law",
+        "n": 1320,
+        "slope_coef": 1.2815,
+        "slope_se": 0.0733,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.1378,
+        "slope_ci_high": 1.4251,
+        "intercept": 0.3208,
+        "brier": 0.0536
+      },
+      {
+        "category": "Science",
+        "n": 551,
+        "slope_coef": 1.3015,
+        "slope_se": 0.1022,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.1011,
+        "slope_ci_high": 1.5018,
+        "intercept": -0.0521,
+        "brier": 0.0526
+      },
+      {
+        "category": "Sports",
+        "n": 855,
+        "slope_coef": 1.1109,
+        "slope_se": 0.0809,
+        "slope_p": 0.0,
+        "slope_ci_low": 0.9523,
+        "slope_ci_high": 1.2695,
+        "intercept": -0.3169,
+        "brier": 0.114
+      },
+      {
+        "category": "Technology",
+        "n": 1508,
+        "slope_coef": 1.3361,
+        "slope_se": 0.0736,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.1918,
+        "slope_ci_high": 1.4803,
+        "intercept": 0.223,
+        "brier": 0.0577
+      },
+      {
+        "category": "Uncategorized",
+        "n": 713,
+        "slope_coef": 1.1894,
+        "slope_se": 0.0907,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.0116,
+        "slope_ci_high": 1.3672,
+        "intercept": -0.2585,
+        "brier": 0.0754
+      },
+      {
+        "category": "World",
+        "n": 541,
+        "slope_coef": 1.3086,
+        "slope_se": 0.1436,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.027,
+        "slope_ci_high": 1.5901,
+        "intercept": 0.3919,
+        "brier": 0.0466
+      }
+    ],
+    "slope_by_traders": [
+      {
+        "trader_bin": "10-19",
+        "n": 3949,
+        "slope_coef": 1.2194,
+        "slope_se": 0.0427,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.1358,
+        "slope_ci_high": 1.303,
+        "intercept": -0.1445,
+        "brier": 0.0861
+      },
+      {
+        "trader_bin": "20-49",
+        "n": 3303,
+        "slope_coef": 1.2484,
+        "slope_se": 0.0477,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.155,
+        "slope_ci_high": 1.3418,
+        "intercept": 0.0601,
+        "brier": 0.0703
+      },
+      {
+        "trader_bin": "50+",
+        "n": 1230,
+        "slope_coef": 1.4107,
+        "slope_se": 0.0912,
+        "slope_p": 0.0,
+        "slope_ci_low": 1.2321,
+        "slope_ci_high": 1.5894,
+        "intercept": 0.4893,
+        "brier": 0.0529
+      }
+    ],
+    "exchange_categories_only": {
+      "n": 6425,
+      "yes_rate": 0.3289,
+      "brier_price_24h": 0.064,
+      "brier_price_1h": 0.0404,
+      "brier_naive": 0.2207,
+      "log_loss_price_24h": 0.2139,
+      "log_loss_price_1h": 0.1433,
+      "log_loss_naive": 0.6334,
+      "naive_base_rate": 0.3289,
+      "slope": {
+        "coef": 1.2896,
+        "se": 0.0352,
+        "p": 0.0,
+        "ci_low": 1.2205,
+        "ci_high": 1.3586
+      }
+    },
+    "out_of_sample": {
+      "train_period": [
+        "2024-01-04",
+        "2026-04-23"
+      ],
+      "test_period": [
+        "2026-04-23",
+        "2026-09-30"
+      ],
+      "n_train": 5937,
+      "n_test": 2545,
+      "train_slope": {
+        "coef": 1.3032,
+        "se": 0.0374,
+        "p": 0.0,
+        "ci_low": 1.2299,
+        "ci_high": 1.3765
+      },
+      "train_intercept": {
+        "coef": 0.0274,
+        "se": 0.065,
+        "p": 0.6738,
+        "ci_low": -0.1001,
+        "ci_high": 0.1548
+      },
+      "test_slope": {
+        "coef": 1.1491,
+        "se": 0.0467,
+        "p": 0.0,
+        "ci_low": 1.0576,
+        "ci_high": 1.2405
+      },
+      "test_intercept": {
+        "coef": -0.0417,
+        "se": 0.0653,
+        "p": 0.5233,
+        "ci_low": -0.1697,
+        "ci_high": 0.0863
+      },
+      "test_brier_raw_price": 0.0971,
+      "test_brier_recalibrated": 0.0975,
+      "test_brier_naive": 0.2699,
+      "test_log_loss_raw_price": 0.3057,
+      "test_log_loss_recalibrated": 0.3053,
+      "test_log_loss_naive": 0.7379
+    },
+    "robustness": {
+      "min_traders_5": {
+        "n": 11554,
+        "yes_rate": 0.3471,
+        "brier_price_24h": 0.084,
+        "brier_price_1h": 0.062,
+        "brier_naive": 0.2266,
+        "log_loss_price_24h": 0.2714,
+        "log_loss_price_1h": 0.2062,
+        "log_loss_naive": 0.6456,
+        "naive_base_rate": 0.3471,
+        "slope": {
+          "coef": 1.2559,
+          "se": 0.0296,
+          "p": 0.0,
+          "ci_low": 1.1979,
+          "ci_high": 1.3139
+        },
+        "intercept": {
+          "coef": -0.0449,
+          "se": 0.0377,
+          "p": 0.2338,
+          "ci_low": -0.1188,
+          "ci_high": 0.029
+        },
+        "calibration_table": [
+          {
+            "bucket": "-0.0-0.1",
+            "n": 4783,
+            "mean_price": 0.0348,
+            "yes_rate": 0.0136,
+            "ci_low": 0.0107,
+            "ci_high": 0.0173,
+            "gap": -0.0213
+          },
+          {
+            "bucket": "0.1-0.2",
+            "n": 1050,
+            "mean_price": 0.142,
+            "yes_rate": 0.0914,
+            "ci_low": 0.0755,
+            "ci_high": 0.1104,
+            "gap": -0.0506
+          },
+          {
+            "bucket": "0.2-0.3",
+            "n": 641,
+            "mean_price": 0.2472,
+            "yes_rate": 0.1997,
+            "ci_low": 0.1706,
+            "ci_high": 0.2324,
+            "gap": -0.0475
+          },
+          {
+            "bucket": "0.3-0.4",
+            "n": 529,
+            "mean_price": 0.3503,
+            "yes_rate": 0.3497,
+            "ci_low": 0.3103,
+            "ci_high": 0.3913,
+            "gap": -0.0006
+          },
+          {
+            "bucket": "0.4-0.5",
+            "n": 581,
+            "mean_price": 0.4575,
+            "yes_rate": 0.4441,
+            "ci_low": 0.4042,
+            "ci_high": 0.4847,
+            "gap": -0.0134
+          },
+          {
+            "bucket": "0.5-0.6",
+            "n": 718,
+            "mean_price": 0.5404,
+            "yes_rate": 0.5251,
+            "ci_low": 0.4885,
+            "ci_high": 0.5614,
+            "gap": -0.0153
+          },
+          {
+            "bucket": "0.6-0.7",
+            "n": 471,
+            "mean_price": 0.6507,
+            "yes_rate": 0.6773,
+            "ci_low": 0.6338,
+            "ci_high": 0.7179,
+            "gap": 0.0266
+          },
+          {
+            "bucket": "0.7-0.8",
+            "n": 472,
+            "mean_price": 0.7498,
+            "yes_rate": 0.7733,
+            "ci_low": 0.7334,
+            "ci_high": 0.8088,
+            "gap": 0.0235
+          },
+          {
+            "bucket": "0.8-0.9",
+            "n": 580,
+            "mean_price": 0.8532,
+            "yes_rate": 0.8862,
+            "ci_low": 0.8578,
+            "ci_high": 0.9096,
+            "gap": 0.033
+          },
+          {
+            "bucket": "0.9-1.0",
+            "n": 1729,
+            "mean_price": 0.967,
+            "yes_rate": 0.985,
+            "ci_low": 0.9781,
+            "ci_high": 0.9897,
+            "gap": 0.0179
+          }
+        ]
+      },
+      "min_traders_20": {
+        "n": 4533,
+        "yes_rate": 0.343,
+        "brier_price_24h": 0.0656,
+        "brier_price_1h": 0.0436,
+        "brier_naive": 0.2254,
+        "log_loss_price_24h": 0.2183,
+        "log_loss_price_1h": 0.1513,
+        "log_loss_naive": 0.643,
+        "naive_base_rate": 0.343,
+        "slope": {
+          "coef": 1.2852,
+          "se": 0.0425,
+          "p": 0.0,
+          "ci_low": 1.2019,
+          "ci_high": 1.3686
+        },
+        "intercept": {
+          "coef": 0.1521,
+          "se": 0.068,
+          "p": 0.0254,
+          "ci_low": 0.0188,
+          "ci_high": 0.2855
+        },
+        "calibration_table": [
+          {
+            "bucket": "-0.0-0.1",
+            "n": 2251,
+            "mean_price": 0.0311,
+            "yes_rate": 0.0107,
+            "ci_low": 0.0072,
+            "ci_high": 0.0158,
+            "gap": -0.0205
+          },
+          {
+            "bucket": "0.1-0.2",
+            "n": 315,
+            "mean_price": 0.1391,
+            "yes_rate": 0.1556,
+            "ci_low": 0.1197,
+            "ci_high": 0.1997,
+            "gap": 0.0164
+          },
+          {
+            "bucket": "0.2-0.3",
+            "n": 161,
+            "mean_price": 0.2496,
+            "yes_rate": 0.2112,
+            "ci_low": 0.1552,
+            "ci_high": 0.2806,
+            "gap": -0.0384
+          },
+          {
+            "bucket": "0.3-0.4",
+            "n": 116,
+            "mean_price": 0.3468,
+            "yes_rate": 0.3017,
+            "ci_low": 0.2257,
+            "ci_high": 0.3905,
+            "gap": -0.0451
+          },
+          {
+            "bucket": "0.4-0.5",
+            "n": 152,
+            "mean_price": 0.4628,
+            "yes_rate": 0.5197,
+            "ci_low": 0.4408,
+            "ci_high": 0.5977,
+            "gap": 0.0569
+          },
+          {
+            "bucket": "0.5-0.6",
+            "n": 250,
+            "mean_price": 0.5309,
+            "yes_rate": 0.58,
+            "ci_low": 0.5181,
+            "ci_high": 0.6395,
+            "gap": 0.0491
+          },
+          {
+            "bucket": "0.6-0.7",
+            "n": 146,
+            "mean_price": 0.6492,
+            "yes_rate": 0.726,
+            "ci_low": 0.6486,
+            "ci_high": 0.7919,
+            "gap": 0.0768
+          },
+          {
+            "bucket": "0.7-0.8",
+            "n": 145,
+            "mean_price": 0.748,
+            "yes_rate": 0.7862,
+            "ci_low": 0.7125,
+            "ci_high": 0.8451,
+            "gap": 0.0382
+          },
+          {
+            "bucket": "0.8-0.9",
+            "n": 219,
+            "mean_price": 0.8535,
+            "yes_rate": 0.9178,
+            "ci_low": 0.8738,
+            "ci_high": 0.9474,
+            "gap": 0.0643
+          },
+          {
+            "bucket": "0.9-1.0",
+            "n": 778,
+            "mean_price": 0.9694,
+            "yes_rate": 0.9871,
+            "ci_low": 0.9765,
+            "ci_high": 0.993,
+            "gap": 0.0177
+          }
+        ]
+      }
+    },
+    "figures": {
+      "reliability": "reports/figures/pricing_reliability.png"
+    }
   }
 }

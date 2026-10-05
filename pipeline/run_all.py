@@ -21,6 +21,7 @@ STEPS = [
     ("warehouse: build", [sys.executable, "-m", "pipeline.warehouse.build"]),
     ("tests: parsers + data quality", [sys.executable, "-m", "pytest", "-q"]),
     ("analysis: growth", [sys.executable, "-m", "pipeline.analysis.demand"]),
+    ("analysis: pricing", [sys.executable, "-m", "pipeline.analysis.calibration"]),
 ]
 
 
