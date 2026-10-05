@@ -1971,120 +1971,134 @@
       "plan": [
         {
           "category": "Technology",
-          "current_per_100": 17.3059,
+          "current_share": 0.1731,
+          "current_per_100": 17,
           "trader_share": 0.2167,
           "median_traders": 17.0,
           "plan_first_100": 22,
-          "change": 4.6941
+          "change": 5
         },
         {
           "category": "Politics & law",
-          "current_per_100": 18.5521,
+          "current_share": 0.1855,
+          "current_per_100": 19,
           "trader_share": 0.2067,
           "median_traders": 14.0,
           "plan_first_100": 21,
-          "change": 2.4479
+          "change": 2
         },
         {
           "category": "Sports",
-          "current_per_100": 25.5,
+          "current_share": 0.255,
+          "current_per_100": 25,
           "trader_share": 0.2115,
           "median_traders": 10.0,
           "plan_first_100": 21,
-          "change": -4.5
+          "change": -4
         },
         {
           "category": "Economics",
-          "current_per_100": 17.5065,
+          "current_share": 0.1751,
+          "current_per_100": 17,
           "trader_share": 0.1714,
           "median_traders": 12.0,
           "plan_first_100": 17,
-          "change": -0.5065
+          "change": 0
         },
         {
           "category": "World",
-          "current_per_100": 5.9267,
+          "current_share": 0.0593,
+          "current_per_100": 6,
           "trader_share": 0.0748,
           "median_traders": 17.0,
           "plan_first_100": 7,
-          "change": 1.0733
+          "change": 1
         },
         {
           "category": "Science",
-          "current_per_100": 7.5193,
+          "current_share": 0.0752,
+          "current_per_100": 8,
           "trader_share": 0.0693,
           "median_traders": 13.0,
           "plan_first_100": 7,
-          "change": -0.5193
+          "change": -1
         },
         {
           "category": "Culture",
-          "current_per_100": 7.6895,
+          "current_share": 0.0769,
+          "current_per_100": 8,
           "trader_share": 0.0496,
           "median_traders": 10.0,
           "plan_first_100": 5,
-          "change": -2.6895
+          "change": -3
         }
       ],
       "robust_category_alt": [
         {
           "category_alt": "Politics & law",
-          "current_per_100": 21.8102,
+          "current_share": 0.2181,
+          "current_per_100": 22,
           "trader_share": 0.2498,
           "median_traders": 14.0,
           "plan_first_100": 25,
-          "change": 3.1898
+          "change": 3
         },
         {
           "category_alt": "Technology",
-          "current_per_100": 17.3059,
+          "current_share": 0.1731,
+          "current_per_100": 17,
           "trader_share": 0.2167,
           "median_traders": 17.0,
           "plan_first_100": 22,
-          "change": 4.6941
+          "change": 5
         },
         {
           "category_alt": "Sports",
-          "current_per_100": 25.5,
+          "current_share": 0.255,
+          "current_per_100": 25,
           "trader_share": 0.2115,
           "median_traders": 10.0,
           "plan_first_100": 21,
-          "change": -4.5
+          "change": -4
         },
         {
           "category_alt": "Economics",
-          "current_per_100": 14.2484,
+          "current_share": 0.1425,
+          "current_per_100": 14,
           "trader_share": 0.1282,
           "median_traders": 12.0,
           "plan_first_100": 13,
-          "change": -1.2484
+          "change": -1
         },
         {
           "category_alt": "World",
-          "current_per_100": 5.9267,
+          "current_share": 0.0593,
+          "current_per_100": 6,
           "trader_share": 0.0748,
           "median_traders": 17.0,
           "plan_first_100": 7,
-          "change": 1.0733
+          "change": 1
         },
         {
           "category_alt": "Science",
-          "current_per_100": 7.5193,
+          "current_share": 0.0752,
+          "current_per_100": 8,
           "trader_share": 0.0693,
           "median_traders": 13.0,
           "plan_first_100": 7,
-          "change": -0.5193
+          "change": -1
         },
         {
           "category_alt": "Culture",
-          "current_per_100": 7.6895,
+          "current_share": 0.0769,
+          "current_per_100": 8,
           "trader_share": 0.0496,
           "median_traders": 10.0,
           "plan_first_100": 5,
-          "change": -2.6895
+          "change": -3
         }
       ],
-      "listings_moved_per_100": 8.2153
+      "listings_moved_per_100": 8
     },
     "figures": {
       "concentration": "reports/figures/growth_concentration.png",

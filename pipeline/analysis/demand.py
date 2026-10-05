@@ -147,7 +147,10 @@ def listing_plan(df: pd.DataFrame, category_col: str = "category") -> pd.DataFra
     mix = listing_mix(real, [category_col])
     plan = pd.DataFrame(
         {
-            "current_per_100": mix.share_listings * 100,  # Manifold's mix, exchange categories only
+            # Manifold's current mix (exchange categories only), rounded by the same
+            # largest-remainder rule as the plan: whole listings that sum to exactly 100
+            "current_share": mix.share_listings,
+            "current_per_100": allocate(mix.share_listings, floor=0),
             "trader_share": mix.share_traders,
             "median_traders": mix.median_traders,
         }
@@ -461,7 +464,7 @@ def fig_listing_plan(plan: pd.DataFrame, n: int) -> str:
     ax.barh(y + h / 2 + 0.02, t.current_per_100, h, color=MUTED)
     ax.barh(y - h / 2 - 0.02, t.plan_first_100, h, color=BLUE)
     for yi, (cur, new) in enumerate(zip(t.current_per_100, t.plan_first_100, strict=True)):
-        ax.text(cur + 0.3, yi + h / 2 + 0.02, f"{cur:.0f}", va="center", fontsize=8, color=TEXT_2)
+        ax.text(cur + 0.3, yi + h / 2 + 0.02, f"{cur}", va="center", fontsize=8, color=TEXT_2)
         ax.text(
             new + 0.3,
             yi - h / 2 - 0.02,

@@ -8,6 +8,7 @@ from pipeline.analysis.demand import (
     allocate,
     bottom_share,
     gini,
+    listing_plan,
     median_ci,
     share_of_markets_for,
     top_share,
@@ -79,3 +80,21 @@ def test_brier_and_log_loss_reward_better_forecasts():
     good, bad = pd.Series([0.9, 0.1, 0.8, 0.2]), pd.Series([0.5, 0.5, 0.5, 0.5])
     assert brier(good, y) < brier(bad, y) == pytest.approx(0.25)
     assert log_loss(good, y) < log_loss(bad, y)
+
+
+def test_listing_plan_columns_are_whole_listings_summing_to_100():
+    df = pd.DataFrame(
+        {
+            "category": ["Sports"] * 5
+            + ["Technology"] * 3
+            + ["Culture"] * 2
+            + ["Uncategorized"] * 4,
+            "unique_traders": [10] * 5 + [30] * 3 + [5] * 2 + [1] * 4,
+            "volume": [1.0] * 14,
+        }
+    )
+    plan = listing_plan(df)
+    for col in ("current_per_100", "plan_first_100"):
+        assert pd.api.types.is_integer_dtype(plan[col]), col  # whole listings, not shares
+        assert plan[col].sum() == 100, col
+    assert "Uncategorized" not in plan.index
