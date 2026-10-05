@@ -1,0 +1,1695 @@
+{
+  "growth": {
+    "n_markets": 25036,
+    "metric_note": "unique_traders summed across markets = trader-market participations",
+    "concentration": {
+      "overall": {
+        "markets": 25036,
+        "traders": {
+          "share_of_markets_for_80pct": 0.3589,
+          "top_10pct_share": 0.5034,
+          "top_1pct_share": 0.1752,
+          "gini": 0.6203
+        },
+        "volume": {
+          "share_of_markets_for_80pct": 0.105,
+          "top_10pct_share": 0.7928,
+          "top_1pct_share": 0.4396,
+          "gini": 0.8657
+        }
+      },
+      "by_category": {
+        "Culture": {
+          "markets": 1265,
+          "traders": {
+            "share_of_markets_for_80pct": 0.4482,
+            "top_10pct_share": 0.4075,
+            "top_1pct_share": 0.1161,
+            "gini": 0.5235
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1771,
+            "top_10pct_share": 0.6743,
+            "top_1pct_share": 0.2798,
+            "gini": 0.7882
+          }
+        },
+        "Economics": {
+          "markets": 2880,
+          "traders": {
+            "share_of_markets_for_80pct": 0.3726,
+            "top_10pct_share": 0.4913,
+            "top_1pct_share": 0.1874,
+            "gini": 0.6064
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1281,
+            "top_10pct_share": 0.76,
+            "top_1pct_share": 0.4364,
+            "gini": 0.8491
+          }
+        },
+        "Personal / Manifold-meta": {
+          "markets": 5036,
+          "traders": {
+            "share_of_markets_for_80pct": 0.4237,
+            "top_10pct_share": 0.4344,
+            "top_1pct_share": 0.1415,
+            "gini": 0.5546
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.0743,
+            "top_10pct_share": 0.8381,
+            "top_1pct_share": 0.5282,
+            "gini": 0.8917
+          }
+        },
+        "Politics & law": {
+          "markets": 3052,
+          "traders": {
+            "share_of_markets_for_80pct": 0.3503,
+            "top_10pct_share": 0.5263,
+            "top_1pct_share": 0.1853,
+            "gini": 0.6334
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1229,
+            "top_10pct_share": 0.7719,
+            "top_1pct_share": 0.4138,
+            "gini": 0.8455
+          }
+        },
+        "Science": {
+          "markets": 1237,
+          "traders": {
+            "share_of_markets_for_80pct": 0.4196,
+            "top_10pct_share": 0.44,
+            "top_1pct_share": 0.1334,
+            "gini": 0.5541
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1876,
+            "top_10pct_share": 0.6839,
+            "top_1pct_share": 0.3035,
+            "gini": 0.7933
+          }
+        },
+        "Sports": {
+          "markets": 4195,
+          "traders": {
+            "share_of_markets_for_80pct": 0.3554,
+            "top_10pct_share": 0.5148,
+            "top_1pct_share": 0.1506,
+            "gini": 0.622
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1154,
+            "top_10pct_share": 0.7761,
+            "top_1pct_share": 0.3547,
+            "gini": 0.8531
+          }
+        },
+        "Technology": {
+          "markets": 2847,
+          "traders": {
+            "share_of_markets_for_80pct": 0.3952,
+            "top_10pct_share": 0.4617,
+            "top_1pct_share": 0.1463,
+            "gini": 0.5798
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1096,
+            "top_10pct_share": 0.7885,
+            "top_1pct_share": 0.485,
+            "gini": 0.8555
+          }
+        },
+        "Uncategorized": {
+          "markets": 3549,
+          "traders": {
+            "share_of_markets_for_80pct": 0.3305,
+            "top_10pct_share": 0.5336,
+            "top_1pct_share": 0.2193,
+            "gini": 0.6531
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.0733,
+            "top_10pct_share": 0.8432,
+            "top_1pct_share": 0.5508,
+            "gini": 0.8944
+          }
+        },
+        "World": {
+          "markets": 975,
+          "traders": {
+            "share_of_markets_for_80pct": 0.3774,
+            "top_10pct_share": 0.499,
+            "top_1pct_share": 0.1799,
+            "gini": 0.6074
+          },
+          "volume": {
+            "share_of_markets_for_80pct": 0.1579,
+            "top_10pct_share": 0.7165,
+            "top_1pct_share": 0.266,
+            "gini": 0.8113
+          }
+        }
+      },
+      "zero_trader_markets": 667,
+      "zero_trader_share": 0.0266
+    },
+    "listing_mix": {
+      "by_category": [
+        {
+          "category": "World",
+          "listings": 975,
+          "traders": 31935,
+          "volume": 10990999.1844,
+          "median_traders": 17.0,
+          "mean_traders": 32.7538,
+          "zero_trader_share": 0.0082,
+          "share_listings": 0.0389,
+          "share_traders": 0.0592,
+          "share_volume": 0.036,
+          "engagement_index": 1.5206
+        },
+        {
+          "category": "Technology",
+          "listings": 2847,
+          "traders": 92552,
+          "volume": 55964216.0341,
+          "median_traders": 17.0,
+          "mean_traders": 32.5086,
+          "zero_trader_share": 0.0105,
+          "share_listings": 0.1137,
+          "share_traders": 0.1716,
+          "share_volume": 0.1832,
+          "engagement_index": 1.5092
+        },
+        {
+          "category": "Politics & law",
+          "listings": 3052,
+          "traders": 88255,
+          "volume": 43785730.6114,
+          "median_traders": 14.0,
+          "mean_traders": 28.9171,
+          "zero_trader_share": 0.0206,
+          "share_listings": 0.1219,
+          "share_traders": 0.1636,
+          "share_volume": 0.1433,
+          "engagement_index": 1.3424
+        },
+        {
+          "category": "Economics",
+          "listings": 2880,
+          "traders": 73189,
+          "volume": 47443480.5198,
+          "median_traders": 12.0,
+          "mean_traders": 25.4128,
+          "zero_trader_share": 0.0174,
+          "share_listings": 0.115,
+          "share_traders": 0.1357,
+          "share_volume": 0.1553,
+          "engagement_index": 1.1798
+        },
+        {
+          "category": "Science",
+          "listings": 1237,
+          "traders": 29579,
+          "volume": 14236244.9513,
+          "median_traders": 13.0,
+          "mean_traders": 23.9119,
+          "zero_trader_share": 0.017,
+          "share_listings": 0.0494,
+          "share_traders": 0.0548,
+          "share_volume": 0.0466,
+          "engagement_index": 1.1101
+        },
+        {
+          "category": "Sports",
+          "listings": 4195,
+          "traders": 90330,
+          "volume": 69182496.415,
+          "median_traders": 10.0,
+          "mean_traders": 21.5328,
+          "zero_trader_share": 0.0198,
+          "share_listings": 0.1676,
+          "share_traders": 0.1675,
+          "share_volume": 0.2265,
+          "engagement_index": 0.9996
+        },
+        {
+          "category": "Culture",
+          "listings": 1265,
+          "traders": 21178,
+          "volume": 8506919.9362,
+          "median_traders": 10.0,
+          "mean_traders": 16.7415,
+          "zero_trader_share": 0.0166,
+          "share_listings": 0.0505,
+          "share_traders": 0.0393,
+          "share_volume": 0.0278,
+          "engagement_index": 0.7772
+        },
+        {
+          "category": "Personal / Manifold-meta",
+          "listings": 5036,
+          "traders": 70568,
+          "volume": 36845464.555,
+          "median_traders": 8.0,
+          "mean_traders": 14.0127,
+          "zero_trader_share": 0.0324,
+          "share_listings": 0.2012,
+          "share_traders": 0.1309,
+          "share_volume": 0.1206,
+          "engagement_index": 0.6505
+        },
+        {
+          "category": "Uncategorized",
+          "listings": 3549,
+          "traders": 41709,
+          "volume": 18520245.2012,
+          "median_traders": 5.0,
+          "mean_traders": 11.7523,
+          "zero_trader_share": 0.0642,
+          "share_listings": 0.1418,
+          "share_traders": 0.0773,
+          "share_volume": 0.0606,
+          "engagement_index": 0.5456
+        }
+      ],
+      "by_category_alt_ordering": [
+        {
+          "category_alt": "World",
+          "listings": 975,
+          "traders": 31935,
+          "volume": 10990999.1844,
+          "median_traders": 17.0,
+          "mean_traders": 32.7538,
+          "zero_trader_share": 0.0082,
+          "share_listings": 0.0389,
+          "share_traders": 0.0592,
+          "share_volume": 0.036,
+          "engagement_index": 1.5206
+        },
+        {
+          "category_alt": "Technology",
+          "listings": 2847,
+          "traders": 92552,
+          "volume": 55964216.0341,
+          "median_traders": 17.0,
+          "mean_traders": 32.5086,
+          "zero_trader_share": 0.0105,
+          "share_listings": 0.1137,
+          "share_traders": 0.1716,
+          "share_volume": 0.1832,
+          "engagement_index": 1.5092
+        },
+        {
+          "category_alt": "Politics & law",
+          "listings": 3588,
+          "traders": 106689,
+          "volume": 55654383.25,
+          "median_traders": 14.0,
+          "mean_traders": 29.7349,
+          "zero_trader_share": 0.0192,
+          "share_listings": 0.1433,
+          "share_traders": 0.1978,
+          "share_volume": 0.1822,
+          "engagement_index": 1.3804
+        },
+        {
+          "category_alt": "Science",
+          "listings": 1237,
+          "traders": 29579,
+          "volume": 14236244.9513,
+          "median_traders": 13.0,
+          "mean_traders": 23.9119,
+          "zero_trader_share": 0.017,
+          "share_listings": 0.0494,
+          "share_traders": 0.0548,
+          "share_volume": 0.0466,
+          "engagement_index": 1.1101
+        },
+        {
+          "category_alt": "Economics",
+          "listings": 2344,
+          "traders": 54755,
+          "volume": 35574827.8812,
+          "median_traders": 12.0,
+          "mean_traders": 23.3596,
+          "zero_trader_share": 0.0188,
+          "share_listings": 0.0936,
+          "share_traders": 0.1015,
+          "share_volume": 0.1165,
+          "engagement_index": 1.0844
+        },
+        {
+          "category_alt": "Sports",
+          "listings": 4195,
+          "traders": 90330,
+          "volume": 69182496.415,
+          "median_traders": 10.0,
+          "mean_traders": 21.5328,
+          "zero_trader_share": 0.0198,
+          "share_listings": 0.1676,
+          "share_traders": 0.1675,
+          "share_volume": 0.2265,
+          "engagement_index": 0.9996
+        },
+        {
+          "category_alt": "Culture",
+          "listings": 1265,
+          "traders": 21178,
+          "volume": 8506919.9362,
+          "median_traders": 10.0,
+          "mean_traders": 16.7415,
+          "zero_trader_share": 0.0166,
+          "share_listings": 0.0505,
+          "share_traders": 0.0393,
+          "share_volume": 0.0278,
+          "engagement_index": 0.7772
+        },
+        {
+          "category_alt": "Personal / Manifold-meta",
+          "listings": 5036,
+          "traders": 70568,
+          "volume": 36845464.555,
+          "median_traders": 8.0,
+          "mean_traders": 14.0127,
+          "zero_trader_share": 0.0324,
+          "share_listings": 0.2012,
+          "share_traders": 0.1309,
+          "share_volume": 0.1206,
+          "engagement_index": 0.6505
+        },
+        {
+          "category_alt": "Uncategorized",
+          "listings": 3549,
+          "traders": 41709,
+          "volume": 18520245.2012,
+          "median_traders": 5.0,
+          "mean_traders": 11.7523,
+          "zero_trader_share": 0.0642,
+          "share_listings": 0.1418,
+          "share_traders": 0.0773,
+          "share_volume": 0.0606,
+          "engagement_index": 0.5456
+        }
+      ],
+      "by_market_type": [
+        {
+          "market_type": "multi-outcome",
+          "listings": 8164,
+          "traders": 179402,
+          "volume": 130599494.5519,
+          "median_traders": 10.0,
+          "mean_traders": 21.9748,
+          "zero_trader_share": 0.0312,
+          "share_listings": 0.3261,
+          "share_traders": 0.3327,
+          "share_volume": 0.4275,
+          "engagement_index": 1.0201
+        },
+        {
+          "market_type": "binary",
+          "listings": 16832,
+          "traders": 359510,
+          "volume": 174790199.2354,
+          "median_traders": 11.0,
+          "mean_traders": 21.3587,
+          "zero_trader_share": 0.0244,
+          "share_listings": 0.6723,
+          "share_traders": 0.6666,
+          "share_volume": 0.5722,
+          "engagement_index": 0.9915
+        },
+        {
+          "market_type": "numeric",
+          "listings": 40,
+          "traders": 383,
+          "volume": 86103.6211,
+          "median_traders": 5.5,
+          "mean_traders": 9.575,
+          "zero_trader_share": 0.05,
+          "share_listings": 0.0016,
+          "share_traders": 0.0007,
+          "share_volume": 0.0003,
+          "engagement_index": 0.4445
+        }
+      ],
+      "by_category_and_type": [
+        {
+          "category": "World",
+          "market_type": "binary",
+          "listings": 763,
+          "traders": 26171,
+          "volume": 9068210.7118,
+          "median_traders": 17.0,
+          "mean_traders": 34.3001,
+          "zero_trader_share": 0.0066,
+          "share_listings": 0.0305,
+          "share_traders": 0.0485,
+          "share_volume": 0.0297,
+          "engagement_index": 1.5923
+        },
+        {
+          "category": "Technology",
+          "market_type": "binary",
+          "listings": 2118,
+          "traders": 70889,
+          "volume": 44144187.7111,
+          "median_traders": 18.0,
+          "mean_traders": 33.4698,
+          "zero_trader_share": 0.0057,
+          "share_listings": 0.0846,
+          "share_traders": 0.1314,
+          "share_volume": 0.1445,
+          "engagement_index": 1.5538
+        },
+        {
+          "category": "Politics & law",
+          "market_type": "binary",
+          "listings": 2003,
+          "traders": 61613,
+          "volume": 27562715.7674,
+          "median_traders": 15.0,
+          "mean_traders": 30.7604,
+          "zero_trader_share": 0.0125,
+          "share_listings": 0.08,
+          "share_traders": 0.1142,
+          "share_volume": 0.0902,
+          "engagement_index": 1.428
+        },
+        {
+          "category": "Technology",
+          "market_type": "multi-outcome",
+          "listings": 721,
+          "traders": 21550,
+          "volume": 11793207.6881,
+          "median_traders": 15.0,
+          "mean_traders": 29.889,
+          "zero_trader_share": 0.025,
+          "share_listings": 0.0288,
+          "share_traders": 0.04,
+          "share_volume": 0.0386,
+          "engagement_index": 1.3876
+        },
+        {
+          "category": "Sports",
+          "market_type": "numeric",
+          "listings": 1,
+          "traders": 28,
+          "volume": 7563.9041,
+          "median_traders": 28.0,
+          "mean_traders": 28.0,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0,
+          "share_traders": 0.0001,
+          "share_volume": 0.0,
+          "engagement_index": 1.2999
+        },
+        {
+          "category": "World",
+          "market_type": "multi-outcome",
+          "listings": 212,
+          "traders": 5764,
+          "volume": 1922788.4726,
+          "median_traders": 12.0,
+          "mean_traders": 27.1887,
+          "zero_trader_share": 0.0142,
+          "share_listings": 0.0085,
+          "share_traders": 0.0107,
+          "share_volume": 0.0063,
+          "engagement_index": 1.2622
+        },
+        {
+          "category": "Economics",
+          "market_type": "binary",
+          "listings": 2173,
+          "traders": 58407,
+          "volume": 37741604.7072,
+          "median_traders": 12.0,
+          "mean_traders": 26.8785,
+          "zero_trader_share": 0.0133,
+          "share_listings": 0.0868,
+          "share_traders": 0.1083,
+          "share_volume": 0.1236,
+          "engagement_index": 1.2478
+        },
+        {
+          "category": "Sports",
+          "market_type": "multi-outcome",
+          "listings": 2293,
+          "traders": 61027,
+          "volume": 58426319.9802,
+          "median_traders": 11.0,
+          "mean_traders": 26.6145,
+          "zero_trader_share": 0.0122,
+          "share_listings": 0.0916,
+          "share_traders": 0.1132,
+          "share_volume": 0.1913,
+          "engagement_index": 1.2355
+        },
+        {
+          "category": "Science",
+          "market_type": "binary",
+          "listings": 835,
+          "traders": 21459,
+          "volume": 7932915.7733,
+          "median_traders": 14.0,
+          "mean_traders": 25.6994,
+          "zero_trader_share": 0.0096,
+          "share_listings": 0.0334,
+          "share_traders": 0.0398,
+          "share_volume": 0.026,
+          "engagement_index": 1.1931
+        },
+        {
+          "category": "Politics & law",
+          "market_type": "multi-outcome",
+          "listings": 1046,
+          "traders": 26623,
+          "volume": 16222624.9154,
+          "median_traders": 11.0,
+          "mean_traders": 25.4522,
+          "zero_trader_share": 0.0363,
+          "share_listings": 0.0418,
+          "share_traders": 0.0494,
+          "share_volume": 0.0531,
+          "engagement_index": 1.1816
+        },
+        {
+          "category": "Economics",
+          "market_type": "multi-outcome",
+          "listings": 703,
+          "traders": 14738,
+          "volume": 9699989.1292,
+          "median_traders": 12.0,
+          "mean_traders": 20.9644,
+          "zero_trader_share": 0.0299,
+          "share_listings": 0.0281,
+          "share_traders": 0.0273,
+          "share_volume": 0.0318,
+          "engagement_index": 0.9732
+        },
+        {
+          "category": "Science",
+          "market_type": "multi-outcome",
+          "listings": 399,
+          "traders": 8101,
+          "volume": 6302343.8131,
+          "median_traders": 12.0,
+          "mean_traders": 20.3033,
+          "zero_trader_share": 0.0326,
+          "share_listings": 0.0159,
+          "share_traders": 0.015,
+          "share_volume": 0.0206,
+          "engagement_index": 0.9425
+        },
+        {
+          "category": "Culture",
+          "market_type": "multi-outcome",
+          "listings": 514,
+          "traders": 8967,
+          "volume": 4471787.3879,
+          "median_traders": 11.0,
+          "mean_traders": 17.4455,
+          "zero_trader_share": 0.0253,
+          "share_listings": 0.0205,
+          "share_traders": 0.0166,
+          "share_volume": 0.0146,
+          "engagement_index": 0.8099
+        },
+        {
+          "category": "Culture",
+          "market_type": "binary",
+          "listings": 750,
+          "traders": 12206,
+          "volume": 4009989.0699,
+          "median_traders": 10.0,
+          "mean_traders": 16.2747,
+          "zero_trader_share": 0.0107,
+          "share_listings": 0.03,
+          "share_traders": 0.0226,
+          "share_volume": 0.0131,
+          "engagement_index": 0.7555
+        },
+        {
+          "category": "Sports",
+          "market_type": "binary",
+          "listings": 1901,
+          "traders": 29275,
+          "volume": 10748612.5307,
+          "median_traders": 9.0,
+          "mean_traders": 15.3998,
+          "zero_trader_share": 0.0289,
+          "share_listings": 0.0759,
+          "share_traders": 0.0543,
+          "share_volume": 0.0352,
+          "engagement_index": 0.7149
+        },
+        {
+          "category": "Personal / Manifold-meta",
+          "market_type": "multi-outcome",
+          "listings": 1318,
+          "traders": 19755,
+          "volume": 13659747.0542,
+          "median_traders": 8.0,
+          "mean_traders": 14.9886,
+          "zero_trader_share": 0.0319,
+          "share_listings": 0.0526,
+          "share_traders": 0.0366,
+          "share_volume": 0.0447,
+          "engagement_index": 0.6958
+        },
+        {
+          "category": "Technology",
+          "market_type": "numeric",
+          "listings": 8,
+          "traders": 113,
+          "volume": 26820.6349,
+          "median_traders": 11.0,
+          "mean_traders": 14.125,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0003,
+          "share_traders": 0.0002,
+          "share_volume": 0.0001,
+          "engagement_index": 0.6557
+        },
+        {
+          "category": "Personal / Manifold-meta",
+          "market_type": "binary",
+          "listings": 3715,
+          "traders": 50802,
+          "volume": 23185421.8334,
+          "median_traders": 9.0,
+          "mean_traders": 13.6748,
+          "zero_trader_share": 0.0326,
+          "share_listings": 0.1484,
+          "share_traders": 0.0942,
+          "share_volume": 0.0759,
+          "engagement_index": 0.6348
+        },
+        {
+          "category": "Uncategorized",
+          "market_type": "multi-outcome",
+          "listings": 958,
+          "traders": 12877,
+          "volume": 8100686.1112,
+          "median_traders": 5.0,
+          "mean_traders": 13.4415,
+          "zero_trader_share": 0.0825,
+          "share_listings": 0.0383,
+          "share_traders": 0.0239,
+          "share_volume": 0.0265,
+          "engagement_index": 0.624
+        },
+        {
+          "category": "Uncategorized",
+          "market_type": "binary",
+          "listings": 2574,
+          "traders": 28688,
+          "volume": 10396541.1307,
+          "median_traders": 6.0,
+          "mean_traders": 11.1453,
+          "zero_trader_share": 0.0571,
+          "share_listings": 0.1028,
+          "share_traders": 0.0532,
+          "share_volume": 0.034,
+          "engagement_index": 0.5174
+        },
+        {
+          "category": "Economics",
+          "market_type": "numeric",
+          "listings": 4,
+          "traders": 44,
+          "volume": 1886.6835,
+          "median_traders": 5.0,
+          "mean_traders": 11.0,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0002,
+          "share_traders": 0.0001,
+          "share_volume": 0.0,
+          "engagement_index": 0.5107
+        },
+        {
+          "category": "Uncategorized",
+          "market_type": "numeric",
+          "listings": 17,
+          "traders": 144,
+          "volume": 23017.9592,
+          "median_traders": 5.0,
+          "mean_traders": 8.4706,
+          "zero_trader_share": 0.1176,
+          "share_listings": 0.0007,
+          "share_traders": 0.0003,
+          "share_volume": 0.0001,
+          "engagement_index": 0.3932
+        },
+        {
+          "category": "Politics & law",
+          "market_type": "numeric",
+          "listings": 3,
+          "traders": 19,
+          "volume": 389.9286,
+          "median_traders": 6.0,
+          "mean_traders": 6.3333,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0001,
+          "share_traders": 0.0,
+          "share_volume": 0.0,
+          "engagement_index": 0.294
+        },
+        {
+          "category": "Science",
+          "market_type": "numeric",
+          "listings": 3,
+          "traders": 19,
+          "volume": 985.3649,
+          "median_traders": 4.0,
+          "mean_traders": 6.3333,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0001,
+          "share_traders": 0.0,
+          "share_volume": 0.0,
+          "engagement_index": 0.294
+        },
+        {
+          "category": "Culture",
+          "market_type": "numeric",
+          "listings": 1,
+          "traders": 5,
+          "volume": 25143.4784,
+          "median_traders": 5.0,
+          "mean_traders": 5.0,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0,
+          "share_traders": 0.0,
+          "share_volume": 0.0001,
+          "engagement_index": 0.2321
+        },
+        {
+          "category": "Personal / Manifold-meta",
+          "market_type": "numeric",
+          "listings": 3,
+          "traders": 11,
+          "volume": 295.6675,
+          "median_traders": 3.0,
+          "mean_traders": 3.6667,
+          "zero_trader_share": 0.0,
+          "share_listings": 0.0001,
+          "share_traders": 0.0,
+          "share_volume": 0.0,
+          "engagement_index": 0.1702
+        }
+      ],
+      "exchange_categories_only": [
+        {
+          "category": "World",
+          "listings": 975,
+          "traders": 31935,
+          "volume": 10990999.1844,
+          "median_traders": 17.0,
+          "mean_traders": 32.7538,
+          "zero_trader_share": 0.0082,
+          "share_listings": 0.0593,
+          "share_traders": 0.0748,
+          "share_volume": 0.0439,
+          "engagement_index": 1.2619
+        },
+        {
+          "category": "Technology",
+          "listings": 2847,
+          "traders": 92552,
+          "volume": 55964216.0341,
+          "median_traders": 17.0,
+          "mean_traders": 32.5086,
+          "zero_trader_share": 0.0105,
+          "share_listings": 0.1731,
+          "share_traders": 0.2167,
+          "share_volume": 0.2238,
+          "engagement_index": 1.2524
+        },
+        {
+          "category": "Politics & law",
+          "listings": 3052,
+          "traders": 88255,
+          "volume": 43785730.6114,
+          "median_traders": 14.0,
+          "mean_traders": 28.9171,
+          "zero_trader_share": 0.0206,
+          "share_listings": 0.1855,
+          "share_traders": 0.2067,
+          "share_volume": 0.1751,
+          "engagement_index": 1.114
+        },
+        {
+          "category": "Economics",
+          "listings": 2880,
+          "traders": 73189,
+          "volume": 47443480.5198,
+          "median_traders": 12.0,
+          "mean_traders": 25.4128,
+          "zero_trader_share": 0.0174,
+          "share_listings": 0.1751,
+          "share_traders": 0.1714,
+          "share_volume": 0.1897,
+          "engagement_index": 0.979
+        },
+        {
+          "category": "Science",
+          "listings": 1237,
+          "traders": 29579,
+          "volume": 14236244.9513,
+          "median_traders": 13.0,
+          "mean_traders": 23.9119,
+          "zero_trader_share": 0.017,
+          "share_listings": 0.0752,
+          "share_traders": 0.0693,
+          "share_volume": 0.0569,
+          "engagement_index": 0.9212
+        },
+        {
+          "category": "Sports",
+          "listings": 4195,
+          "traders": 90330,
+          "volume": 69182496.415,
+          "median_traders": 10.0,
+          "mean_traders": 21.5328,
+          "zero_trader_share": 0.0198,
+          "share_listings": 0.255,
+          "share_traders": 0.2115,
+          "share_volume": 0.2766,
+          "engagement_index": 0.8296
+        },
+        {
+          "category": "Culture",
+          "listings": 1265,
+          "traders": 21178,
+          "volume": 8506919.9362,
+          "median_traders": 10.0,
+          "mean_traders": 16.7415,
+          "zero_trader_share": 0.0166,
+          "share_listings": 0.0769,
+          "share_traders": 0.0496,
+          "share_volume": 0.034,
+          "engagement_index": 0.645
+        }
+      ]
+    },
+    "personal_meta": {
+      "share_listings": 0.2012,
+      "share_traders": 0.1309,
+      "median_traders": 8.0
+    },
+    "drivers": {
+      "main": {
+        "label": "log(1+traders), all markets",
+        "n": 25036,
+        "r2": 0.2221,
+        "n_clusters": 4301,
+        "terms": {
+          "Intercept": {
+            "coef": 1.6459,
+            "se": 0.1446,
+            "p": 0.0,
+            "ci_low": 1.3625,
+            "ci_high": 1.9293
+          },
+          "C(category, Treatment('Sports'))[T.Culture]": {
+            "coef": -0.1549,
+            "se": 0.1002,
+            "p": 0.1222,
+            "ci_low": -0.3513,
+            "ci_high": 0.0415
+          },
+          "C(category, Treatment('Sports'))[T.Economics]": {
+            "coef": 0.1115,
+            "se": 0.1099,
+            "p": 0.3106,
+            "ci_low": -0.104,
+            "ci_high": 0.3269
+          },
+          "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
+            "coef": -0.135,
+            "se": 0.1243,
+            "p": 0.2776,
+            "ci_low": -0.3786,
+            "ci_high": 0.1087
+          },
+          "C(category, Treatment('Sports'))[T.Politics & law]": {
+            "coef": 0.1133,
+            "se": 0.1043,
+            "p": 0.2774,
+            "ci_low": -0.0911,
+            "ci_high": 0.3177
+          },
+          "C(category, Treatment('Sports'))[T.Science]": {
+            "coef": 0.051,
+            "se": 0.0944,
+            "p": 0.5889,
+            "ci_low": -0.134,
+            "ci_high": 0.2361
+          },
+          "C(category, Treatment('Sports'))[T.Technology]": {
+            "coef": 0.2577,
+            "se": 0.0994,
+            "p": 0.0095,
+            "ci_low": 0.0629,
+            "ci_high": 0.4525
+          },
+          "C(category, Treatment('Sports'))[T.Uncategorized]": {
+            "coef": -0.4888,
+            "se": 0.114,
+            "p": 0.0,
+            "ci_low": -0.7123,
+            "ci_high": -0.2653
+          },
+          "C(category, Treatment('Sports'))[T.World]": {
+            "coef": 0.2366,
+            "se": 0.1401,
+            "p": 0.0912,
+            "ci_low": -0.0379,
+            "ci_high": 0.5111
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
+            "coef": 0.0455,
+            "se": 0.0865,
+            "p": 0.5987,
+            "ci_low": -0.124,
+            "ci_high": 0.215
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
+            "coef": 0.0608,
+            "se": 0.0837,
+            "p": 0.4676,
+            "ci_low": -0.1033,
+            "ci_high": 0.2249
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
+            "coef": -0.0469,
+            "se": 0.1245,
+            "p": 0.7062,
+            "ci_low": -0.2909,
+            "ci_high": 0.197
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
+            "coef": -0.0412,
+            "se": 0.0897,
+            "p": 0.6457,
+            "ci_low": -0.2169,
+            "ci_high": 0.1345
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
+            "coef": 0.044,
+            "se": 0.0853,
+            "p": 0.6065,
+            "ci_low": -0.1233,
+            "ci_high": 0.2112
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
+            "coef": -0.0631,
+            "se": 0.0923,
+            "p": 0.4943,
+            "ci_low": -0.2441,
+            "ci_high": 0.1179
+          },
+          "log_duration": {
+            "coef": 0.129,
+            "se": 0.0097,
+            "p": 0.0,
+            "ci_low": 0.1101,
+            "ci_high": 0.148
+          },
+          "log_answers": {
+            "coef": 0.0682,
+            "se": 0.0257,
+            "p": 0.008,
+            "ci_low": 0.0178,
+            "ci_high": 0.1186
+          },
+          "log_prior_markets": {
+            "coef": -0.0039,
+            "se": 0.019,
+            "p": 0.8391,
+            "ci_low": -0.0411,
+            "ci_high": 0.0334
+          }
+        },
+        "category_effects": [
+          {
+            "category": "Technology",
+            "pct_vs_base": 0.294,
+            "ci_low": 0.065,
+            "ci_high": 0.5722,
+            "p": 0.0095
+          },
+          {
+            "category": "World",
+            "pct_vs_base": 0.2669,
+            "ci_low": -0.0372,
+            "ci_high": 0.6671,
+            "p": 0.0912
+          },
+          {
+            "category": "Politics & law",
+            "pct_vs_base": 0.1199,
+            "ci_low": -0.0871,
+            "ci_high": 0.374,
+            "p": 0.2774
+          },
+          {
+            "category": "Economics",
+            "pct_vs_base": 0.1179,
+            "ci_low": -0.0988,
+            "ci_high": 0.3867,
+            "p": 0.3106
+          },
+          {
+            "category": "Science",
+            "pct_vs_base": 0.0524,
+            "ci_low": -0.1254,
+            "ci_high": 0.2663,
+            "p": 0.5889
+          },
+          {
+            "category": "Personal / Manifold-meta",
+            "pct_vs_base": -0.1262,
+            "ci_low": -0.3152,
+            "ci_high": 0.1148,
+            "p": 0.2776
+          },
+          {
+            "category": "Culture",
+            "pct_vs_base": -0.1435,
+            "ci_low": -0.2962,
+            "ci_high": 0.0424,
+            "p": 0.1222
+          },
+          {
+            "category": "Uncategorized",
+            "pct_vs_base": -0.3866,
+            "ci_low": -0.5095,
+            "ci_high": -0.233,
+            "p": 0.0
+          }
+        ],
+        "plain_effects": {
+          "doubling_duration_pct": 0.0936,
+          "10x_creator_experience_pct": -0.0089,
+          "doubling_answers_pct": 0.0484
+        }
+      },
+      "binary_with_uncertainty": {
+        "label": "log(1+traders), binary markets with price_24h",
+        "n": 14332,
+        "r2": 0.1552,
+        "n_clusters": 3206,
+        "terms": {
+          "Intercept": {
+            "coef": 2.2163,
+            "se": 0.1972,
+            "p": 0.0,
+            "ci_low": 1.8298,
+            "ci_high": 2.6028
+          },
+          "C(category, Treatment('Sports'))[T.Culture]": {
+            "coef": -0.0708,
+            "se": 0.072,
+            "p": 0.3251,
+            "ci_low": -0.2119,
+            "ci_high": 0.0702
+          },
+          "C(category, Treatment('Sports'))[T.Economics]": {
+            "coef": 0.2197,
+            "se": 0.0983,
+            "p": 0.0254,
+            "ci_low": 0.027,
+            "ci_high": 0.4124
+          },
+          "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
+            "coef": 0.0065,
+            "se": 0.1302,
+            "p": 0.9601,
+            "ci_low": -0.2487,
+            "ci_high": 0.2617
+          },
+          "C(category, Treatment('Sports'))[T.Politics & law]": {
+            "coef": 0.3172,
+            "se": 0.0761,
+            "p": 0.0,
+            "ci_low": 0.168,
+            "ci_high": 0.4664
+          },
+          "C(category, Treatment('Sports'))[T.Science]": {
+            "coef": 0.2762,
+            "se": 0.0786,
+            "p": 0.0004,
+            "ci_low": 0.1222,
+            "ci_high": 0.4303
+          },
+          "C(category, Treatment('Sports'))[T.Technology]": {
+            "coef": 0.453,
+            "se": 0.075,
+            "p": 0.0,
+            "ci_low": 0.306,
+            "ci_high": 0.5999
+          },
+          "C(category, Treatment('Sports'))[T.Uncategorized]": {
+            "coef": -0.2926,
+            "se": 0.0984,
+            "p": 0.003,
+            "ci_low": -0.4855,
+            "ci_high": -0.0996
+          },
+          "C(category, Treatment('Sports'))[T.World]": {
+            "coef": 0.3952,
+            "se": 0.1057,
+            "p": 0.0002,
+            "ci_low": 0.188,
+            "ci_high": 0.6025
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
+            "coef": 0.0718,
+            "se": 0.0601,
+            "p": 0.2319,
+            "ci_low": -0.0459,
+            "ci_high": 0.1895
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
+            "coef": 0.0389,
+            "se": 0.0584,
+            "p": 0.5057,
+            "ci_low": -0.0756,
+            "ci_high": 0.1534
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
+            "coef": -0.156,
+            "se": 0.1362,
+            "p": 0.252,
+            "ci_low": -0.4228,
+            "ci_high": 0.1109
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
+            "coef": 0.0144,
+            "se": 0.0607,
+            "p": 0.8127,
+            "ci_low": -0.1047,
+            "ci_high": 0.1334
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
+            "coef": 0.0193,
+            "se": 0.0655,
+            "p": 0.7687,
+            "ci_low": -0.1092,
+            "ci_high": 0.1477
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
+            "coef": -0.0558,
+            "se": 0.0593,
+            "p": 0.3463,
+            "ci_low": -0.1721,
+            "ci_high": 0.0604
+          },
+          "log_duration": {
+            "coef": -0.0222,
+            "se": 0.0195,
+            "p": 0.2556,
+            "ci_low": -0.0604,
+            "ci_high": 0.0161
+          },
+          "log_prior_markets": {
+            "coef": -0.0067,
+            "se": 0.0165,
+            "p": 0.686,
+            "ci_low": -0.0391,
+            "ci_high": 0.0257
+          },
+          "uncertainty": {
+            "coef": 1.5797,
+            "se": 0.2004,
+            "p": 0.0,
+            "ci_low": 1.1869,
+            "ci_high": 1.9725
+          }
+        },
+        "plain_effects": {
+          "doubling_duration_pct": -0.0153,
+          "10x_creator_experience_pct": -0.0153,
+          "plus_0.1_from_coinflip_pct": 0.1711
+        }
+      },
+      "robust_volume_outcome": {
+        "label": "log(1+volume), all markets",
+        "n": 25036,
+        "r2": 0.2351,
+        "n_clusters": 4301,
+        "terms": {
+          "Intercept": {
+            "coef": 5.3161,
+            "se": 0.3533,
+            "p": 0.0,
+            "ci_low": 4.6237,
+            "ci_high": 6.0085
+          },
+          "C(category, Treatment('Sports'))[T.Culture]": {
+            "coef": -0.4252,
+            "se": 0.2661,
+            "p": 0.1101,
+            "ci_low": -0.9468,
+            "ci_high": 0.0964
+          },
+          "C(category, Treatment('Sports'))[T.Economics]": {
+            "coef": 0.2076,
+            "se": 0.2914,
+            "p": 0.4763,
+            "ci_low": -0.3636,
+            "ci_high": 0.7787
+          },
+          "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
+            "coef": -0.6632,
+            "se": 0.3252,
+            "p": 0.0414,
+            "ci_low": -1.3006,
+            "ci_high": -0.0259
+          },
+          "C(category, Treatment('Sports'))[T.Politics & law]": {
+            "coef": 0.0198,
+            "se": 0.2763,
+            "p": 0.9427,
+            "ci_low": -0.5218,
+            "ci_high": 0.5615
+          },
+          "C(category, Treatment('Sports'))[T.Science]": {
+            "coef": -0.0556,
+            "se": 0.258,
+            "p": 0.8294,
+            "ci_low": -0.5613,
+            "ci_high": 0.4502
+          },
+          "C(category, Treatment('Sports'))[T.Technology]": {
+            "coef": 0.1617,
+            "se": 0.2756,
+            "p": 0.5573,
+            "ci_low": -0.3785,
+            "ci_high": 0.7019
+          },
+          "C(category, Treatment('Sports'))[T.Uncategorized]": {
+            "coef": -1.1553,
+            "se": 0.3121,
+            "p": 0.0002,
+            "ci_low": -1.767,
+            "ci_high": -0.5436
+          },
+          "C(category, Treatment('Sports'))[T.World]": {
+            "coef": -0.0611,
+            "se": 0.3651,
+            "p": 0.8671,
+            "ci_low": -0.7767,
+            "ci_high": 0.6545
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
+            "coef": -0.0221,
+            "se": 0.204,
+            "p": 0.9138,
+            "ci_low": -0.4219,
+            "ci_high": 0.3777
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
+            "coef": 0.0948,
+            "se": 0.1939,
+            "p": 0.6248,
+            "ci_low": -0.2853,
+            "ci_high": 0.4749
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
+            "coef": -0.0056,
+            "se": 0.2445,
+            "p": 0.9816,
+            "ci_low": -0.4848,
+            "ci_high": 0.4735
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
+            "coef": -0.0916,
+            "se": 0.209,
+            "p": 0.6611,
+            "ci_low": -0.5013,
+            "ci_high": 0.318
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
+            "coef": 0.0774,
+            "se": 0.2041,
+            "p": 0.7045,
+            "ci_low": -0.3226,
+            "ci_high": 0.4775
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
+            "coef": -0.1352,
+            "se": 0.2201,
+            "p": 0.5392,
+            "ci_low": -0.5666,
+            "ci_high": 0.2963
+          },
+          "log_duration": {
+            "coef": 0.277,
+            "se": 0.0231,
+            "p": 0.0,
+            "ci_low": 0.2316,
+            "ci_high": 0.3223
+          },
+          "log_answers": {
+            "coef": 0.4488,
+            "se": 0.0653,
+            "p": 0.0,
+            "ci_low": 0.3208,
+            "ci_high": 0.5767
+          },
+          "log_prior_markets": {
+            "coef": -0.0057,
+            "se": 0.0474,
+            "p": 0.9041,
+            "ci_low": -0.0985,
+            "ci_high": 0.0871
+          }
+        },
+        "category_effects": [
+          {
+            "category": "Economics",
+            "pct_vs_base": 0.2307,
+            "ci_low": -0.3048,
+            "ci_high": 1.1787,
+            "p": 0.4763
+          },
+          {
+            "category": "Technology",
+            "pct_vs_base": 0.1755,
+            "ci_low": -0.3151,
+            "ci_high": 1.0176,
+            "p": 0.5573
+          },
+          {
+            "category": "Politics & law",
+            "pct_vs_base": 0.02,
+            "ci_low": -0.4065,
+            "ci_high": 0.7533,
+            "p": 0.9427
+          },
+          {
+            "category": "Science",
+            "pct_vs_base": -0.0541,
+            "ci_low": -0.4296,
+            "ci_high": 0.5686,
+            "p": 0.8294
+          },
+          {
+            "category": "World",
+            "pct_vs_base": -0.0593,
+            "ci_low": -0.5401,
+            "ci_high": 0.9243,
+            "p": 0.8671
+          },
+          {
+            "category": "Culture",
+            "pct_vs_base": -0.3464,
+            "ci_low": -0.612,
+            "ci_high": 0.1012,
+            "p": 0.1101
+          },
+          {
+            "category": "Personal / Manifold-meta",
+            "pct_vs_base": -0.4848,
+            "ci_low": -0.7276,
+            "ci_high": -0.0255,
+            "p": 0.0414
+          },
+          {
+            "category": "Uncategorized",
+            "pct_vs_base": -0.685,
+            "ci_low": -0.8291,
+            "ci_high": -0.4194,
+            "p": 0.0002
+          }
+        ]
+      },
+      "robust_category_alt": {
+        "label": "log(1+traders), Politics & law ranked above Economics",
+        "n": 25036,
+        "r2": 0.2221,
+        "n_clusters": 4301,
+        "terms": {
+          "Intercept": {
+            "coef": 1.6462,
+            "se": 0.1446,
+            "p": 0.0,
+            "ci_low": 1.3627,
+            "ci_high": 1.9297
+          },
+          "C(category_alt, Treatment('Sports'))[T.Culture]": {
+            "coef": -0.1549,
+            "se": 0.1002,
+            "p": 0.1222,
+            "ci_low": -0.3513,
+            "ci_high": 0.0415
+          },
+          "C(category_alt, Treatment('Sports'))[T.Economics]": {
+            "coef": 0.0993,
+            "se": 0.1189,
+            "p": 0.4036,
+            "ci_low": -0.1337,
+            "ci_high": 0.3323
+          },
+          "C(category_alt, Treatment('Sports'))[T.Personal / Manifold-meta]": {
+            "coef": -0.1351,
+            "se": 0.1243,
+            "p": 0.2773,
+            "ci_low": -0.3787,
+            "ci_high": 0.1086
+          },
+          "C(category_alt, Treatment('Sports'))[T.Politics & law]": {
+            "coef": 0.1209,
+            "se": 0.0987,
+            "p": 0.2208,
+            "ci_low": -0.0726,
+            "ci_high": 0.3145
+          },
+          "C(category_alt, Treatment('Sports'))[T.Science]": {
+            "coef": 0.0511,
+            "se": 0.0944,
+            "p": 0.5888,
+            "ci_low": -0.1341,
+            "ci_high": 0.2362
+          },
+          "C(category_alt, Treatment('Sports'))[T.Technology]": {
+            "coef": 0.2577,
+            "se": 0.0994,
+            "p": 0.0095,
+            "ci_low": 0.0629,
+            "ci_high": 0.4525
+          },
+          "C(category_alt, Treatment('Sports'))[T.Uncategorized]": {
+            "coef": -0.4889,
+            "se": 0.1141,
+            "p": 0.0,
+            "ci_low": -0.7125,
+            "ci_high": -0.2654
+          },
+          "C(category_alt, Treatment('Sports'))[T.World]": {
+            "coef": 0.2366,
+            "se": 0.1402,
+            "p": 0.0915,
+            "ci_low": -0.0382,
+            "ci_high": 0.5114
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
+            "coef": 0.0459,
+            "se": 0.0867,
+            "p": 0.5962,
+            "ci_low": -0.124,
+            "ci_high": 0.2159
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
+            "coef": 0.0609,
+            "se": 0.0838,
+            "p": 0.467,
+            "ci_low": -0.1032,
+            "ci_high": 0.2251
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
+            "coef": -0.0468,
+            "se": 0.1245,
+            "p": 0.7069,
+            "ci_low": -0.2908,
+            "ci_high": 0.1972
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
+            "coef": -0.0409,
+            "se": 0.0898,
+            "p": 0.6489,
+            "ci_low": -0.217,
+            "ci_high": 0.1352
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
+            "coef": 0.0443,
+            "se": 0.0854,
+            "p": 0.6041,
+            "ci_low": -0.1231,
+            "ci_high": 0.2116
+          },
+          "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
+            "coef": -0.0631,
+            "se": 0.0925,
+            "p": 0.4953,
+            "ci_low": -0.2444,
+            "ci_high": 0.1182
+          },
+          "log_duration": {
+            "coef": 0.129,
+            "se": 0.0097,
+            "p": 0.0,
+            "ci_low": 0.11,
+            "ci_high": 0.1479
+          },
+          "log_answers": {
+            "coef": 0.0681,
+            "se": 0.0258,
+            "p": 0.0084,
+            "ci_low": 0.0174,
+            "ci_high": 0.1187
+          },
+          "log_prior_markets": {
+            "coef": -0.0039,
+            "se": 0.019,
+            "p": 0.839,
+            "ci_low": -0.0412,
+            "ci_high": 0.0334
+          }
+        },
+        "category_effects": [
+          {
+            "category": "Technology",
+            "pct_vs_base": 0.294,
+            "ci_low": 0.065,
+            "ci_high": 0.5722,
+            "p": 0.0095
+          },
+          {
+            "category": "World",
+            "pct_vs_base": 0.2669,
+            "ci_low": -0.0375,
+            "ci_high": 0.6676,
+            "p": 0.0915
+          },
+          {
+            "category": "Politics & law",
+            "pct_vs_base": 0.1285,
+            "ci_low": -0.0701,
+            "ci_high": 0.3695,
+            "p": 0.2208
+          },
+          {
+            "category": "Economics",
+            "pct_vs_base": 0.1044,
+            "ci_low": -0.1252,
+            "ci_high": 0.3942,
+            "p": 0.4036
+          },
+          {
+            "category": "Science",
+            "pct_vs_base": 0.0524,
+            "ci_low": -0.1255,
+            "ci_high": 0.2664,
+            "p": 0.5888
+          },
+          {
+            "category": "Personal / Manifold-meta",
+            "pct_vs_base": -0.1263,
+            "ci_low": -0.3153,
+            "ci_high": 0.1147,
+            "p": 0.2773
+          },
+          {
+            "category": "Culture",
+            "pct_vs_base": -0.1435,
+            "ci_low": -0.2962,
+            "ci_high": 0.0424,
+            "p": 0.1222
+          },
+          {
+            "category": "Uncategorized",
+            "pct_vs_base": -0.3867,
+            "ci_low": -0.5096,
+            "ci_high": -0.2331,
+            "p": 0.0
+          }
+        ]
+      },
+      "robust_within_creator": {
+        "n": 25036,
+        "r2_within": 0.1837,
+        "log_prior_markets": {
+          "coef": -0.0018,
+          "se": 0.0219,
+          "p": 0.9341,
+          "10x_creator_experience_pct": -0.0042
+        }
+      }
+    },
+    "creator_experience_bins": [
+      {
+        "experience": "First market",
+        "markets": 2087,
+        "creators": 2087,
+        "median_traders": 10.0,
+        "mean_traders": 16.8237,
+        "zero_trader_share": 0.0259
+      },
+      {
+        "experience": "1-9",
+        "markets": 5186,
+        "creators": 2366,
+        "median_traders": 10.0,
+        "mean_traders": 18.0312,
+        "zero_trader_share": 0.0239
+      },
+      {
+        "experience": "10-49",
+        "markets": 5494,
+        "creators": 1022,
+        "median_traders": 11.0,
+        "mean_traders": 21.6068,
+        "zero_trader_share": 0.0217
+      },
+      {
+        "experience": "50-199",
+        "markets": 5303,
+        "creators": 378,
+        "median_traders": 12.0,
+        "mean_traders": 25.9195,
+        "zero_trader_share": 0.0304
+      },
+      {
+        "experience": "200-999",
+        "markets": 4641,
+        "creators": 110,
+        "median_traders": 11.0,
+        "mean_traders": 24.5413,
+        "zero_trader_share": 0.0297
+      },
+      {
+        "experience": "1,000+",
+        "markets": 2325,
+        "creators": 23,
+        "median_traders": 9.0,
+        "mean_traders": 17.4705,
+        "zero_trader_share": 0.0305
+      }
+    ],
+    "figures": {
+      "concentration": "reports/figures/growth_concentration.png",
+      "listing_mix": "reports/figures/growth_listing_mix.png",
+      "creator_experience": "reports/figures/growth_creator_experience.png",
+      "category_effects": "reports/figures/growth_category_effects.png"
+    }
+  }
+}
