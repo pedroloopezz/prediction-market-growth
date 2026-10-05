@@ -25,6 +25,18 @@ category_robust AS (
              ELSE category END                     AS category_alt
     FROM category
 ),
+creator_history AS (
+    -- Running totals over each creator's markets ordered by close time. The default RANGE frame
+    -- includes ties, so markets closing at the same instant are counted together.
+    SELECT
+        creator_id,
+        close_time,
+        sum(unique_traders) OVER w AS closed_traders_sum,
+        count(*) OVER w            AS closed_markets
+    FROM stg_markets
+    WHERE close_time IS NOT NULL
+    WINDOW w AS (PARTITION BY creator_id ORDER BY close_time)
+),
 prices AS (
     SELECT
         market_key,
@@ -61,8 +73,15 @@ SELECT
     -- tradable contracts in the question: one for a single binary/numeric market
     CASE WHEN m.outcome_type IN ('BINARY', 'PSEUDO_NUMERIC') THEN 1
          ELSE d.n_answers END                                 AS n_answers,
-    d.market_key IS NOT NULL                                  AS has_details
+    d.market_key IS NOT NULL                                  AS has_details,
+    -- Creator track record without leakage: only the creator's markets that had already CLOSED
+    -- before this market opened (their trader counts were final at creation time).
+    coalesce(h.closed_markets, 0)                             AS creator_closed_prior_markets,
+    CASE WHEN h.closed_markets >= 3
+         THEN h.closed_traders_sum / h.closed_markets END     AS creator_track_record
 FROM stg_markets AS m
+ASOF LEFT JOIN creator_history AS h
+    ON m.creator_id = h.creator_id AND m.open_time > h.close_time
 LEFT JOIN stg_market_details AS d USING (market_key)
 LEFT JOIN category_robust AS c USING (market_key)
 LEFT JOIN prices AS p USING (market_key)

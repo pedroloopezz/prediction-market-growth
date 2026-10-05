@@ -61,6 +61,21 @@ def top_share(values: pd.Series, top: float) -> float:
     return v[: max(1, int(round(top * len(v))))].sum() / v.sum()
 
 
+def bottom_share(values: pd.Series, bottom: float) -> float:
+    """Share of the total coming from the least-engaged `bottom` fraction of markets."""
+    v = np.sort(values.to_numpy(dtype=float))
+    return v[: int(round(bottom * len(v)))].sum() / v.sum()
+
+
+def median_ci(values: pd.Series, z: float = 1.96) -> tuple[float, float, float]:
+    """Median with a distribution-free 95% CI from binomial order statistics (deterministic)."""
+    v = np.sort(values.to_numpy(dtype=float))
+    n = len(v)
+    lo = max(int(np.floor(n / 2 - z * np.sqrt(n) / 2)), 0)
+    hi = min(int(np.ceil(n / 2 + z * np.sqrt(n) / 2)), n - 1)
+    return float(np.median(v)), float(v[lo]), float(v[hi])
+
+
 def concentration(df: pd.DataFrame) -> dict:
     def stats(d: pd.DataFrame) -> dict:
         out = {"markets": len(d)}
@@ -69,6 +84,8 @@ def concentration(df: pd.DataFrame) -> dict:
                 "share_of_markets_for_80pct": share_of_markets_for(d[col]),
                 "top_10pct_share": top_share(d[col], 0.10),
                 "top_1pct_share": top_share(d[col], 0.01),
+                "bottom_50pct_share": bottom_share(d[col], 0.50),
+                "bottom_64pct_share": bottom_share(d[col], 0.64),
                 "gini": gini(d[col]),
             }
         return out
@@ -106,6 +123,40 @@ def records(t: pd.DataFrame) -> list[dict]:
     return t.reset_index().to_dict(orient="records")
 
 
+# ---- listing plan --------------------------------------------------------------------------
+def allocate(shares: pd.Series, total: int = 100, floor: int = 3) -> pd.Series:
+    """Shelf share = demand share: split `total` slots in proportion to `shares`, at least
+    `floor` each, rounding by largest remainder so the slots sum exactly to `total`."""
+    fixed = pd.Series(0, index=shares.index, dtype=int)
+    free = shares.copy()
+    while True:
+        slots = total - fixed.sum()
+        raw = free / free.sum() * slots
+        alloc = np.floor(raw).astype(int)
+        rest = slots - alloc.sum()
+        alloc[(raw - alloc).sort_values(ascending=False).index[:rest]] += 1
+        below = alloc[alloc < floor].index
+        if below.empty:
+            return (fixed + alloc.reindex(fixed.index, fill_value=0)).astype(int)
+        fixed[below] = floor  # pin under-floor categories and re-split the rest
+        free = free.drop(below)
+
+
+def listing_plan(df: pd.DataFrame, category_col: str = "category") -> pd.DataFrame:
+    real = df[~df[category_col].isin(NON_EXCHANGE_CATEGORIES)]
+    mix = listing_mix(real, [category_col])
+    plan = pd.DataFrame(
+        {
+            "current_per_100": mix.share_listings * 100,  # Manifold's mix, exchange categories only
+            "trader_share": mix.share_traders,
+            "median_traders": mix.median_traders,
+        }
+    )
+    plan["plan_first_100"] = allocate(plan.trader_share)
+    plan["change"] = plan.plan_first_100 - plan.current_per_100
+    return plan.sort_values("plan_first_100", ascending=False)
+
+
 # ---- drivers model -------------------------------------------------------------------------
 def add_features(df: pd.DataFrame) -> pd.DataFrame:
     d = df.copy()
@@ -115,6 +166,7 @@ def add_features(df: pd.DataFrame) -> pd.DataFrame:
     d["log_answers"] = np.log(d.n_answers.clip(lower=1))
     d["log_prior_markets"] = np.log1p(d.creator_prior_markets)
     d["uncertainty"] = (d.price_24h - 0.5).abs()  # 0 = coin flip, 0.5 = near-certain
+    d["log_track_record"] = np.log1p(d.creator_track_record)
     return d
 
 
@@ -204,6 +256,23 @@ def plain_effects(fit) -> dict:
         # moving 0.1 further from a coin flip (e.g. 50% -> 60% or 40%)
         out["plus_0.1_from_coinflip_pct"] = np.exp(0.1 * p["uncertainty"]) - 1
     return out
+
+
+def track_record_table(df: pd.DataFrame) -> pd.DataFrame:
+    d = df[df.creator_track_record.notna()].copy()
+    d["track_record_quintile"] = pd.qcut(
+        d.creator_track_record, 5, labels=["Q1 (lowest)", "Q2", "Q3", "Q4", "Q5 (highest)"]
+    )
+    g = d.groupby("track_record_quintile", observed=True)
+    return pd.DataFrame(
+        {
+            "markets": g.size(),
+            "track_record_range": g.creator_track_record.agg(
+                lambda s: f"{s.min():.1f}-{s.max():.1f}"
+            ),
+            "median_traders": g.unique_traders.median(),
+        }
+    )
 
 
 def creator_experience_table(df: pd.DataFrame) -> pd.DataFrame:
@@ -384,6 +453,44 @@ def fig_category_effects(effects: pd.DataFrame, n: int) -> str:
     )
 
 
+def fig_listing_plan(plan: pd.DataFrame, n: int) -> str:
+    t = plan.sort_values("plan_first_100")
+    fig, ax = new_figure(8.0, 4.8)
+    y = np.arange(len(t))
+    h = 0.36
+    ax.barh(y + h / 2 + 0.02, t.current_per_100, h, color=MUTED)
+    ax.barh(y - h / 2 - 0.02, t.plan_first_100, h, color=BLUE)
+    for yi, (cur, new) in enumerate(zip(t.current_per_100, t.plan_first_100, strict=True)):
+        ax.text(cur + 0.3, yi + h / 2 + 0.02, f"{cur:.0f}", va="center", fontsize=8, color=TEXT_2)
+        ax.text(
+            new + 0.3,
+            yi - h / 2 - 0.02,
+            f"{new}",
+            va="center",
+            fontsize=9,
+            color=TEXT,
+            fontweight="bold",
+        )
+    ax.set_yticks(y, t.index)
+    for label in ax.get_yticklabels():
+        label.set_color(TEXT)
+    handles = [
+        Patch(color=MUTED, label="Manifold today (per 100 listings)"),
+        Patch(color=BLUE, label="Proposed first 100 listings"),
+    ]
+    ax.legend(handles=handles, frameon=False, loc="lower right", fontsize=9)
+    ax.set_xlabel("Listings per 100", color=TEXT_2)
+    moved = t.change.clip(lower=0).sum()
+    gainers = t[t.change > 0].sort_values("change", ascending=False).index[:2]
+    return finish_figure(
+        fig,
+        f"Move ~{moved:.0f} of every 100 listings toward {' and '.join(gainers)}",
+        "Split by each category's share of unique traders (floor 3); Personal/meta excluded",
+        source_line(n),
+        "growth_listing_plan",
+    )
+
+
 # ---- main ----------------------------------------------------------------------------------
 def run() -> dict:
     df = add_features(load_mart())
@@ -404,6 +511,18 @@ def run() -> dict:
     binary = df[(df.market_type == "binary") & df.price_24h.notna()]
     m_binary = fit_clustered(f"log_traders ~ {rhs(answers=False)} + uncertainty", binary)
     m_within = fit_within_creator(f_main, df)
+    tracked = df[df.creator_track_record.notna()]
+    m_track = fit_clustered(f"log_traders ~ {rhs()} + log_track_record", tracked)
+    plan = listing_plan(df)
+    plan_alt = listing_plan(df, "category_alt")
+    median_by_cat = (
+        pd.DataFrame(
+            [(c, *median_ci(g.unique_traders), len(g)) for c, g in df.groupby("category")],
+            columns=["category", "median_traders", "ci_low", "ci_high", "markets"],
+        )
+        .set_index("category")
+        .sort_values("median_traders", ascending=False)
+    )
 
     exp_table = creator_experience_table(df)
     personal = mix_cat.loc["Personal / Manifold-meta"]
@@ -413,6 +532,7 @@ def run() -> dict:
         "listing_mix": fig_listing_mix(mix_cat, n),
         "creator_experience": fig_creator_experience(exp_table, n),
         "category_effects": fig_category_effects(category_effects(m_main), n),
+        "listing_plan": fig_listing_plan(plan, n),
     }
 
     results = {
@@ -463,6 +583,22 @@ def run() -> dict:
             },
         },
         "creator_experience_bins": records(exp_table),
+        "creator_track_record": {
+            "definition": "avg unique traders on the creator's markets that closed before this "
+            "market opened; defined only with >= 3 such markets",
+            **summarise(m_track, "log(1+traders) + log(1+track record), markets with a record"),
+            "doubling_track_record_pct": 2 ** m_track.params["log_track_record"] - 1,
+            "experience_10x_pct_with_track_record": 10 ** m_track.params["log_prior_markets"] - 1,
+            "quintiles": records(track_record_table(df)),
+        },
+        "median_traders_by_category": records(median_by_cat),
+        "listing_plan": {
+            "rule": "100 slots split by share of unique traders across the 7 exchange categories, "
+            "floor 3, largest-remainder rounding; Personal/meta and Uncategorized excluded",
+            "plan": records(plan),
+            "robust_category_alt": records(plan_alt),
+            "listings_moved_per_100": plan.change.clip(lower=0).sum(),
+        },
         "figures": figures,
     }
     write_results("growth", results)

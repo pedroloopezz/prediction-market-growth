@@ -9,12 +9,16 @@
           "share_of_markets_for_80pct": 0.3589,
           "top_10pct_share": 0.5034,
           "top_1pct_share": 0.1752,
+          "bottom_50pct_share": 0.1171,
+          "bottom_64pct_share": 0.1992,
           "gini": 0.6203
         },
         "volume": {
           "share_of_markets_for_80pct": 0.105,
           "top_10pct_share": 0.7928,
           "top_1pct_share": 0.4396,
+          "bottom_50pct_share": 0.0181,
+          "bottom_64pct_share": 0.0393,
           "gini": 0.8657
         }
       },
@@ -25,12 +29,16 @@
             "share_of_markets_for_80pct": 0.4482,
             "top_10pct_share": 0.4075,
             "top_1pct_share": 0.1161,
+            "bottom_50pct_share": 0.1662,
+            "bottom_64pct_share": 0.2663,
             "gini": 0.5235
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1771,
             "top_10pct_share": 0.6743,
             "top_1pct_share": 0.2798,
+            "bottom_50pct_share": 0.0373,
+            "bottom_64pct_share": 0.0742,
             "gini": 0.7882
           }
         },
@@ -40,12 +48,16 @@
             "share_of_markets_for_80pct": 0.3726,
             "top_10pct_share": 0.4913,
             "top_1pct_share": 0.1874,
+            "bottom_50pct_share": 0.1245,
+            "bottom_64pct_share": 0.2088,
             "gini": 0.6064
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1281,
             "top_10pct_share": 0.76,
             "top_1pct_share": 0.4364,
+            "bottom_50pct_share": 0.0206,
+            "bottom_64pct_share": 0.0443,
             "gini": 0.8491
           }
         },
@@ -55,12 +67,16 @@
             "share_of_markets_for_80pct": 0.4237,
             "top_10pct_share": 0.4344,
             "top_1pct_share": 0.1415,
+            "bottom_50pct_share": 0.149,
+            "bottom_64pct_share": 0.2484,
             "gini": 0.5546
           },
           "volume": {
             "share_of_markets_for_80pct": 0.0743,
             "top_10pct_share": 0.8381,
             "top_1pct_share": 0.5282,
+            "bottom_50pct_share": 0.0144,
+            "bottom_64pct_share": 0.0335,
             "gini": 0.8917
           }
         },
@@ -70,12 +86,16 @@
             "share_of_markets_for_80pct": 0.3503,
             "top_10pct_share": 0.5263,
             "top_1pct_share": 0.1853,
+            "bottom_50pct_share": 0.1145,
+            "bottom_64pct_share": 0.1933,
             "gini": 0.6334
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1229,
             "top_10pct_share": 0.7719,
             "top_1pct_share": 0.4138,
+            "bottom_50pct_share": 0.0251,
+            "bottom_64pct_share": 0.0524,
             "gini": 0.8455
           }
         },
@@ -85,12 +105,16 @@
             "share_of_markets_for_80pct": 0.4196,
             "top_10pct_share": 0.44,
             "top_1pct_share": 0.1334,
+            "bottom_50pct_share": 0.1504,
+            "bottom_64pct_share": 0.2443,
             "gini": 0.5541
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1876,
             "top_10pct_share": 0.6839,
             "top_1pct_share": 0.3035,
+            "bottom_50pct_share": 0.0324,
+            "bottom_64pct_share": 0.0731,
             "gini": 0.7933
           }
         },
@@ -100,12 +124,16 @@
             "share_of_markets_for_80pct": 0.3554,
             "top_10pct_share": 0.5148,
             "top_1pct_share": 0.1506,
+            "bottom_50pct_share": 0.1181,
+            "bottom_64pct_share": 0.1969,
             "gini": 0.622
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1154,
             "top_10pct_share": 0.7761,
             "top_1pct_share": 0.3547,
+            "bottom_50pct_share": 0.0186,
+            "bottom_64pct_share": 0.0394,
             "gini": 0.8531
           }
         },
@@ -115,12 +143,16 @@
             "share_of_markets_for_80pct": 0.3952,
             "top_10pct_share": 0.4617,
             "top_1pct_share": 0.1463,
+            "bottom_50pct_share": 0.1361,
+            "bottom_64pct_share": 0.2253,
             "gini": 0.5798
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1096,
             "top_10pct_share": 0.7885,
             "top_1pct_share": 0.485,
+            "bottom_50pct_share": 0.0237,
+            "bottom_64pct_share": 0.053,
             "gini": 0.8555
           }
         },
@@ -130,12 +162,16 @@
             "share_of_markets_for_80pct": 0.3305,
             "top_10pct_share": 0.5336,
             "top_1pct_share": 0.2193,
+            "bottom_50pct_share": 0.0997,
+            "bottom_64pct_share": 0.1788,
             "gini": 0.6531
           },
           "volume": {
             "share_of_markets_for_80pct": 0.0733,
             "top_10pct_share": 0.8432,
             "top_1pct_share": 0.5508,
+            "bottom_50pct_share": 0.0129,
+            "bottom_64pct_share": 0.0328,
             "gini": 0.8944
           }
         },
@@ -145,12 +181,16 @@
             "share_of_markets_for_80pct": 0.3774,
             "top_10pct_share": 0.499,
             "top_1pct_share": 0.1799,
+            "bottom_50pct_share": 0.1272,
+            "bottom_64pct_share": 0.2114,
             "gini": 0.6074
           },
           "volume": {
             "share_of_markets_for_80pct": 0.1579,
             "top_10pct_share": 0.7165,
             "top_1pct_share": 0.266,
+            "bottom_50pct_share": 0.0294,
+            "bottom_64pct_share": 0.0605,
             "gini": 0.8113
           }
         }
@@ -1685,11 +1725,373 @@
         "zero_trader_share": 0.0305
       }
     ],
+    "creator_track_record": {
+      "definition": "avg unique traders on the creator's markets that closed before this market opened; defined only with >= 3 such markets",
+      "label": "log(1+traders) + log(1+track record), markets with a record",
+      "n": 18236,
+      "r2": 0.3142,
+      "n_clusters": 1617,
+      "terms": {
+        "Intercept": {
+          "coef": 0.5197,
+          "se": 0.1395,
+          "p": 0.0002,
+          "ci_low": 0.2463,
+          "ci_high": 0.7932
+        },
+        "C(category, Treatment('Sports'))[T.Culture]": {
+          "coef": -0.1302,
+          "se": 0.0713,
+          "p": 0.0678,
+          "ci_low": -0.2699,
+          "ci_high": 0.0095
+        },
+        "C(category, Treatment('Sports'))[T.Economics]": {
+          "coef": 0.0911,
+          "se": 0.0736,
+          "p": 0.2155,
+          "ci_low": -0.0531,
+          "ci_high": 0.2354
+        },
+        "C(category, Treatment('Sports'))[T.Personal / Manifold-meta]": {
+          "coef": -0.0068,
+          "se": 0.0701,
+          "p": 0.9228,
+          "ci_low": -0.1442,
+          "ci_high": 0.1306
+        },
+        "C(category, Treatment('Sports'))[T.Politics & law]": {
+          "coef": 0.1131,
+          "se": 0.0746,
+          "p": 0.1292,
+          "ci_low": -0.033,
+          "ci_high": 0.2593
+        },
+        "C(category, Treatment('Sports'))[T.Science]": {
+          "coef": 0.074,
+          "se": 0.0706,
+          "p": 0.2949,
+          "ci_low": -0.0645,
+          "ci_high": 0.2124
+        },
+        "C(category, Treatment('Sports'))[T.Technology]": {
+          "coef": 0.2107,
+          "se": 0.0697,
+          "p": 0.0025,
+          "ci_low": 0.0742,
+          "ci_high": 0.3473
+        },
+        "C(category, Treatment('Sports'))[T.Uncategorized]": {
+          "coef": -0.3712,
+          "se": 0.0892,
+          "p": 0.0,
+          "ci_low": -0.5459,
+          "ci_high": -0.1965
+        },
+        "C(category, Treatment('Sports'))[T.World]": {
+          "coef": 0.1851,
+          "se": 0.1184,
+          "p": 0.1181,
+          "ci_low": -0.047,
+          "ci_high": 0.4172
+        },
+        "C(close_day_of_week, Treatment('Monday'))[T.Friday]": {
+          "coef": 0.0766,
+          "se": 0.0816,
+          "p": 0.3474,
+          "ci_low": -0.0832,
+          "ci_high": 0.2365
+        },
+        "C(close_day_of_week, Treatment('Monday'))[T.Saturday]": {
+          "coef": 0.0684,
+          "se": 0.08,
+          "p": 0.3928,
+          "ci_low": -0.0884,
+          "ci_high": 0.2251
+        },
+        "C(close_day_of_week, Treatment('Monday'))[T.Sunday]": {
+          "coef": 0.1022,
+          "se": 0.0754,
+          "p": 0.1755,
+          "ci_low": -0.0456,
+          "ci_high": 0.25
+        },
+        "C(close_day_of_week, Treatment('Monday'))[T.Thursday]": {
+          "coef": -0.0362,
+          "se": 0.0848,
+          "p": 0.6693,
+          "ci_low": -0.2023,
+          "ci_high": 0.1299
+        },
+        "C(close_day_of_week, Treatment('Monday'))[T.Tuesday]": {
+          "coef": 0.0875,
+          "se": 0.0812,
+          "p": 0.2809,
+          "ci_low": -0.0716,
+          "ci_high": 0.2466
+        },
+        "C(close_day_of_week, Treatment('Monday'))[T.Wednesday]": {
+          "coef": -0.0269,
+          "se": 0.0916,
+          "p": 0.7692,
+          "ci_low": -0.2064,
+          "ci_high": 0.1526
+        },
+        "log_duration": {
+          "coef": 0.1188,
+          "se": 0.0086,
+          "p": 0.0,
+          "ci_low": 0.102,
+          "ci_high": 0.1356
+        },
+        "log_answers": {
+          "coef": 0.0648,
+          "se": 0.0223,
+          "p": 0.0036,
+          "ci_low": 0.0212,
+          "ci_high": 0.1085
+        },
+        "log_prior_markets": {
+          "coef": -0.07,
+          "se": 0.0226,
+          "p": 0.0019,
+          "ci_low": -0.1143,
+          "ci_high": -0.0257
+        },
+        "log_track_record": {
+          "coef": 0.5287,
+          "se": 0.0517,
+          "p": 0.0,
+          "ci_low": 0.4274,
+          "ci_high": 0.63
+        }
+      },
+      "doubling_track_record_pct": 0.4426,
+      "experience_10x_pct_with_track_record": -0.1488,
+      "quintiles": [
+        {
+          "track_record_quintile": "Q1 (lowest)",
+          "markets": 3648,
+          "track_record_range": "0.0-8.6",
+          "median_traders": 6.0
+        },
+        {
+          "track_record_quintile": "Q2",
+          "markets": 3648,
+          "track_record_range": "8.6-12.8",
+          "median_traders": 9.0
+        },
+        {
+          "track_record_quintile": "Q3",
+          "markets": 3646,
+          "track_record_range": "12.8-17.6",
+          "median_traders": 11.0
+        },
+        {
+          "track_record_quintile": "Q4",
+          "markets": 3647,
+          "track_record_range": "17.6-28.3",
+          "median_traders": 14.0
+        },
+        {
+          "track_record_quintile": "Q5 (highest)",
+          "markets": 3647,
+          "track_record_range": "28.3-525.7",
+          "median_traders": 21.0
+        }
+      ]
+    },
+    "median_traders_by_category": [
+      {
+        "category": "Technology",
+        "median_traders": 17.0,
+        "ci_low": 17.0,
+        "ci_high": 18.0,
+        "markets": 2847
+      },
+      {
+        "category": "World",
+        "median_traders": 17.0,
+        "ci_low": 15.0,
+        "ci_high": 18.0,
+        "markets": 975
+      },
+      {
+        "category": "Politics & law",
+        "median_traders": 14.0,
+        "ci_low": 13.0,
+        "ci_high": 14.0,
+        "markets": 3052
+      },
+      {
+        "category": "Science",
+        "median_traders": 13.0,
+        "ci_low": 13.0,
+        "ci_high": 14.0,
+        "markets": 1237
+      },
+      {
+        "category": "Economics",
+        "median_traders": 12.0,
+        "ci_low": 12.0,
+        "ci_high": 13.0,
+        "markets": 2880
+      },
+      {
+        "category": "Culture",
+        "median_traders": 10.0,
+        "ci_low": 10.0,
+        "ci_high": 11.0,
+        "markets": 1265
+      },
+      {
+        "category": "Sports",
+        "median_traders": 10.0,
+        "ci_low": 10.0,
+        "ci_high": 11.0,
+        "markets": 4195
+      },
+      {
+        "category": "Personal / Manifold-meta",
+        "median_traders": 8.0,
+        "ci_low": 8.0,
+        "ci_high": 9.0,
+        "markets": 5036
+      },
+      {
+        "category": "Uncategorized",
+        "median_traders": 5.0,
+        "ci_low": 5.0,
+        "ci_high": 6.0,
+        "markets": 3549
+      }
+    ],
+    "listing_plan": {
+      "rule": "100 slots split by share of unique traders across the 7 exchange categories, floor 3, largest-remainder rounding; Personal/meta and Uncategorized excluded",
+      "plan": [
+        {
+          "category": "Technology",
+          "current_per_100": 17.3059,
+          "trader_share": 0.2167,
+          "median_traders": 17.0,
+          "plan_first_100": 22,
+          "change": 4.6941
+        },
+        {
+          "category": "Politics & law",
+          "current_per_100": 18.5521,
+          "trader_share": 0.2067,
+          "median_traders": 14.0,
+          "plan_first_100": 21,
+          "change": 2.4479
+        },
+        {
+          "category": "Sports",
+          "current_per_100": 25.5,
+          "trader_share": 0.2115,
+          "median_traders": 10.0,
+          "plan_first_100": 21,
+          "change": -4.5
+        },
+        {
+          "category": "Economics",
+          "current_per_100": 17.5065,
+          "trader_share": 0.1714,
+          "median_traders": 12.0,
+          "plan_first_100": 17,
+          "change": -0.5065
+        },
+        {
+          "category": "World",
+          "current_per_100": 5.9267,
+          "trader_share": 0.0748,
+          "median_traders": 17.0,
+          "plan_first_100": 7,
+          "change": 1.0733
+        },
+        {
+          "category": "Science",
+          "current_per_100": 7.5193,
+          "trader_share": 0.0693,
+          "median_traders": 13.0,
+          "plan_first_100": 7,
+          "change": -0.5193
+        },
+        {
+          "category": "Culture",
+          "current_per_100": 7.6895,
+          "trader_share": 0.0496,
+          "median_traders": 10.0,
+          "plan_first_100": 5,
+          "change": -2.6895
+        }
+      ],
+      "robust_category_alt": [
+        {
+          "category_alt": "Politics & law",
+          "current_per_100": 21.8102,
+          "trader_share": 0.2498,
+          "median_traders": 14.0,
+          "plan_first_100": 25,
+          "change": 3.1898
+        },
+        {
+          "category_alt": "Technology",
+          "current_per_100": 17.3059,
+          "trader_share": 0.2167,
+          "median_traders": 17.0,
+          "plan_first_100": 22,
+          "change": 4.6941
+        },
+        {
+          "category_alt": "Sports",
+          "current_per_100": 25.5,
+          "trader_share": 0.2115,
+          "median_traders": 10.0,
+          "plan_first_100": 21,
+          "change": -4.5
+        },
+        {
+          "category_alt": "Economics",
+          "current_per_100": 14.2484,
+          "trader_share": 0.1282,
+          "median_traders": 12.0,
+          "plan_first_100": 13,
+          "change": -1.2484
+        },
+        {
+          "category_alt": "World",
+          "current_per_100": 5.9267,
+          "trader_share": 0.0748,
+          "median_traders": 17.0,
+          "plan_first_100": 7,
+          "change": 1.0733
+        },
+        {
+          "category_alt": "Science",
+          "current_per_100": 7.5193,
+          "trader_share": 0.0693,
+          "median_traders": 13.0,
+          "plan_first_100": 7,
+          "change": -0.5193
+        },
+        {
+          "category_alt": "Culture",
+          "current_per_100": 7.6895,
+          "trader_share": 0.0496,
+          "median_traders": 10.0,
+          "plan_first_100": 5,
+          "change": -2.6895
+        }
+      ],
+      "listings_moved_per_100": 8.2153
+    },
     "figures": {
       "concentration": "reports/figures/growth_concentration.png",
       "listing_mix": "reports/figures/growth_listing_mix.png",
       "creator_experience": "reports/figures/growth_creator_experience.png",
-      "category_effects": "reports/figures/growth_category_effects.png"
+      "category_effects": "reports/figures/growth_category_effects.png",
+      "listing_plan": "reports/figures/growth_listing_plan.png"
     }
   }
 }

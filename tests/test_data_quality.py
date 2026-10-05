@@ -198,3 +198,28 @@ def test_robustness_ordering_only_moves_economics_to_politics(con):
         )
         == 0
     )
+
+
+def test_creator_track_record_has_no_leakage(con):
+    # Recompute by brute force for a sample: average traders over the creator's markets that
+    # closed strictly before this market opened, and only when there are at least 3 of them.
+    mismatches = scalar(
+        con,
+        """
+        WITH sample AS (
+            SELECT * FROM mart_market_outcomes USING SAMPLE 300 ROWS (reservoir, 42)
+        ),
+        brute AS (
+            SELECT s.market_key, count(p.market_key) AS n, avg(p.unique_traders) AS avg_traders
+            FROM sample s
+            LEFT JOIN stg_markets p
+              ON p.creator_id = s.creator_id AND p.close_time < s.open_time
+            GROUP BY s.market_key
+        )
+        SELECT count(*) FROM sample s JOIN brute b USING (market_key)
+        WHERE s.creator_closed_prior_markets <> b.n
+           OR (b.n >= 3 AND abs(s.creator_track_record - b.avg_traders) > 1e-9)
+           OR (b.n < 3 AND s.creator_track_record IS NOT NULL)
+    """,
+    )
+    assert mismatches == 0
