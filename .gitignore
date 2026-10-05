@@ -9,3 +9,8 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .DS_Store
+
+# Personal working notes: kept locally, never committed
+CLAUDE.md
+docs/interview_notes.md
+reports/resume_bullets.md
