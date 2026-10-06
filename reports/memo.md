@@ -21,8 +21,8 @@
 ### 3. Concentrate liquidity where demand is, and rebalance the mix
 
 - **Thicker markets give a better product.** Markets with 50+ traders have the most accurate prices (Brier score 0.053 vs. 0.086 for 10–19 traders; lower is better). Overall, prices a day before close are informative (Brier 0.075 vs. 0.225 for always guessing the base rate), but long shots are systematically overpriced (calibration slope 1.25; buying YES below 10% returns −67% on average, pre-fee and play money, as a size-of-mispricing measure, not a strategy). That's the same direction found on Kalshi and Polymarket.
-- **First 100 listings, shelf share = demand share:** shift 8 of every 100 listings from Manifold's current mix. **+5 Technology, +2 Politics & law, +1 World; −4 Sports, −3 Culture, −1 Science.**
-- **The Sports call depends on the goal.** Weighted by trader engagement, Sports gets 21 of 100. Weighted by volume (closer to fee revenue on a real-money exchange), it gets 28. Technology (22) and a smaller Culture shelf hold under both. → `slide_3_listing_plan.png`
+- **First 100 listings, shelf share = engagement share (unique traders, floor 3).** What holds under both weightings: **more Technology (17 → 22 of 100) and less Culture (8 → 5; 3 by volume).** In full, shift 8 of every 100 listings from Manifold's current mix: **+5 Technology, +2 Politics & law, +1 World; −4 Sports, −3 Culture, −1 Science.** → `slide_3_listing_plan.png`
+- Weighting by volume instead flips Sports (28 of 100 vs. 25 today). On a real-money exchange, that's the engagement vs. fee-revenue trade-off to test.
 
 ---
 

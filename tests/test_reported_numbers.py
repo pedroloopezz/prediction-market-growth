@@ -57,9 +57,13 @@ def expected_snippets() -> list[str]:
         f"+{plan['World']['change']} World",
         f"{plan['Sports']['change']} Sports",
         f"{plan['Culture']['change']} Culture",
-        f"Sports gets {plan['Sports']['plan_first_100']} of 100",
-        f"it gets {plan['Sports']['plan_by_volume_share']}",
-        f"Technology ({plan['Technology']['plan_first_100']})",
+        f"more Technology ({plan['Technology']['current_per_100']} → "
+        f"{plan['Technology']['plan_first_100']} of 100)",
+        f"less Culture ({plan['Culture']['current_per_100']} → "
+        f"{plan['Culture']['plan_first_100']}; "
+        f"{plan['Culture']['plan_by_volume_share']} by volume)",
+        f"flips Sports ({plan['Sports']['plan_by_volume_share']} of 100 vs. "
+        f"{plan['Sports']['current_per_100']} today)",
     ]
 
 

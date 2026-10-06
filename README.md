@@ -1,5 +1,7 @@
 # What should a new prediction exchange list first?
 
+[![CI](https://github.com/pedroloopezz/prediction-market-growth/actions/workflows/ci.yml/badge.svg)](https://github.com/pedroloopezz/prediction-market-growth/actions/workflows/ci.yml)
+
 I'm co-founding Piq, a prediction market launching in Brazil, and wanted to know what a new exchange should list first.
 
 This repo answers that with data: a reproducible pipeline (public API → Parquet → DuckDB → SQL models → statistics) over **25,036 Manifold markets resolved Oct 2025 – Sep 2026**, ending in a one-page client memo: [**reports/memo.md**](reports/memo.md).
@@ -10,7 +12,7 @@ This repo answers that with data: a reproducible pipeline (public API → Parque
 
 1. **Curate the long tail.** The bottom 64% of listings generate only 20% of trader participation; the top 36% generate 80%. 667 listings (2.7%) drew no traders at all.
 2. **Back proven creators.** Each doubling of a creator's track record (average traders on their earlier, already-closed markets) goes with +44% traders (95% CI +34% to +55%). Sheer listing experience doesn't help: holding track record fixed, 10x more prior markets goes with −15% traders.
-3. **Concentrate liquidity and rebalance the mix.** Markets with 50+ traders have the most accurate prices (Brier 0.053 vs. 0.086 for 10–19 traders). A demand-weighted first 100 listings shifts 8 of every 100 from Manifold's current mix: +5 Technology, +2 Politics & law, +1 World. The Sports allocation depends on the goal: it shrinks when weighted by engagement and grows when weighted by volume.
+3. **Concentrate liquidity and rebalance the mix.** Markets with 50+ traders have the most accurate prices (Brier 0.053 vs. 0.086 for 10–19 traders). Weighting the first 100 listings by engagement shifts 8 of every 100 from Manifold's current mix: +5 Technology, +2 Politics & law, +1 World. More Technology and less Culture hold under volume weighting too; volume weighting flips Sports (28 of 100 vs. 25 today), the engagement vs. fee-revenue trade-off to test.
 
 **Pricing.** Prices a day before close are informative (Brier 0.075 vs. 0.225 for always guessing the base rate) but underconfident: long shots are overpriced and favorites underpriced (calibration slope 1.25, 95% CI 1.19–1.31). The bias holds out of sample (slope 1.15 on the latest 30% of markets) but recalibrating doesn't beat the raw price there. The direction matches published real-money evidence from Kalshi and Polymarket; see [docs/real_money_comparison.md](docs/real_money_comparison.md), with page references.
 
@@ -76,7 +78,7 @@ There are also parser tests on saved API samples, client tests (retries, paginat
 - **Models:** dbt for the SQL, with these tests as dbt tests.
 - **Scheduling:** Airflow or Dagster.
 - **Ingest:** incremental loads keyed on `lastUpdatedTime` instead of a daily full snapshot.
-- **CI:** GitHub Actions running ruff and pytest on the saved samples.
+- **CI:** also run the data-quality suite in CI against a small fixture warehouse (CI today runs ruff and pytest on the saved samples and committed results).
 - **Real-money data:** run the same analysis on licensed real-money data and, above all, on the client's own first weeks of traffic.
 
 ## Repo map

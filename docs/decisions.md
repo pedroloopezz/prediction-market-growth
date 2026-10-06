@@ -82,3 +82,7 @@ What we chose, what else we considered, and why. One section per milestone.
 - **Slide charts are generated from `results.json` only** (`slides.py`), so a chart can never show a number the memo doesn't. Titles state the takeaway; Personal/meta stays visually separate in every growth chart.
 - **A test checks every number quoted in the memo and README against `results.json`.** On its first run it caught a real inconsistency: the volume share is 10.5009%, but `results.json` stored 0.105, which formats as "10%" while the chart showed "11%". `results.json` now keeps 6 decimals and the memo quotes 10.5%. `run_all` runs the tests last so the check always sees fresh results.
 - **Citations are anchored to pages.** Every published number in `docs/real_money_comparison.md` carries its page in the cited version. Kalshi's >60% long-shot loss is post-fee for Takers, while our −67% is pre-fee, so the comparison is presented as directional only.
+
+## Stretch: CI
+
+- **GitHub Actions runs ruff (lint and format check) and pytest on every push and pull request**, on a clean Ubuntu runner with Python 3.11. That covers the parser tests on `samples/`, the client tests against a fake transport, the analysis-math tests, and the check that the memo and README match the committed `results.json`. The 13 data-quality tests need the built warehouse, which is never committed (Manifold's terms), so they skip in CI with a printed reason; they run in `python -m pipeline.run_all`. A natural next step would be a small fixture warehouse so they also run in CI. dbt was skipped by choice.
