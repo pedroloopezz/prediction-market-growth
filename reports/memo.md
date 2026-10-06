@@ -15,12 +15,12 @@
 ### 2. Back proven creators: track record predicts demand, volume of listings doesn't
 
 - **Each doubling of a creator's track record (average traders on their earlier, already-closed markets) goes with +44% traders** (95% CI +34% to +55%). Markets from top-quintile creators draw a median of 21 traders vs. 6 for the bottom quintile, a 3.5x gap.
-- Experience alone doesn't help: 10x more prior markets is associated with −1% traders (not significant). With track record held fixed, it's **−15%**: prolific creators of equal quality dilute their audience.
+- Experience alone doesn't help: 10x more prior markets is associated with −1% traders (not significant). With track record held fixed, it's **−15%**: prolific creators of equal quality draw fewer traders per market.
 - **Action:** tier creators by track record; feature and fast-track the top tier; limit how many listings unproven creators can open at once. → `slide_2_creators.png`
 
 ### 3. Concentrate liquidity where demand is, and rebalance the mix
 
-- **Thicker markets give a better product.** Markets with 50+ traders have the most accurate prices (Brier score 0.053 vs. 0.086 for 10–19 traders; lower is better). Overall, prices a day before close are informative (Brier 0.075 vs. 0.225 for always guessing the base rate), but long shots are systematically overpriced (calibration slope 1.25; buying YES below 10% returns −67% on average, pre-fee and play money, as a size-of-mispricing measure, not a strategy). That's the same direction found on Kalshi and Polymarket.
+- **Thicker markets have more accurate prices.** Markets with 50+ traders reach a Brier score 0.053 vs. 0.086 for 10–19 traders (lower is better). Overall, prices a day before close are informative (Brier 0.075 vs. 0.225 for always guessing the base rate), but long shots are systematically overpriced (calibration slope 1.25; buying YES below 10% returns −67% on average, pre-fee and play money, as a size-of-mispricing measure, not a strategy). That's the same direction found on Kalshi and Polymarket.
 - **First 100 listings, shelf share = engagement share (unique traders, floor 3).** What holds under both weightings: **more Technology (17 → 22 of 100) and less Culture (8 → 5; 3 by volume).** In full, shift 8 of every 100 listings from Manifold's current mix: **+5 Technology, +2 Politics & law, +1 World; −4 Sports, −3 Culture, −1 Science.** → `slide_3_listing_plan.png`
 - Weighting by volume instead flips Sports (28 of 100 vs. 25 today). On a real-money exchange, that's the engagement vs. fee-revenue trade-off to test.
 
